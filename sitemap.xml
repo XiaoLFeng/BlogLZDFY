@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.xiaolfeng.xyz/101.html</loc>
+    <loc>https://www.xiaolfeng.xyz/1001.html</loc>
     
     <lastmod>2020-08-14</lastmod>
     
@@ -11,7 +11,14 @@
   <url>
     <loc>https://www.xiaolfeng.xyz/1000.html</loc>
     
-    <lastmod>2020-08-13</lastmod>
+    <lastmod>2020-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.xyz/101.html</loc>
+    
+    <lastmod>2020-08-14</lastmod>
     
   </url>
   
@@ -227,13 +234,6 @@
   
   <url>
     <loc>https://www.xiaolfeng.xyz/203.html</loc>
-    
-    <lastmod>2020-08-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.xyz/119.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -578,6 +578,34 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.xyz/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/</loc>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.xyz/tags/Hexo/</loc>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.xyz/tags/CloudBase%E4%BA%91%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.xyz/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E6%89%98%E7%AE%A1/</loc>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.xyz/tags/%E8%90%8C%E5%9B%BDICP%E5%A4%87%E6%A1%88/</loc>
     <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
@@ -621,13 +649,6 @@
   
   <url>
     <loc>https://www.xiaolfeng.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2020-08-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.xyz/tags/Hexo/</loc>
     <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -707,6 +728,20 @@
   
   <url>
     <loc>https://www.xiaolfeng.xyz/categories/PhotoShop/</loc>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/%E6%95%99%E7%A8%8B/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
