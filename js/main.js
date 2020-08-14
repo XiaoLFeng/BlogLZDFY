@@ -4,13 +4,6 @@
   * 傳入 1 sidebar打開時
   * 傳入 2 正常狀態下
   */
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?124ee0bfdaf2604ce46388b3797c42f2";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
 
 const blogNameWidth = $('#blog_name').width()
 const menusWidth = $('.menus').width()
