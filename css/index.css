@@ -4431,7 +4431,7 @@ img {
   background: var(--btn-hover-color);
 }
 #vcomment textarea {
-  background: url("/image/comment_bg.jpg") 100% 100% no-repeat;
+  background: url("/img/comment_bg.jpg") 100% 100% no-repeat;
 }
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
