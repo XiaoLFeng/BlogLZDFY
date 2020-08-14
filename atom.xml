@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.xyz/"/>
-  <updated>2020-08-14T09:30:17.177Z</updated>
+  <updated>2020-08-14T13:25:50.977Z</updated>
   <id>https://www.xiaolfeng.xyz/</id>
   
   <author>
@@ -15,6 +15,86 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[Music] dual-existence Fripside Full Version</title>
+    <link href="https://www.xiaolfeng.xyz/b-dual-existence.html"/>
+    <id>https://www.xiaolfeng.xyz/b-dual-existence.html</id>
+    <published>2020-08-14T13:17:21.000Z</published>
+    <updated>2020-08-14T13:25:50.977Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="">点击下载</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="音乐" scheme="https://www.xiaolfeng.xyz/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="歌曲" scheme="https://www.xiaolfeng.xyz/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+    <category term="音乐" scheme="https://www.xiaolfeng.xyz/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Minecraft Plugin] NoDamage の 一个很多功能的大厅系统</title>
+    <link href="https://www.xiaolfeng.xyz/45.html"/>
+    <id>https://www.xiaolfeng.xyz/45.html</id>
+    <published>2020-08-14T12:13:27.082Z</published>
+    <updated>2020-08-14T12:13:30.708Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src= "/img/loading.gif" data-lazy-src="https://proxy.spigotmc.org/dea9e9ea5c274a2d9f21de10bd0c9a0d3ae328ed?url=https://image.ibb.co/mRHPV5/banner.png"></p><hr><h2 id="·-NoDamage-の-一个很多功能的大厅系统-·"><a href="#·-NoDamage-の-一个很多功能的大厅系统-·" class="headerlink" title="|· NoDamage の 一个很多功能的大厅系统 ·|"></a><strong>|· NoDamage の 一个很多功能的大厅系统 ·|</strong></h2><p>  [infobox title=”插件信息”]</p><ul><li>名字：NoDamage | 大厅保护</li><li>来源：转载 | 转载作者汉化</li><li>适用服务端：可执行Bukkit服务端</li><li>语言：简体中文 | 英文English</li><li>版本：1.7.X - 1.12.X（不支持1.13及以上，会出现不可避免错误）</li><li>前置：<a href="https://www.spigotmc.org/resources/protocollib.1997/">ProtocolLib</a> | <a href="https://www.spigotmc.org/resources/placeholderapi.6245/">PlaceholderAPI</a></li><li>原帖地址：<a href="https://www.spigotmc.org/resources/nodamage-a-lot-feature-for-lobby-system.42876/">SpigotMC</a></li></ul><p>[/infobox] [music autoplay=”0”]28578486[/music]</p><hr><p><strong>[title]声明[/title]</strong> 这个插件适合用在大厅（你说你要用到其他服务器也行，我这里就不说明如何在其他非大厅配置方法） 敬告：如果遇到不同服务端而插件冲突问题，请先自行检查。如有不可避免问题再执行反馈 （本插件适用于大厅，其他服务器容易出现冲突，故请自行检查后再提交） <strong>[title]功能[/title]</strong> [collapse title=”具体功能”]</p><ul><li>没有伤害</li><li>没有饥饿</li><li>没有坏天气（恶劣天气）</li><li>没有爆炸</li><li>禁止跳跃（不允许踩坏耕地）</li><li>没有掉落伤害</li><li>没有Craft（也没测试过）</li><li>禁止放置方块</li><li>没有掉落物品</li><li>不允许捡起物品</li><li>不允许点击方块（与方块互交）</li><li>没有生物（雪人、铁傀儡、凋零还在，你可以在设置关闭全部）</li><li>清除物品在登录服务器时候</li><li>清除药水效果在登录服务器的时候</li><li>阻止使用某些命令（没测试过）</li><li>强制出生点</li><li>登录服务器烟花欢迎</li><li>加速走路</li><li>给予物品在登录服务器的时候</li><li>点击冷却</li><li>设置出生点</li><li>设置欢迎消息</li><li>设置退出消息</li><li>欢迎消息（私发那种）</li><li>设置默认游戏模式</li></ul><p>[/collapse] 大部分功能可以在服务器内GUI执行完毕。部分配置需要打开config.yml 注意搭载前置 <strong>[title]指令[/title]</strong>   <strong>[title]使用方法（小白适用）[/title]</strong>   <strong>[title]配置文件[/title]</strong>   <strong>[title]部分插件截图[/title]</strong>   <strong>[title]下载地址[/title]</strong> 本来想皮一皮，结果皮不起来了</p><ul><li>百度网盘（中问）</li><li>私有网盘</li><li>奶牛快传</li><li>SpigotMC（无中文汉化版）</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://www.xiaolfeng.xyz/categories/Minecraft/"/>
+    
+    <category term="minecraft" scheme="https://www.xiaolfeng.xyz/categories/minecraft/"/>
+    
+    <category term="插件" scheme="https://www.xiaolfeng.xyz/categories/minecraft/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+    <category term="Minecraft" scheme="https://www.xiaolfeng.xyz/tags/Minecraft/"/>
+    
+    <category term="插件" scheme="https://www.xiaolfeng.xyz/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="服务器" scheme="https://www.xiaolfeng.xyz/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写一个关于看板娘的API</title>
+    <link href="https://www.xiaolfeng.xyz/61.html"/>
+    <id>https://www.xiaolfeng.xyz/61.html</id>
+    <published>2020-08-14T12:13:26.831Z</published>
+    <updated>2020-08-14T12:13:30.458Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src= "/img/loading.gif" data-lazy-src="https://s1.ax1x.com/2020/04/10/GoXFtU.png"></p><p>[infobox title=”继续”]<a href="https://www.xiaolfeng.xyz/archives/58">https://www.xiaolfeng.xyz/archives/58</a>[/infobox] [music autoplay=”0”]1294889666[/music]</p><hr><p><strong>[title]前言[/title]</strong> 经历了风风雨雨，我觉得我又行了，我今天一天都在捣鼓这些哈哈哈屮（当然我也在好好上课） 上一篇内容，捣鼓了那么久，最后发现是API的问题，所以就进行了API的开发程序 现在下载了API，准备用API导入 我觉得放出源码吧，这是API的源码<a href="https://github.com/fghrsh/live2d_api">https://github.com/fghrsh/live2d_api</a> <strong>[title]开始工程[/title]</strong> 左边文件夹为API源码，右边文件夹为模型文档 <img src= "/img/loading.gif" data-lazy-src="https://s1.ax1x.com/2020/04/10/GojhqI.png"> 可以看到都有model文件夹，所以我基本清楚了工作思路 在API源码内有这以下的皮肤 <img src= "/img/loading.gif" data-lazy-src="https://s1.ax1x.com/2020/04/10/Gox6jH.png"> 但是我只要哔哩哔哩，所以你懂的，其他删掉呗，多简单 然后用博客下载的model里面的22，33文件夹替换掉这些22 33文件夹</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>腾讯云开发CloudBase搭建Hexo博客</title>
@@ -502,10 +582,10 @@
   
   <entry>
     <title>[Music] ほうらい「蓬莱伝說」</title>
-    <link href="https://www.xiaolfeng.xyz/170.html"/>
-    <id>https://www.xiaolfeng.xyz/170.html</id>
+    <link href="https://www.xiaolfeng.xyz/horainingyo.html"/>
+    <id>https://www.xiaolfeng.xyz/horainingyo.html</id>
     <published>2020-07-18T02:15:21.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
+    <updated>2020-08-14T12:45:50.096Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/48b606ae5d14c3e47b2edc971a0ebb1d.png"></p><hr><p><strong>[title]蓬莱伝說[/title]</strong> 好吧，这是我瞎做的，其实也不算是瞎做的，主要是我想自己翻版一次，因为这是我喜欢的歌曲（とても大好きだね） 主要他那个调调我喜欢，所以大多数只要是蓬莱伝说，管他个三七二十一直接收录听，除了带歌词的，我比较喜欢纯音乐。 之后我就百度去了，好像有蓬莱伝说的谱子，虽然是五线谱（搞得我还专门学习了下五线谱），不过好在，专辑出来了，好像前奏怪怪的，到时候再改完发布一个正式版。 下面就是蓬莱人形介绍了。</p><blockquote><p><strong>蓬莱人形 ～ Dolls in Pseudo Paradise</strong>（ほうらい にんぎょう，_Hourai Ningyou_）即蓬莱人形。</p><p>蓬莱人形是<a href="https://baike.baidu.com/item/ZUN">ZUN</a>‘s Music Collection的第一张音乐CD，共收录了13曲。</p></blockquote><hr><p><strong>[title]歌曲[/title]</strong></p><p>网易云：<a href="https://music.163.com/#/album?id=92565757">《ほうらい「蓬莱伝説」（翻自 上海アリス幻樂団）》</a></p><p>[music autoplay=”0”]1463620581[/music]</p>]]></content>
     
@@ -525,76 +605,6 @@
     <category term="音乐" scheme="https://www.xiaolfeng.xyz/tags/%E9%9F%B3%E4%B9%90/"/>
     
     <category term="蓬莱伝說" scheme="https://www.xiaolfeng.xyz/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>私は夏休みになった</title>
-    <link href="https://www.xiaolfeng.xyz/168.html"/>
-    <id>https://www.xiaolfeng.xyz/168.html</id>
-    <published>2020-07-17T12:12:49.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.5/Pixiv/2020-07-19/69675602_p0.jpg"></p><p><strong>[title]私は夏休みになった[/title]</strong></p><p>2020-07-18号，我放暑假了，可惜并没有什么卵用（假的）也不就是换了一个地方写作业罢了。</p><p>因为作业也忒多了，61张卷子，有点吃不消（虽然有答案）但是我没打算想抄，我像好好自己写一下（立个Flag，鬼知道我能不能这么干）</p><p>好吧抛开作业不说，作业这玩意太没趣了，还不如玩（假的）。</p><hr><p><strong>[title]默默吐几句[/title]</strong></p><p>我真的服了，这个学期跟个<strong>憨批</strong>一样，学校也是也不知道怎么想的。首先吧，我住在深圳这没问题，期中考试不考也就算了，期末考试也不考（当然我很开心），但是不考我哪知道我自己哪个der样，而且不考的原因就一个<strong>憨批跳楼自杀</strong>？(当然我不是吐槽必须考试，我是想说这个人）</p><p>[collapse title=”Image”]<img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/91516e23436e7011c9f1fd86da1b440c.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/9a657dcf259aa9277edec4a346bc84f0.png">[/collapse]</p><p>真别讲现在的学生怎么心里素质这么差？虽然现在学习压力很大，但是也不足以达到让你<strong>不要命</strong>的节奏。这样搞这孩子的父母情何以堪，而且搞得那么大动乱</p><p>（真可以这么说，学校里面：十个泪目九个在笑还有一个在狂笑那种，全部因为不用考试笑开了花，不过我想在其中也应该有很多人会思考他为什么会跳楼，即使只是粗略想想）</p><p>不过既然事情都已经发生了，已经没有办法挽回了，我只能替他们家的长辈们和晚辈们感到伤心，才初一呢前途无限好就GG了。不过我想父母应该也有一部分责任，毕竟初一强度达不到那么高，而且深圳这个地方强度不像内地，强度不高的，我们能做到轻松学习，而且不会特别难。只能说教育吧，这一次教训也该提醒一些家长要怎么做了。（当然我家长挺开明的）</p><hr><p><strong>[title]这一周[/title]</strong></p><p>这一周吧，还是皮为主，写暑假作业为辅。</p><p>为杀吗（啥）会这样呢？首先没有期末考试，然后这周二就发了暑假作业，你说我能不写么，我还记得刚刚发下来数学10张卷子，发下来就疯狂写，管他个三七二十一的课，不听也罢，听了也没啥用都是复习，还不如我写暑假作业来的实在。</p><p>不过到了星期四，因为我们学校已经分科完毕了，也就是说在<a href="http://www.gaosan.com/gaokao/244188.html">新高考3+2+1</a>的模式下，我们已经分班完了（当然我是选科全理），然而星期四都是我们学考（不高考）课程，那当然更不用听，而且根本想听也听不了，因为没课讲，讲完了，那就写作业吧看电影吧。好了星期四就这样胡闹过去了。</p><p>最后星期五，也就是今天，我！一节课没听。上午两节文的（一节语文，一节外语）上完就散学典礼啦，然后10点半就放学了。最后吧，回家，好没问题我爸来接我，结果打电话给他时候（老师电话）还根本没有出门，我也是无语了，就这样吧，慢慢等，于是我等到了中午十二点半我才上车… …吐了。</p><hr><p><strong>[title]暑假小打算[/title]</strong></p><p>重新翻版歌曲：<a href="http://music.163.com/song?id=1427604582&userid=1325484279">《想い出は遠くの日々》</a>，<a href="http://music.163.com/song?id=1433426975&userid=1325484279">《later in autumn》</a></p><p>新发布歌曲：《蓬萊伝説》，《Bad Apple》</p><p>然后写完61张卷子，对完答案（要自己写完，不能抄答案）</p><p>再重新管理FrontLeaves服务器</p><p>复习，开学要市统考</p><hr><p>私は夏休みになった → 我放暑假了~</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    
-    <category term="暑假" scheme="https://www.xiaolfeng.xyz/tags/%E6%9A%91%E5%81%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高考加油</title>
-    <link href="https://www.xiaolfeng.xyz/163.html"/>
-    <id>https://www.xiaolfeng.xyz/163.html</id>
-    <published>2020-07-05T11:19:39.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>高考加油</p><p>頑張ってくださいね～</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>今天什么运气</title>
-    <link href="https://www.xiaolfeng.xyz/129.html"/>
-    <id>https://www.xiaolfeng.xyz/129.html</id>
-    <published>2020-05-29T12:46:53.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天我快吐了，不知道什么垃圾运气。 总结一下下。</p><ol><li>今天回家，钱包没带（我的钱包里面有坐地铁的银行卡）</li><li>然后我的钥匙没带，硬是坐在家门口就是进不去家门</li><li>打开电脑后电脑直接跳闸，然后系统system炸掉</li></ol><p><strong>[title]经过[/title]</strong> 首先把，一切的一切只能从学校开始说起，因为今天刚刚考完试，然后考完试就可以直接放学。然后太兴奋了，而且又没有作业，于是我就没带书包，带着我的手提包就回家了。 于是我的钱包和钥匙都没带着。 而且我是寄宿生，周五回家要坐校巴到指定位置然后回家。我最先上校巴总感觉少带了什么，可是我什么都想不起，然后校巴出发，已经快到目的地我突然睡觉醒了想起来，我没带钱包。（当时我没有意料到我没带钥匙） 我同学就跟我说，我带了零钱，然后直接买单程票吧，我直接纾缓一口气。 结果！！ 我去？疫情期间不给买单程票，因为无法实名认证，WDNMD这是搞人吧… … 好吧，我只能做的士回家了，好到家了，交钱了。25块，我只有现金30整，的士没有零钱找，哈哈哈屮。我TM直呼内行。 最后还是的士师傅好心，直接收20就走了，最先我给他了微信，结果还是没加我，我还想还回去，总感觉不太好。 好的，我搞完了，而且到了家门口，我giao，我钥匙呢？？？ WDNMD，算了，没带就没带吧，我还有MP4我还可以看番哈哈哈屮！！ 好的，然后我到家了。打开电脑，我直接直呼内行。我吐了 <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.1.5/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E4%BB%8A%E5%A4%A9%E4%BB%80%E4%B9%88%E8%BF%90%E6%B0%94/IMG_20200529_185346.jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.1.5/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E4%BB%8A%E5%A4%A9%E4%BB%80%E4%B9%88%E8%BF%90%E6%B0%94/IMG_20200529_190117.jpg"> 插座跳闸，然后电脑炸掉，我吐了… … 淦不写了，气死我了。 我绝对记住今天这一天！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    
-    <category term="实用" scheme="https://www.xiaolfeng.xyz/tags/%E5%AE%9E%E7%94%A8/"/>
     
   </entry>
   
