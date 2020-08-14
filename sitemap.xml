@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xiaolfeng.xyz/diary.html</loc>
+    
+    <lastmod>2020-08-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.xyz/1001.html</loc>
     
     <lastmod>2020-08-14</lastmod>
@@ -685,6 +692,13 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.xyz/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.xyz/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
@@ -728,27 +742,6 @@
   
   <url>
     <loc>https://www.xiaolfeng.xyz/categories/PhotoShop/</loc>
-    <lastmod>2020-08-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-08-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/%E6%95%99%E7%A8%8B/%E5%AE%9E%E7%94%A8/</loc>
-    <lastmod>2020-08-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
