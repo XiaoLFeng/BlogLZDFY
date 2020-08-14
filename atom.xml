@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>凌中的锋雨</title>
+  
+  <subtitle>只为在茫茫人海中有自己的一片天空</subtitle>
+  <link href="https://www.xiaolfeng.xyz/atom.xml" rel="self"/>
+  
+  <link href="https://www.xiaolfeng.xyz/"/>
+  <updated>2020-08-13T06:20:28.000Z</updated>
+  <id>https://www.xiaolfeng.xyz/</id>
+  
+  <author>
+    <name>筱锋xiao_lfeng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客更新-迁移博客至Hexo的艰辛</title>
+    <link href="https://www.xiaolfeng.xyz/1000.html"/>
+    <id>https://www.xiaolfeng.xyz/1000.html</id>
+    <published>2020-08-12T15:15:02.000Z</published>
+    <updated>2020-08-13T06:20:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote><p>既然我想要更新博客，那么就要更新成我想要的样子。<br>绝对不能随随意意，要不然怎么还是我的博客呢~</p></blockquote><h3 id="我为什么要更新博客"><a href="#我为什么要更新博客" class="headerlink" title="我为什么要更新博客"></a>我为什么要更新博客</h3><h4 id="①旧主题"><a href="#①旧主题" class="headerlink" title="①旧主题"></a>①旧主题</h4><ul><li>旧主题还是蛮喜欢的，但是旧主题的限制，有很多不方便我编辑的操作</li><li>其次，旧主题换过一次主题后，对我来讲新换的主题，我并不太喜欢。</li><li>毕竟我比较喜欢简约的风格，而且功能强大的，虽然Sakura那一款的确很好，很多我用的到的，不过主题风格我真不太喜欢。</li></ul><h4 id="②邮局系统"><a href="#②邮局系统" class="headerlink" title="②邮局系统"></a>②邮局系统</h4><ul><li>这个其实不好讲，我最先以为阿里云封了我SMTP相关东西。<div class="note info">            <p>其实以前阿里云封过，之前也说过2019年我搭建过博客。然后各种奇葩原因把我IMAP和SMTP相关东西封了</p>          </div>后面查询在阿里云发工单查询的时候发现是正常的。那么我的视角就转移到博客上面了。<br>期间后面我又换了很多个邮件服务商（包括自建邮件服务）都发现不管用，不管用了SSL以及正常。<br>后面我就觉得应该是博客系统的wp-mail可能有问题了，但是我对PHP可不是特别了解嘛。<br>正好赶上换主题了，所以算了吧，换一个博客系统尝试一下。</li></ul><h4 id="③新主题"><a href="#③新主题" class="headerlink" title="③新主题"></a>③新主题</h4><ul><li>这个嘛，前几天我一直在找主题，发现好看的主题都在Typecho和Hexo里面，而Wordpress大部分都是商业主题和企业主题（可能我认识的人不够多）</li><li>后面我已经很尽力了，Google、百度、Bing、搜狗，甚至Google海外的搜索都搜遍了，符合我品味的都在Typecho和Hexo。</li><li>后面我就决定换博客系统了。</li></ul><h4 id="④系统"><a href="#④系统" class="headerlink" title="④系统"></a>④系统</h4><ul><li><a href="http://typecho.org/">Typecho</a><br>我以前是用过的，后面觉得不好用然后我就博客又再迁移到了Wordpress（重新回到Wordpress的怀抱）<br>而且Wordpress转Typecho都挺麻烦的，因为数据库不同的原因，导入后需要各项参数的修改才能正常运行，而且设置好像要搞一大堆。</li><li><a href="https://hexo.io/zh-cn/">Hexo</a><br>所以我就转向投入Hexo，而且Hexo我几乎没用过，也就是说我是现学现用。<br>而且Hexo采用的是Node.js进行驱动的，跟我开服用的后台 <a href="https://mcsm.suwings.top/">MCSManager</a> 是一样的。<br>所以对Node还是有一定的了解的。<br>还有通过Node渲染，Hexo采用解析MarkDown文章生成静态网页，对于动态的PHP来讲，和我网站服务器在香港的人来说，无疑特别舒服。<br>毕竟网页访问可快了不少。<br>嘛，当然还有Git相关（这个下面说，因为我搭建被这个搞懵了会）</li></ul><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><blockquote><p>讲真，当时我害怕的要死，因为我2019年搭建的博客好歹运营了有一年多一点<br>然后就是因为数据没有备份到，更新某项东西吧Centos系统弄坏了（抄宝塔家去）<br>然后搞得我现在每次操作什么事情之前，快照走起</p></blockquote><div class="note warning">            <p>一定要做好备份在进行下一步操作，以防不测</p>          </div><div class="tabs" id="zhunbei"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#zhunbei-1">Windows准备</button></li><li class="tab"><button type="button" data-href="#zhunbei-2">Linux准备</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="zhunbei-1"><blockquote><p>前言我就不说了，像那些Hexo作者是台湾人啊，对中文支持很友好之类的啊，其他Google或者百度一下就出来了。</p></blockquote><ul><li>Windows下安装Git</li><li>安装Node.js</li><li>安装Hexo</li><li>对于个人仓库会在下面分别说明，分别搭建个人仓库或者Github存储以及Gitee</li></ul><ol><li><p>Windows下访问GitDownload下载页面（已下载可跳过）<br> 由于下载速度可能过慢，这里给网盘下载</p> <div class="note info">         <p>这里网盘版本均为2020-08-13下载版本，如版本过旧请官方下载，如无法下载可联系我（版本2.28.0-64）</p>       </div><ul><li><p>Git For Windows官方下载 <a class="btn-beautify button--animated red" href="https://gitforwindows.org/" title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击下载</span></a></p></li><li><p>Git For Windows 私有网盘下载 <a class="btn-beautify button--animated blue" href="http://s.frp.xiaolfeng.xyz/#s/6G-GExbA" title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击下载</span></a></p></li><li><p>Git For Windows 蓝奏云下载 <a class="btn-beautify button--animated orange" href="https://xiaolfeng.lanzous.com/i0A0Cfknu8b" title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击下载</span></a></p></li><li><p>Git For Windows 百度网盘下载(提取码 so2p) <a class="btn-beautify button--animated green" href="https://pan.baidu.com/s/1dFhOsfvkOJMVlzbmD5mRfQ" title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击下载</span></a></p><p>当你安装完毕以后，右击鼠标会出现一个Git Bash</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/55555.png"></p><p>如果没有，重启一次电脑喵，然后就安装好了<br>下面安装操作都需要这个git使用，因为原来的CMD可能有点难用。</p></li></ul></li><li><p>安装Node.js<br> 下载Node的长期支持版（LTS）版本即可 <a href="https://nodejs.org/zh-cn/download/">Node官方网站</a><br> 然后随意右击打开git bash查询</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 分别输入</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/MHRAS.png"></p> <div class="note info">         <p>由于npm在国内比较慢，所以我们安装淘宝的cnmp镜像提高速度</p>       </div> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 安装指令</span><br><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br><span class="line"></span><br><span class="line"># 安装完毕后查询安装是否成功</span><br><span class="line">cnpm -v</span><br></pre></td></tr></table></figure><p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/cnpm.png"></p><p> 然后我们就可以安装hexo了~</p> <div class="note info">         <p>后面搭建过程中指令与Linux相同</p>       </div></li><li><p>安装Hexo<br> 安装Hexo就很简单了，因为就几条代码可以搞定的事情</p> <div class="note info">         <p>先做区分，在这里讲的是后台搭建，在我这里成为后端（毕竟概念东西我也不是很清楚，反正我这里先称为后端）</p>       </div><p> 由于我们已经安装了cnpm，所以我们下面的操作npm可以替换成cnpm执行，虽然操作时候可能跟npm显示不一样<br> 但是基本原理相同。</p> <div class="note default">         <p>请找你存储的地方然后右键Git Bash，不要随便乱点一个文件夹Git Bash，以免后期找不到文件夹。<br>好比我的在G盘目录下，右键Git Bash生成myblog文件夹</p>       </div> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 安装Hexo</span><br><span class="line">cnpm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"># 查看Hexo是否安装成功</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure><p> 上面操作完后，那么hexo就是安装成功了，这个成功不是另一种意义上的成功<br> 然后我们安装Hexo（博客）</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 初始化Hexo，也就是下载Hexo必要程序</span><br><span class="line">hexo init myblog</span><br><span class="line"></span><br><span class="line"># 进入文件夹（也就是你hexo init后面的一部分）</span><br><span class="line">cd myblog</span><br><span class="line"></span><br><span class="line"># 执行安装</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><p> 这样在你的文件夹下基本博客系统已经安装成功了。<br> 启动博客</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><p> 然后看见下方出现 <a href="http://localhost:4000/">http://localhost:4000</a> 代表可以访问了<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/start.png"></p><p> 然后试试访问你的博客吧~</p></li></ol><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="zhunbei-2"><blockquote><p>前言我就不说了，像那些Hexo作者是台湾人啊，对中文支持很友好之类的啊，其他Google或者百度一下就出来了。</p></blockquote><ul><li>Linux下安装Git</li><li>安装Node.js</li><li>安装Hexo</li><li>对于个人仓库会在下面分别说明，分别搭建个人仓库或者Github存储以及Gitee</li></ul><ol><li><p>Linux下载Git</p> <div class="note success">         <p>Linux安装git就特别简单了~因为以前的git就是在Linux上面编写的┗|｀O′|┛ 嗷~~</p>       </div> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#Ubuntu安装方法</span><br><span class="line">sudo apt-get install git</span><br><span class="line"></span><br><span class="line"># Centos安装方法</span><br><span class="line">yum -y install git</span><br><span class="line"></span><br><span class="line"># 查询安装</span><br><span class="line">git --version</span><br></pre></td></tr></table></figure><p> 然后查询安装是否成功</p></li><li><p>安装Node.js</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">##### Ubuntu安装方法</span><br><span class="line">sudo apt-get install nodejs</span><br><span class="line">sudo apt-get install npm</span><br><span class="line"># 测试是否安装正常，显示 v12.16.1 则为正常</span><br><span class="line">node -v</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">##### Centos安装方法（保险）</span><br><span class="line">sudo -y install wget</span><br><span class="line"># 安装 Node 版本控制工具(若没有 wget,请安装它)</span><br><span class="line">wget -qO- https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;nvm-sh&#x2F;nvm&#x2F;v0.35.2&#x2F;install.sh | bash</span><br><span class="line"></span><br><span class="line"># 请关闭终端重新打开或重新连接终端 再依次执行以下命令（十分重要，不然不能继续操作）</span><br><span class="line"></span><br><span class="line"># 重新打开后执行</span><br><span class="line">nvm install 12.16.1</span><br><span class="line"># 使用安装的版本</span><br><span class="line">nvm use 12.16.1</span><br><span class="line"># 测试是否安装正常，显示 v12.16.1 则为正常</span><br><span class="line">node -v</span><br></pre></td></tr></table></figure><p> 安装国内镜像源cnpm</p> <div class="note info">         <p>由于npm在国内比较慢，所以我们安装淘宝的cnmp镜像提高速度</p>       </div> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 安装指令</span><br><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br><span class="line"></span><br><span class="line"># 安装完毕后查询安装是否成功</span><br><span class="line">cnpm -v</span><br></pre></td></tr></table></figure></li><li><p>安装Hexo<br> 安装Hexo就很简单了，因为就几条代码可以搞定的事情</p> <div class="note info">         <p>先做区分，在这里讲的是后台搭建，在我这里成为后端（毕竟概念东西我也不是很清楚，反正我这里先称为后端）</p>       </div><p> 由于我们已经安装了cnpm，所以我们下面的操作npm可以替换成cnpm执行，虽然操作时候可能跟npm显示不一样<br> 但是基本原理相同。</p> <div class="note default">         <p>请找你存储的地方然后右键Git Bash，不要随便乱点一个文件夹Git Bash，以免后期找不到文件夹。<br>好比我的在root目录下，git生成myblog文件夹</p>       </div> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 安装Hexo</span><br><span class="line">cnpm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"># 查看Hexo是否安装成功</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure><p> 上面操作完后，那么hexo就是安装成功了，这个成功不是另一种意义上的成功<br> 然后我们安装Hexo（博客）</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 初始化Hexo，也就是下载Hexo必要程序</span><br><span class="line">hexo init myblog</span><br><span class="line"></span><br><span class="line"># 进入文件夹（也就是你hexo init后面的一部分）</span><br><span class="line">cd myblog</span><br><span class="line"></span><br><span class="line"># 执行安装</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><p> 这样在你的文件夹下基本博客系统已经安装成功了。<br> 启动博客</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><p> 然后看见下方出现 <a href="http://localhost:4000/">http://localhost:4000</a> 代表可以访问了<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/start.png"></p><p> 然后试试访问你的博客吧~</p></li></ol><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div><p>现在使用<kbd>Ctrl</kbd>+<kbd>C</kbd>关闭博客吧<br>那么上面搭建完毕后基本准备已经完成了，可以正式开始写博客和上传的操作了</p><h2 id="搭建个人仓库"><a href="#搭建个人仓库" class="headerlink" title="搭建个人仓库"></a>搭建个人仓库</h2><p>然后我们需要搭建个人仓库，用来存放用户访问的数据，也就是你的Hexo文件夹下输入 <strong>hexo g</strong> 生成的 <strong>public</strong> 文件夹<br>这里面就像你搭建静态网页一样，我们用Hexo编写md文件编译后就会输出public的静态网页文件。<br>我们就要依赖git来自动部署<br><del>除非你能做到每次更新后手动上传public,那我没话说</del></p><div class="note warning">            <p>搭建时候看清楚，不要打错字了，对于仓库信息要仔细核对</p>          </div><div class="note info">            <p>我搭建时候是本地仓库，因为我不喜欢部署在公开代码的仓库</p>          </div><div class="tabs" id="git"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#git-1">Github仓库</button></li><li class="tab"><button type="button" data-href="#git-2">Gitee仓库</button></li><li class="tab"><button type="button" data-href="#git-3">本地仓库</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="git-1"><p>基本过程</p><ul><li>Github创建个人仓库</li><li>生成SSH添加到Github</li><li>将hexo的public目录下部署在Github</li></ul><ol><li><p>新建仓库<br> 登录Github后，看到New，添加新的仓库<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/githubnew.png"></p><p> 之后创建一个与你用户名相同的仓库，例如下图所示<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/githubnew2.png"></p><p> 然后将 <strong><em>Initialize this repository with a README</em></strong> 打上勾，如果你不想先上传一个README.md<br> 最后创建即可</p></li><li><p>生成SSH添加到Github</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;yourname&quot;</span><br><span class="line">git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure><p> 这里的yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱。这样GitHub才能知道你是不是对应它的账户。<br> 可以用以下两条，检查一下你有没有输对</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure><p> 确认无误后就可以创建SSH了，一路回车按下去就好了（不用设置什么密码）</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;youremail&quot;</span><br></pre></td></tr></table></figure><p> 然后SSH密钥就生成成功了，然后可以根据提示来找到.ssh生成的路径（你要找到它哦）</p><blockquote><p>ssh，简单来讲，就是一个秘钥，其中，<strong>id_rsa</strong>是你这台电脑的私人秘钥，不能给别人看的，<strong>id_rsa.pub</strong>是公共秘钥，可以随便给别人看。把这个公钥放在GitHub上，这样当你链接GitHub自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过git上传你的文件到GitHub上。<br>而后在GitHub的<strong>setting</strong>中，找到SSH keys的设置选项，点击<strong>New SSH key</strong><br>把你的<strong>id_rsa.pub</strong>里面的信息复制进去。</p><p>采自：<a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">zjufangzh的CSDN博文</a></p></blockquote> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 查询是否成功</span><br><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></li><li><p>将hexo的public目录下部署在Github<br> 打开Hexo目录下创建的myblog找到文件<strong>_config.yml</strong>拉到最下面修改下列信息</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repo: https:&#x2F;&#x2F;github.com&#x2F;Name&#x2F;Name.github.io.git</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure><p> 例如：下图所示</p><p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/git.png"></p><p> 然后需要配置<strong>deploy-git</strong>，不然没有办法部署到github或者gitee上面，以及个人仓库</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"># 然后更新</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure> 注意deploy(hexo d)时可能要你输入username和password。 就会同步到Github，然后打开你的Github就能看到对应的内容<p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/repo.png"></p><p> 然后稍微过一会，就可以在<strong><a href="http://name.github.io/">http://name.github.io</a></strong>网站看到你的博客了~</p></li></ol><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="git-2"><p>要不你看Github搭建吧，反正是一样的。同样的东西我就不写两遍了哈</p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="git-3"><p>搭建在本地仓库</p><div class="note warning">            <p>由于我是在Linux上面搭建，所以这篇教程适用Linux（Centos），Windows用户请酌情尝试,请做好对应备份操作。</p>          </div>* 创建仓库* 将hexo的public目录下部署在仓库内<ol><li><p>创建仓库<br> 安装git</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install git</span><br></pre></td></tr></table></figure><p> 创建一个git的用户</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adduser git</span><br></pre></td></tr></table></figure><p> 添加证书登录（为了防止每次push都需要输入密码这个操作）<br> 把在在本地创建或者已经拥有的公钥，也就是 <strong>~/.ssh/id_rsa.pub</strong> 文件里的内容添加到服务器的 <strong>/home/git/.ssh/authorized_keys</strong> 文件中，如上所说，添加公钥之后可以防止每次 *<em>push</em> 都输入密码。</p><p> 初始化 Git 仓库<br> 可以将git仓库放到自定义位置，本次操作是在 <strong><em>/var/repos/myblog.git</em></strong> 目录下的</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir &#x2F;var&#x2F;repos</span><br><span class="line">cd &#x2F;var&#x2F;repos</span><br><span class="line">sudo git init --bare myblog.git</span><br></pre></td></tr></table></figure><p> 使用 <em>–bare</em> 参数，Git 就会创建一个裸仓库，裸仓库没有工作区，我们不会在裸仓库上进行操作，它只为共享而存在。</p><p> 配置 git hooks</p><blockquote><p>我们这里要使用的是 post-receive 的 hook，这个 hook 会在整个 git 操作过程完结以后被运行，关于 hooks<br>的详情内容可以<a href="https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90">参考这里</a>。</p></blockquote><p> 在 blog.git/hooks 目录下新建一个 post-receive 文件</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;var&#x2F;repos&#x2F;myblog.git&#x2F;hooks&#x2F;post-receive</span><br></pre></td></tr></table></figure><p> 在 post-receive 文件中写入如下内容</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;bin&#x2F;sh</span><br><span class="line"></span><br><span class="line">git --work-tree&#x3D;&#x2F;home&#x2F;www&#x2F;myblog --git-dir&#x3D;&#x2F;var&#x2F;repos&#x2F;myblog.git checkout -f</span><br></pre></td></tr></table></figure> <div class="note danger">         <p><strong><em>/home/www/myblog</em></strong> 要换成你自己的部署目录，我的配置目录是 <strong>/home/www/myblog</strong>。 <em>/var/repos/myblog.git</em> 是git仓库的位置。<br>上面那句 git 命令可以在我们每次 push 完之后，把部署目录更新到博客的最新生成状态。这样便可以完成达到 <strong>自动部署</strong> 的目的了。</p>       </div><p> 书写后按下<kbd>Esc</kbd>+输入<kbd>:wq</kbd>保存文件<br> 设置这个文件的可执行权限</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x &#x2F;var&#x2F;repos&#x2F;myblog.git&#x2F;hooks&#x2F;post-receive</span><br></pre></td></tr></table></figure><p> 改变 myblog.git 目录的拥有者为 git 用户</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R git:git myblog.git</span><br></pre></td></tr></table></figure><p> 然后我们需要创建**/home/www/myblog**目录下文件，不然上传时候不会自动创建文件</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir &#x2F;home&#x2F;www&#x2F;myblog</span><br></pre></td></tr></table></figure><p> 禁用 git 用户的 shell 登录权限</p> <div class="note info">         <p>出于安全考虑，我们要让 git 用户不能通过 shell 登录。可以编辑 <em>/etc/passwd</em> 来实现</p>       </div> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;etc&#x2F;passwd</span><br></pre></td></tr></table></figure> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 找到此项</span><br><span class="line">git:x:1001:1001:,,,:&#x2F;home&#x2F;git:&#x2F;bin&#x2F;bash</span><br><span class="line"></span><br><span class="line"># 修改为</span><br><span class="line">git:x:1001:1001:,,,:&#x2F;home&#x2F;git:&#x2F;usr&#x2F;bin&#x2F;git-shell</span><br></pre></td></tr></table></figure><p> 这样 git 用户可以通过 ssh 正常使用 git，但是无法登录 sehll。<br> 至此，服务器环境的搭建已经基本结束。</p></li><li><p>将hexo的public目录下部署在仓库内</p> <div class="note info">         <p>修改 hexo 目录下的 <strong>_config.yml</strong> 找到 deploy</p>       </div> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">git@check.xiaolfeng.xyz:/var/repos/myblog.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure> <div class="note warning">         <p>repo 的地址为你自己的地址以及 git 仓库目录</p>       </div><p> 最后~我们的 hexo 自动部署已经全部配置好了</p></li><li><p>开始使用<br> 新建文章来测试</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;post name&quot;</span><br></pre></td></tr></table></figure><p> 生成 &amp; 部署</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p> 然后就部署完毕了~</p></li></ol><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="绑定个人域名"><a href="#绑定个人域名" class="headerlink" title="绑定个人域名"></a>绑定个人域名</h2><div class="tabs" id="yuming"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#yuming-1">Github绑定</button></li><li class="tab"><button type="button" data-href="#yuming-2">私有仓库绑定</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="yuming-1"><p>Github绑定也很简单，下面是Github的IP，需要在域名DNS服务商那里修改A记录改成下面的IP</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Github的地址</span><br><span class="line">192.30.252.153</span><br><span class="line">192.30.252.154</span><br></pre></td></tr></table></figure><div class="note info">            <p>注意，解析线路选择默认</p>          </div><p>登录GitHub，进入之前创建的仓库，点击<strong>settings</strong>，设置<strong>Custom domain</strong>，输入你的域名 <strong>XXXXXX.XXX</strong></p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/domin.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/MEO0Q_TKSM%7B%7BLWK_6%7DP%7BN~W.png"></p><p>然后在你的博客文件<strong>source</strong>中创建一个名为CNAME文件，<strong>不要后缀</strong>。写上你的域名（跟上图一样）。</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/CNAME.png"></p><p>最后，在git bash中，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p>过不了多久，再打开你的浏览器，输入你自己的域名，就可以看到搭建的网站啦！<br>对于网站不安全之类的东西，请百度解决，这里不做详细解释，因为我不是用Github来搭建这个博客的。</p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="yuming-2"><div class="note info">            <p>如果你使用我的方法来搭建私有仓库的话，那么会十分简单，而且操作不用那么复杂</p>          </div><div class="note warning">            <p>本项目搭建于Centos（Linux），Windows用户请酌情复制，建议备份后按需执行</p>          </div><p>还是一样需要绑定DNS记录，这个绑定到你的私有仓库的服务器就好了<br>然后在这里建议小白安装宝塔之类的，一件操作不香嘛。<br>宝塔安装 <a href="https://bt.cn/">宝塔官网</a><br>首先在在服务器输入下面指令开始安装宝塔</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Centos安装指令</span><br><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install_6.0.sh &amp;&amp; sh install.sh</span><br><span class="line"></span><br><span class="line"># Ubuntu安装指令</span><br><span class="line">wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh</span><br></pre></td></tr></table></figure><p>后面等说是否继续安装按下 <strong>y</strong> 然后执行安装。<br>然后我们去泡一杯咖啡等待一下吧，如果是大型服务商（或者配置好的服务器主机）那么，应该会特别快，大概一分钟就好了</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/bt.png"></p><div class="note info">            <p>部分服务商可能默认没有开放防火墙，注意看需要的端口开放哦</p>          </div><p>输入密码后进去，就会选择叫你安装一个LAMP等安装，随意选择哪一个都可以，然后一键安装<br>稍后就是漫长（看服务器配置）的等待了。</p><p>安装完毕后，点击网站→添加站点[绿色标识]→输入你之前DNS服务商解析的域名，然后修改根目录</p><div class="note warning">            <p>根目录请修改成，你自己的部署目录<br>详情见上搭建私有仓库（Danger危险符号）标识</p>          </div><p>然后创建即可，不需要创建FTP和数据库，hexo不需要用到数据库。<br>然后输入域名尽情访问吧~</p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="博客更新了有几个不可逆"><a href="#博客更新了有几个不可逆" class="headerlink" title="博客更新了有几个不可逆"></a>博客更新了有几个不可逆</h2><p>这是我搭建博客时候也注意到了，但是没办法我想换就必须换。<br>就是你的 <strong>阅读量</strong> 和 <strong>评论</strong> 在进行博客迁移的时候不会过来。</p><p>怎么说呢，就是Hexo不自带评论，评论是依赖外部引擎。<br>所以嘛，博客的所有评论就会消失不见。</p><p>然后就是阅读量，阅读量在导出Wordpress的xml文件不带，而且导入不支持数据库导入，所以根本没有办法导入阅读量<br>唯一的办法，自己刷你要是有时间的话，反正我是没有，还不如等你们重新慢慢看一遍，哈哈哈屮。</p><p>其中还有百度自动收录，Google自动收录我还没玩明白，暂时没有添加进去。<br>也就是说百度和Google能搜到的，还没有下架处理的网站都是404，找不到网页。<br>因为博客的链接方式也全变了。<br>目前链接采用的是 <a href="http://www.xiaolfeng.xyz/">www.xiaolfeng.xyz</a> + ID + .html</p><p>还有CDN方式，原来我的CDN部署的是Nginx的SSL密钥。而服务器部署的是Apache的密钥，在正常访问原来的Wordpress没有什么问题，然后到Hexo就会发现证书不一致<br>判定为不安全。<br>所以就把服务器的Apache换成了Nginx也就是LAMP环境。<br>然后基本没有什么问题了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;既然我想要更新博客，那么就要更新成我想要的样子。&lt;br&gt;绝对不能随随意意，要不然怎么还是我的博客呢~&lt;/p&gt;
+&lt;/</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="博客更新" scheme="https://www.xiaolfeng.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    
+    <category term="Hexo" scheme="https://www.xiaolfeng.xyz/tags/Hexo/"/>
+    
+    <category term="Wordpress" scheme="https://www.xiaolfeng.xyz/tags/Wordpress/"/>
+    
+    <category term="闲得慌" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E5%BE%97%E6%85%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>凌中的锋雨 —— 书签／记录</title>
+    <link href="https://www.xiaolfeng.xyz/235.html"/>
+    <id>https://www.xiaolfeng.xyz/235.html</id>
+    <published>2020-08-11T11:01:38.000Z</published>
+    <updated>2020-08-12T13:31:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>今天我也好累呀，换了一个主题。这也是我不太愿意做的事情，就是换主题<br>我先说说我为什么要换吧</p></blockquote><h3 id="我的书签"><a href="#我的书签" class="headerlink" title="我的书签"></a>我的书签</h3><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/11/f84d6956d48faf167824e96f92a939d7.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/11/94da6514a66730476034b5f4fdc15b72.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/11/781ed3df662a0e5ea1bbf28893134705.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/11/56d0d1aacae6d66e39ba402ad3d41a92.jpg"></p><p>嘿嘿，不要在意我桌子为啥那么黑，这个是学校打印的暑假作业（油墨质量可能不太好），写作业写多了印出来的，没有来的及擦掉~</p><p>嘛，这个也就是一个书签罢了，也没啥，就是一个定制的书签，花了爷42块，另一个是签字笔（虽然里面装着英雄的签字笔的墨水）</p><h3 id="本次博客更新"><a href="#本次博客更新" class="headerlink" title="本次博客更新"></a>本次博客更新</h3><blockquote><p>讲真，我还真不太喜欢写这些更新的东西，毕竟好像没啥用，主要是我也不知道我在干嘛，有时候。但这次估计得好好说一下了，因为涉及到前面的文章大部分的问题。</p></blockquote><p>还有一个比较大的问题，阿里云把我访问对应的SMTP的端口ban了，我直接傻掉。搞得我发不出回复邮件那些… …</p><h4 id="关于这次更新说明"><a href="#关于这次更新说明" class="headerlink" title="关于这次更新说明"></a>关于这次更新说明</h4><ul><li><p>这次就是主要更新博客主题，但是有一个很致命的一个原因，就是原来主题的那个主题，开发作者综合了插件融合在了一起，所以也就是说我换了主题后，有些插件自然而然就没了，然后我还在想解决办法，对于一些短代码的无法使用我也是很无奈。</p></li><li><p>不过呢我第一眼关注到的是OwO表情包，然后发现插件应该是相同的。  </p></li><li><p>所以我打算直接从主题文件去注册我原来主题里面的那些表情包。  </p></li><li><p>毕竟那喵喵太魔性了</p></li><li><p>嘛，然后呢就是我打算搭建一个自己的邮箱域名就是这个，搭建完毕后就是@xiaolfeng.xyz了。嗯对没错</p></li><li><p>但是呢，我在考虑用的服务器，国内的服务器多半需要备案，而且个人备案不一定能通过，所以我打算走国外的一些路径，国内肯定不行。当然，速度可以不需要那么快的啦。例如国外的挖矿工，Google，Microsoft，Vultr都是可以的服务商。</p></li><li><p>挖矿工和Vultr我是确定可以搭建的，因为这俩我确定是开放25端口，然后呢Google和Microsoft我不知道会不会被限制。嘛其实我还可以用阿里云，阿里云听说可以开放25端口（虽然前景可能不太好，我看到那些反馈都是拒绝开放25端口）</p></li><li><p>然后呢，我这次换了一个CDN，原先我用的是阿里云的CDN，但是有一个致命的一点，就是请求数计费（私は高校生ですから、お金がない），而且最近尝试登陆管理员账号的那些越来越多，几乎一天有上百次，然后还有各种奇奇怪怪的访问也有上千次，一下子会刷很多，虽然我扣到2块钱我就停下来的。用回原来的，现在呢，就用着 <strong><a href="http://redirect.rainyun.cn/?ref=15138">雨云</a></strong> 的CDN，虽然是公测在免费，凑合着用，毕竟对于我原来主机就在香港的来说，这是亚太加速已经挺好的了。</p></li><li><p>还有，这个主题不一定是最后的最终主题，我可能还会更换主题之类的操作，因为，这个主题总的来讲我挺满意，但是有一些我不太喜欢。（他的页面风格，但主题和PJAX加载我都挺喜欢的和APlayer）</p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;今天我也好累呀，换了一个主题。这也是我不太愿意做的事情，就是换主题&lt;br&gt;我先说说我为什么要换吧&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;我的书签&quot;&gt;&lt;a href=&quot;#我的书签&quot; class=&quot;headerlink&quot; title=&quot;我</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于PicGo搭建稳定的图床（支持GitHub）</title>
+    <link href="https://www.xiaolfeng.xyz/224.html"/>
+    <id>https://www.xiaolfeng.xyz/224.html</id>
+    <published>2020-08-07T15:39:32.000Z</published>
+    <updated>2020-08-12T13:39:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>好像最近更新挺频繁的，可能时间多了作业少了（个鬼、死ね） Emmm，为什么我用Github做图床呢？为什么，我也不知道反正我就是这样玩。而且我以前也说了用 <a href="https://www.github.com/">Github</a> 做图床，因为可以使用 <a href="https://www.jsdelivr.com/">jsdelivr</a> 作为CDN节点使用，老快了堪比开飞机。还是全球的图床（误）。</p></blockquote><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master//Img/20200807221006.png"> 嘛，其实不只是只能用GitHub的，其实很多都可以用。例如免费的<a href="https://sm.ms/">SM.MS图床</a>，<a href="https://cloud.tencent.com/solution/bigdata-storage">腾讯云COS</a>，<a href="https://weibo.com/">微博图床[不提供了]</a>，<a href="https://github.com/XiaoLFeng/ImageGo">GitHub图床</a>，<a href="https://www.qiniu.com/products/kodo#storage_type">七牛图床</a>，<a href="https://imgurl.org/">Imgurl图床</a>，<a href="https://www.aliyun.com/product/oss">阿里云OSS</a>，<a href="https://www.upyun.com/products/file-storage">又拍云图床</a>，以及<a href="https://github.com/PicGo/Awesome-PicGo">增加插件</a>会有很多的效果。当然，这里只展示Github搭建过程。</p><h3 id="你可能需要的"><a href="#你可能需要的" class="headerlink" title="你可能需要的"></a>你可能需要的</h3><div class="note info">            <p>PicGo项目地址：<a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a><br>软件使用文档：<a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html">https://picgo.github.io/PicGo-Doc/zh/guide/config.html</a> </p>          </div><p>首先下载软件啦：下载地址见上“PicGo项目地址”，如果是Windows系统找到「.exe」下载即可。<br>或者这里哦 <a href="http://s.frp.xiaolfeng.xyz/#s/6F3lefCQ">http://s.frp.xiaolfeng.xyz/#s/6F3lefCQ</a><br>然后自己安装总会吧，安装吧。这里用 <strong>Windows 10</strong> 做演示 既然是GitHub图床，那么必须创建一个库（不会创的隔壁百度咯） </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/15.jpg"> </p><p>建议将 <em>Initialize this repository with a README</em> 点开，你也可以不点开，就是后期自己上传一个README.md如果嫌麻烦就直接点开吧~ </p><p>然后打开设置，我们需要设置一个Token（令牌） </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224156.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224550.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224614.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224712.png"> </p><p>然后我们给这个Token分配权限，这些勾代表对应有的权限，下面打勾就足以够了，如果全部打钩无妨，但是要保证安全性（我不建议这么做，小心你号没了） </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224933.png"> </p><p>然后拉到最下面看到绿色的按钮点下去~  </p><p>额，注意一下，这个代码你最好保存一下，他只会显示一次，以后忘了只能重置，所以保存一下奥~ </p><p>然后打开你的软件开始设置吧。打开软件→图床设置→GitHub图床进入设置 </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/NJG8H$6NEZ$~">H)1A7X{(0K.png) </p><p>首先仓库名可以在这里找，如下图所示即为仓库名 </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807230640.png"> </p><h1 id="对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置-对于设定Token说明：你刚刚创建的Token那一串代码-对于设定自定义域名说明："><a href="#对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置-对于设定Token说明：你刚刚创建的Token那一串代码-对于设定自定义域名说明：" class="headerlink" title="对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置 对于设定Token说明：你刚刚创建的Token那一串代码 对于设定自定义域名说明："></a>对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置 对于设定Token说明：你刚刚创建的Token那一串代码 对于设定自定义域名说明：</h1><ul><li>首先jsdelivr的CDN节点IP为 <a href="https://cdn.jsdelivr.net/">https://cdn.jsdelivr.net/</a></li><li>然后在后面添加 gh/</li><li>然后在后面添加你的仓库名 XXXXX/XXXXX</li><li>（注意上一个后面不带“/”）然后添加 @master/ 就是你最后的CDN节点，属于这个仓库名的CDN节点</li><li>也就是说连起来就是 <a href="https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master/">https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master/</a></li><li>例如我的 <a href="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/">https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/</a></li><li>然后填入自定义域名即可（注意不要把最后面的“/”带上，只是我们访问需要带上）</li><li>举个例子，我填入就是 <a href="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master">https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master</a></li></ul><p>然后点击保存，然后上传一个文件试试吧~ <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/156.png"></p><h4 id="感谢-KanoKano-XM的小窝-的文章支持"><a href="#感谢-KanoKano-XM的小窝-的文章支持" class="headerlink" title="感谢 KanoKano (XM的小窝) 的文章支持"></a><strong>感谢 KanoKano (<a href="https://kanokano.cn/archives/408.html">XM的小窝</a>) 的文章支持</strong></h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;好像最近更新挺频繁的，可能时间多了作业少了（个鬼、死ね） Emmm，为什么我用Github做图床呢？为什么，我也不知道反正我就是这样玩。而且我以前也说了用 &lt;a href=&quot;https://www.github.com/&quot;&gt;Github&lt;/a&gt; 做</summary>
+      
+    
+    
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PicGo" scheme="https://www.xiaolfeng.xyz/tags/PicGo/"/>
+    
+    <category term="图床" scheme="https://www.xiaolfeng.xyz/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Frp内外映射——前端[客户端]搭建</title>
+    <link href="https://www.xiaolfeng.xyz/216.html"/>
+    <id>https://www.xiaolfeng.xyz/216.html</id>
+    <published>2020-08-06T14:29:36.000Z</published>
+    <updated>2020-08-12T13:52:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info">            <p>如果你不知道此后端教程在哪里请查阅：<a href="https://www.xiaolfeng.xyz/215/centos%E6%90%AD%E5%BB%BAfrp%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84%E6%9C%8D%E5%8A%A1.html">Centos搭建Frp内网映射服务</a> 此博文前提是后端搭建完毕而描写的</p>          </div><hr><h3 id="Linux前端搭建"><a href="#Linux前端搭建" class="headerlink" title="Linux前端搭建"></a>Linux前端搭建</h3><blockquote><p>毕竟我家里那台服务器本来就是Centos所以先说用Centos搭建 （此次实例系统为Centos）</p></blockquote><p>首先，下载Frp的软件</p><blockquote><p>地址：<a href="https://github.com/fatedier/frp/releases">https://github.com/fatedier/frp/releases</a> 本次全部前端搭建使用版本：0.33.0 （不要在意后端跟前端为什么是一样的，问就是通用的）</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/69532989a11668de0b0520e39ed12206.png"> 当你看到最新的版本以后可以在Shell页面使用下面代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#其中XX表示版本，替换对应数字即可~</span><br><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;fatedier&#x2F;frp&#x2F;releases&#x2F;download&#x2F;v0.XX.0&#x2F;frp_0.XX.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>如果你不是很清楚，可以直接跟我搭建相同版本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#此为0.33.0的版本</span><br><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;fatedier&#x2F;frp&#x2F;releases&#x2F;download&#x2F;v0.33.0&#x2F;frp_0.33.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>下载后进行解压（这个只是下载下来的tar.gz包而已，然后需要解压下来。（此处如果您下载与我版本号不同请替换成您所下载的版本号））</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar zxf frp_0.33.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>进入解压后的文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd frp_0.33.0_linux_amd64&#x2F;</span><br></pre></td></tr></table></figure><p>然后开始修改配置（这里使用vi，如果你觉得vi难看清可以下载vim） 注意，这里修改的是frpc.ini不是frps.ini</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># vim下载 </span><br><span class="line">yum -y install vim </span><br><span class="line"></span><br><span class="line"># 修改配置文件 </span><br><span class="line">vi frpc.ini</span><br></pre></td></tr></table></figure><p>在这里就可以配置连接信息。</p><blockquote><p>注意：这里配置的是前端信息，不要跟后端信息弄错误。如果有些地方您不理解，可能你少看了后端搭建的内容 后端搭建地址：<a href="https://www.xiaolfeng.xyz/archives/215">https://www.xiaolfeng.xyz/archives/215</a> 如果您实在不明白可以下面留言，我看到留言后会回复</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"># 基本配置</span><br><span class="line">[common]</span><br><span class="line"># 填写你后端搭建的 subdomain_host &#x3D; xxx.xxxxxx.xxx</span><br><span class="line">server_addr &#x3D; frp.xiaolfeng.xyz</span><br><span class="line"># 端口默认的话不需要改（即后端的 tunnel port通信管道）</span><br><span class="line">server_port &#x3D; 7000</span><br><span class="line"></span><br><span class="line"># 此处名字可自定义，例如[hello]，中括号不可少</span><br><span class="line">[ssh]</span><br><span class="line"># 种类可填写tcp&#x2F;udp&#x2F;http&#x2F;https&#x2F;stcp（根据需要填写）</span><br><span class="line">type &#x3D; tcp</span><br><span class="line"># 填写本地访问IP</span><br><span class="line">local_ip &#x3D; 127.0.0.1</span><br><span class="line"># 本地访问端口</span><br><span class="line">local_port &#x3D; 22</span><br><span class="line"># 远程访问端口</span><br><span class="line">remote_port &#x3D; 2201</span><br><span class="line"></span><br><span class="line"># 这是个例子</span><br><span class="line">[web]</span><br><span class="line"># 协议为http（即80端口）</span><br><span class="line">type &#x3D; http</span><br><span class="line"># 内部映射的IP</span><br><span class="line">local_ip &#x3D;127.0.0.1</span><br><span class="line"># 内部映射为80端口</span><br><span class="line">local_port &#x3D; 80</span><br><span class="line"># 远程端口不用设置，只能沿用frps下vhost_http_port ①</span><br><span class="line">subdomain &#x3D; pan</span><br><span class="line">remote_port &#x3D; 8080</span><br></pre></td></tr></table></figure><p>注释①：dubdomain指的是后端事先添加域名的子域名，就大概这么说，例如上面的subdomain是pan那么，访问IP就是pan.frp.xiaolfeng.xyz（因为后端我设置的域名是frp.xiaolfeng.xyz） 全配置参数查询：<a href="https://www.xiaolfeng.xyz/frp">https://www.xiaolfeng.xyz/frp</a> 保存退出 然后输入，开启访问</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;frpc -c frpc.ini</span><br></pre></td></tr></table></figure><blockquote><p>在这里我不建议设置开机自启，这样的话如果你想添加一个隧道连接，那么就要重启一次服务器，或者重载配置 远比输入此命令简单。 如果你决定不用，可以参考后端开机自启修改</p></blockquote><p>然后找到你的后端的</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># dashboard图形管理页面 </span><br><span class="line">dashboard_port &#x3D; 81</span><br></pre></td></tr></table></figure><p>访问图形管理面，可以看到新添加的服务器，例如我的 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/546e20419a5d7218cdf862dc1710718a.png"> </p><p><strong>在这里Linux的前端教程结束</strong> 补充：我建议你用screen 如果不使用screen，很可能导致你关闭终端导致服务暂停（注意大小写）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 安装screen</span><br><span class="line">yum -y install screen</span><br><span class="line"></span><br><span class="line"># 创建名为frp的screen</span><br><span class="line">screen -S frp</span><br><span class="line"></span><br><span class="line"># 返回名为frp的screen（这是当你退出后想重新返回screen）</span><br><span class="line">screen -r frp</span><br></pre></td></tr></table></figure><hr><h3 id="Windows-前端搭建"><a href="#Windows-前端搭建" class="headerlink" title="Windows 前端搭建"></a><strong>Windows 前端搭建</strong></h3><blockquote><p>如果你看懂了Linux搭建，那么Windows搭建基本是小菜一碟~ 地址：<a href="https://github.com/fatedier/frp/releases">https://github.com/fatedier/frp/releases</a> 下载包为：frp_0.XX.0_windows_amd64.zip</p></blockquote><p>解压后打开此文档（建议使用Notepad++或者VScode） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/41b821c4ab111fa7b3063603d122d490.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/41ac7044618f46da1d87dff3cc673cc9.png"> 代码如下（与Linux相同）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># 基本配置</span><br><span class="line">[common]</span><br><span class="line"># 填写你后端搭建的 subdomain_host &#x3D; xxx.xxxxxx.xxx</span><br><span class="line">server_addr &#x3D; frp.xiaolfeng.xyz</span><br><span class="line"># 端口默认的话不需要改（即后端的 tunnel port通信管道）</span><br><span class="line">server_port &#x3D; 7000</span><br><span class="line"></span><br><span class="line"># 这是个例子</span><br><span class="line">[web]</span><br><span class="line"># 协议为http（即80端口）</span><br><span class="line">type &#x3D; http</span><br><span class="line"># 内部映射的IP</span><br><span class="line">local_ip &#x3D;127.0.0.1</span><br><span class="line"># 内部映射为80端口</span><br><span class="line">local_port &#x3D; 80</span><br><span class="line"># 远程端口不用设置，只能沿用frps下vhost_http_port ①</span><br><span class="line">subdomain &#x3D; pan</span><br><span class="line">remote_port &#x3D; 8080</span><br></pre></td></tr></table></figure><p>然后按下Win+R打开运行输入“CMD” 进入到你解压的frp文件夹，例如我放在桌面（如图） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/b23e352ed37f002d6021e5189ce67f7a.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd C:\Users\lfeng\Desktop\frp</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/f507396c0cd05758b4d039ac696eb1a0.png"> 然后输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">frpc.exe</span><br></pre></td></tr></table></figure><p>就完成了~</p><hr><h3 id="关于其他前端搭建"><a href="#关于其他前端搭建" class="headerlink" title="关于其他前端搭建"></a>关于其他前端搭建</h3><p>其他前端搭建近乎相同，所以参考上面两个就好啦，如果不是太懂可以留言</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note info&quot;&gt;
+            &lt;p&gt;如果你不知道此后端教程在哪里请查阅：&lt;a href=&quot;https://www.xiaolfeng.xyz/215/centos%E6%90%AD%E5%BB%BAfrp%E5%86%85%E7%BD%9</summary>
+      
+    
+    
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Frp" scheme="https://www.xiaolfeng.xyz/tags/Frp/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Centos" scheme="https://www.xiaolfeng.xyz/tags/Centos/"/>
+    
+    <category term="Linux" scheme="https://www.xiaolfeng.xyz/tags/Linux/"/>
+    
+    <category term="Windows" scheme="https://www.xiaolfeng.xyz/tags/Windows/"/>
+    
+    <category term="搭建" scheme="https://www.xiaolfeng.xyz/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos搭建Frp内网映射服务</title>
+    <link href="https://www.xiaolfeng.xyz/215.html"/>
+    <id>https://www.xiaolfeng.xyz/215.html</id>
+    <published>2020-08-06T03:56:10.000Z</published>
+    <updated>2020-08-12T13:49:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>哎，真的，现在网络挺好的了，但是！唯一就是对我来讲没有公网是最淦的事情，做什么事情有时候想对外开放没有公网。 嘛，我原来准备是想去电信营业厅开放公网（我家是电信200Mbps网），听大多数人讲电信是可以开放公网的，只不过是动态的好像是的 不过无所谓，我爸又懒得去搞，所以嘛有一个阿里云学生服务器我就凑合着那他来搭建内网穿透，映射到阿里云学生服务器的IP（虽然以前拿来开Minecraft基友服联机，服务器我转移到我家的服务器里面了，反正配置也多就用那个开吧，然后阿里云学生服务器就当作映射服务器用）</p><h3 id="正文搭建"><a href="#正文搭建" class="headerlink" title="正文搭建"></a>正文搭建</h3><blockquote><p>Frp吧首先是稳，这一点我很喜欢，然后我以前用的开放的SakuraFRP，虽然现在也在运作，不过感觉没有以前的好用了，而且IP经常出现占用满的情况，所以我就直接打算自己搭建一个。 总感觉不是自己的就特别不爽（这样我就能搞开放网盘了，而且还不会被限制流量，虽然阿里云轻量应用服务器限流1000G，不过我感觉我一个月都用不了那么多，这是何等的用量呀。） 我某上网工具一个月才用60G，自己网络统计<img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/fff761b583851411f6487ccce98780b4.png"> 简直少的一批</p></blockquote><p> </p><h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><blockquote><p>你需要一台拥有外网的服务器，我这里提供的是阿里云轻量学生服务器。</p></blockquote><p>然后，为了一些不必要的麻烦，如果没有什么重要的文件在里面，可以选择重装系统。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/d67e2fe03fddb0ec1cc5693868726a60.png"> 不同服务商更换系统略有不同，总体大致一样 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/1022917c47b54bbd833b3d17b805ec64.png"> 然后设置一个域名，然他指向你的服务器 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/73306533a9efb5c87948456fda4aaa5d.png"> 记录类型根据服务器给的是IP还是域名决定</p><blockquote><p>其中，我搭建使用域名为二级域名ftp.xiaolfeng.xyz以及泛指三级域名*.frp.xiaolfeng.xyz。</p></blockquote><p> </p><h4 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a>开始搭建</h4><p>首先还是跟以前一样，更新……（这个我就不截图了吧）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y update</span><br></pre></td></tr></table></figure><p>如果是阿里云以及腾讯云服务器，那个更新速度应该会很快，毕竟服务器都挺好的。</p><blockquote><p>在你更新的过程中首先建议您去GitHub看看Frp的最新版本是多少，然后需要安装的嗷 地址：<a href="https://github.com/fatedier/frp/releases">https://github.com/fatedier/frp/releases</a> 本次搭建使用版本：0.33.0</p></blockquote><p>当你看到最新的版本以后可以在Shell页面使用下面代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#其中XX表示版本，替换对应数字即可~</span><br><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;fatedier&#x2F;frp&#x2F;releases&#x2F;download&#x2F;v0.XX.0&#x2F;frp_0.XX.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>如果你不是很清楚，可以直接跟我搭建相同版本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#此为0.33.0的版本</span><br><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;fatedier&#x2F;frp&#x2F;releases&#x2F;download&#x2F;v0.33.0&#x2F;frp_0.33.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>等待更新完毕后，复制安装即可 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/a565b27ec3ed22df25a9e3a873f26fb8.png"> 其次，这个只是下载下来的tar.gz包而已，然后需要解压下来。（此处如果您下载与我版本号不同请替换成您所下载的版本号）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar zxf frp_0.33.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>然后进入文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd frp_0.33.0_linux_amd64&#x2F;</span><br></pre></td></tr></table></figure><p>然后开始修改配置（这里使用vi，如果你觉得vi难看清可以下载vim）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#vim下载</span><br><span class="line">yum -y install vim</span><br><span class="line"></span><br><span class="line">#修改配置文件</span><br><span class="line">vi frps.ini</span><br></pre></td></tr></table></figure><p>然后添加下列</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line"># tunnel port通信管道 </span><br><span class="line">bind_port &#x3D; 7000 </span><br><span class="line"></span><br><span class="line"># http和https </span><br><span class="line">vhost_http_port &#x3D; 80 </span><br><span class="line">vhost_https_port &#x3D; 443 </span><br><span class="line"></span><br><span class="line"># 连接认证token </span><br><span class="line">token &#x3D; 123456</span><br><span class="line"> </span><br><span class="line"># 子域名(替换自己的) </span><br><span class="line">subdomain_host &#x3D; frp.xiaolfeng.xyz </span><br><span class="line"></span><br><span class="line"># 自定义404 页面，要用绝对路径哦！ </span><br><span class="line">custom_404_page &#x3D; &#x2F;root&#x2F;frp_0.33.0_linux_amd64&#x2F;404.html </span><br><span class="line"></span><br><span class="line"># dashboard图形管理页面 </span><br><span class="line">dashboard_port &#x3D; 81 </span><br><span class="line"></span><br><span class="line">dashboard_user &#x3D; admin </span><br><span class="line">dashboard_pwd &#x3D; admin</span><br></pre></td></tr></table></figure><p>然后如果你的阿里云限制了端口请开放上面几个端口（如果您没有修改的话）：7000；80；443；81</p><blockquote><p>如果你还需要更多配置需求，请查阅官方GitHub文档：<a href="https://github.com/fatedier/frp/blob/master/README_zh.md">Frp官方中文文档</a> 全配置参数查询：<a href="https://www.xiaolfeng.xyz/frp">https://www.xiaolfeng.xyz/frp</a></p></blockquote><p>启动项目</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;frps -c frps.ini</span><br></pre></td></tr></table></figure><h5 id="配置自启动"><a href="#配置自启动" class="headerlink" title="配置自启动"></a><strong>配置自启动</strong></h5><p>创建后台启动模版</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi &#x2F;etc&#x2F;systemd&#x2F;system&#x2F;frp.service</span><br></pre></td></tr></table></figure><p>内容如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[Unit] </span><br><span class="line">Description&#x3D;frps </span><br><span class="line">After&#x3D;network.target </span><br><span class="line"></span><br><span class="line">[Service] </span><br><span class="line">ExecStart&#x3D;&#x2F;root&#x2F;frp_0.33.0_linux_amd64&#x2F;frps -c &#x2F;root&#x2F;frp_0.33.0_linux_amd64&#x2F;frps.ini </span><br><span class="line"></span><br><span class="line">[Install] </span><br><span class="line">WantedBy&#x3D;multi-user.target</span><br></pre></td></tr></table></figure><p>输入下面一系列然后启动它（记得先关闭原来的临时启动）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 启动测试 </span><br><span class="line">systemctl start frp.service </span><br><span class="line"></span><br><span class="line"># 查看启动状态 </span><br><span class="line">systemctl status frp.service </span><br><span class="line"></span><br><span class="line"># 开机自启 </span><br><span class="line">systemctl enable frp.service</span><br></pre></td></tr></table></figure><p>然后后端就搭建完毕啦~</p><h3 id="前端搭建（点击传送）"><a href="#前端搭建（点击传送）" class="headerlink" title="前端搭建（点击传送）"></a><a href="https://www.xiaolfeng.xyz/216/frp%E5%86%85%E5%A4%96%E6%98%A0%E5%B0%84-%E5%89%8D%E7%AB%AF%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%90%AD%E5%BB%BA.html">前端搭建（点击传送）</a></h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;哎，真的，现在网络挺好的了，但是！唯一就是对我来讲没有公网是最淦的事情，做什么事情有时候想对外开放没有公网。 嘛，我原来准备是想去电信营业厅</summary>
+      
+    
+    
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Frp" scheme="https://www.xiaolfeng.xyz/tags/Frp/"/>
+    
+    <category term="内网映射" scheme="https://www.xiaolfeng.xyz/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《标准日本语》小野さんの反撃</title>
+    <link href="https://www.xiaolfeng.xyz/214.html"/>
+    <id>https://www.xiaolfeng.xyz/214.html</id>
+    <published>2020-08-04T14:10:03.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>《标准日本语》小野さんの反撃 <strong>译文=&gt;</strong> 《标准日本语》小野的反击 [dangerbox title=”⚠注意”]本篇目没有任何科学依据，作为笑点笑一笑即可，不要当真嗷~[/dangerbox] <strong>不知道哪个憨批还在试我的账号密码，虽然是机器人，但是不累嘛，盗号就为了发广告嘛= =？</strong></p><hr><p><strong>[title]正文[/title]</strong> 嘛，现在的日语分为人教版和……啊呸，就是人教版，一个是新版标准日本语，一个就是人教版的日本语。一个是跟语文书很像的那种人教版，另一个就是黄色皮的封面（我们平时成为叫“大黄”，练习册有一个比较小的，但是也是黄色的，我们叫做“小黄”）。在学初级上册的时候大概在17课的范围期间，估计多多少少有人看出来什么问题。这个抛开不说，我是怎么想到这玩意的呢。 大概从这里出来的 [collapse title=”小野さん”] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/04/08de8cd9bc7bae30d64c8a52ce0dbced.png"> [/collapse] 最先我们在聊「とある科学の超電磁砲（某科学的超电磁炮）」的T，里面新OP2，毕竟我觉得挺好听而且我翻版了嗷，来听听喵~<a href="http://music.163.com/song?id=1467672067&userid=1325484279">《dual existence「とある科学の超電磁砲T」OP2》</a> 因为「とある科学の超電磁砲」出自「株式会社 ジェーシースタッフ（J.C.STAFF）」其名简称很像「JC企画（JC社）」，都与JC相称，所以我就联想到《新版标准日本语》。然后我就想着小野到底是JC里面真实有的人物还是只是刻画出来的一个人物。于是我就上了百度一下。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/04/5ec1c0b66e826a0f4f9bfb78fb1d8896.png"> 如果仔细看了，那应该看见了的确是（但是我感觉你们的关注点应该跟我一样） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/04/72aca5b3448d6a233762bd38e97f8c2f.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/04/5164ecf65dbdbca82b81c6d970ee7043.png"> 然后我就回想了一下我学习初级标准日本语的时候里面的课文，仔细再想想还是有点问题 :mao22: 然后就是在标日的第十七课的应用课文 [collapse title=”17课应用课文”] 如果看不清可以右击“新标签中打开图片就可以看清楚啦（扫面件肯定看的清楚，不要在意我的字，难看奥）” <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/04/5bf62fc0607a09458bb521edeece04f8.jpg"> [/collapse] [collapse title=”大概译文”] 小李：小野，你祈祷什么了？ 小野：健康和恋爱。 小李：恋爱？ 小野：是的，我今年想结婚。 小李：你今年有对象了吗？ 小野：还没有，我想先找一个男朋友。 小李：你喜欢什么样的男生？ 小野：办事认真，温柔体贴的人。 小李：那这么说，森先生（森さん）怎么样呀？ 小野：（脸红）嗯…… 下文不是重点，不翻译了QAQ [/collapse]</p><p>[danger]⚠提示：下面我开始胡言乱语了[/danger]</p><p>在这个文章下来，小李立刻开始感觉到事情的不对劲，因为小野说要谈恋爱，然后开始警觉起来，稍微问一下小野怎么回事，然后小野也很坦然直接说了出来，最后直接说森先生就脸红了。 这时候这句话对小李就是深刻的打击。虽然在标日里面说，小野和森先生也不算是青梅竹马，但是也是相识了很久了，然后又很明确的说明了小野喜欢森先生，而且还要在一年之内搞定森先生并且结婚。小李开始感觉有许压力了，要抓紧时间下手了啊。 然后就是第19课的应用课文 [collapse title=”课文，不翻译，可百度”] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/04/6d6dd4d201f8900967a0a4a59d0d9ef1.jpg">[/collapse] 各自的感情线就很明了了，小李继续缠森先生。已经发现问题的森先生，自然是冷落小李。 而和小野之间表现得却是很暧昧，两个人一起划，很甜蜜。李秀丽看到如此场面当然是很不甘心，可自己又不擅长滑雪，追不到人家两个，想插足又该怎么办呢？索性大喊到：“小野，森先生，你们慢点啊，等我一会儿，不要先走好吗？” 手段真是恶劣。小野却很是乐意，对李秀丽表现得仍是很热心的帮助。没有半点戒心。 我怀疑滑雪之后，森先生似乎对小野说了什么，因为小野终于对小李起了戒心。具体表现为，在第20课中，小野对李秀丽的态度来了个180大转弯。两人关系终于正式激化。个人觉得20课课文，是本书中最精彩的一篇课文。心理，语言上的斗争，真是愈加精彩。 [collapse title=”第二十课单元末”] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/04/80fa3818ba5d37e94a830a7ecf07742e.jpg">[/collapse] 第20课结束，单元末有一篇题为“小野和宠物”的阅读文。主要讲的是 小野养了一只狗，吉娃娃。 亮点是小野给它取的是什么名字呢？是<strong>“阿健”</strong>。森先生的全名是什么呢？<strong>“森 健太郎”</strong>其中有什么含义就不用我多说了吧？ 小野一直暗恋森先生。森是姓，试想一下，小野与森先生真的走到了一起还会每天“森先生，森先生”的叫着吗？ “太郎”是因为森先生是家中的长子。<strong>所以“健”、“阿健” 理所当然</strong>，是小野对森先生最为理想化的昵称了。不仅这样，小野还把“阿健”的照片弄成了待机画面。 试想，如果小野找机会让森先生看一下，会有怎样的一番对话呢？ 森：“好可爱的小狗哦。小野，是你家养的么？” 小野：“嗯，是哦。” 森：“啊，好可爱的小狗狗啊！它叫什么名字呢？” 小野：“它叫阿健哦。” 当然，如果要是让小李看到就更好了，绝对是有力的示威。 森去北京工作的事情得到了小野的支持。事后在日记中写道—— “今天和小野见了面 我要去北京，从北京到东京，坐飞机也就3个小时。 如果想念小野了，随时都可以见面。小野也说了想去北京。现在，我有点开始期待去北京工作了。下次，想和小野一起到北京工作。” 看了这段文字，不用我多说什么了吧？虽然没有海誓山盟的表白。但是即将离开东京的森，再也抑制不住内心的情感。 对于自己来说，最无法割舍的是小野。二人流露的言语间，夹杂着暧昧，彻底证实了二人的关系。   （本段文章采自：<a href="http://www.wushiyintu.com/riyurumen/656.html">新版标准日本语秘史之小野绿的精彩反击</a>）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;《标准日本语》小野さんの反撃 &lt;strong&gt;译文=&amp;gt;&lt;/strong&gt; 《标准日本语》小野的反击 [dangerbox title=”⚠注意”]本篇目没有任何科学依据，作为笑点笑一笑即可，不要当真嗷~[/dangerbox] &lt;strong&gt;不知道哪个憨批还在试我的</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="新标日" scheme="https://www.xiaolfeng.xyz/tags/%E6%96%B0%E6%A0%87%E6%97%A5/"/>
+    
+    <category term="日语" scheme="https://www.xiaolfeng.xyz/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>好，你慢慢试</title>
+    <link href="https://www.xiaolfeng.xyz/203.html"/>
+    <id>https://www.xiaolfeng.xyz/203.html</id>
+    <published>2020-07-31T06:12:52.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>好，你慢慢试。多试几次我大概就知道你是谁了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/31/596a1604011320826f523d2533203e95.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;好，你慢慢试。多试几次我大概就知道你是谁了 &lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/07/31/596a1604011320826f523d2533203e95.png&quot;</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="盗号未遂" scheme="https://www.xiaolfeng.xyz/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>？？？想干嘛</title>
+    <link href="https://www.xiaolfeng.xyz/199.html"/>
+    <id>https://www.xiaolfeng.xyz/199.html</id>
+    <published>2020-07-30T14:28:31.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>？？？真就想盗号？ 就算盗了有什么用呢，我基本每天备份一次。就算被盗了，有什么用博客主机是在我手上，数据在我这？？？ 似乎还是挂梯子来尝试的哈，马来西亚的IP 或者还是不知道会发邮件给我 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/30/c3d2068d7cb591b9605fcea7788ad6f8.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;？？？真就想盗号？ 就算盗了有什么用呢，我基本每天备份一次。就算被盗了，有什么用博客主机是在我手上，数据在我这？？？ 似乎还是挂梯子来尝试的哈，马来西亚的IP 或者还是不知道会发邮件给我 &lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="盗号未遂" scheme="https://www.xiaolfeng.xyz/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>啊啊~说好练瘦金练成自改版楷体</title>
+    <link href="https://www.xiaolfeng.xyz/198.html"/>
+    <id>https://www.xiaolfeng.xyz/198.html</id>
+    <published>2020-07-27T07:48:06.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>啊这不就是凑合了点瘦金的笔画进去，然后再用楷体书法写 哈哈哈屮 主要是控笔的力气不行QAQ（写字喜欢偏大力） 完了越看越不像了（成就：成功水一篇博文） 好像整体歪了，算了，不管了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/27/8387ebcdb4779f24b4362c3fe23af271.jpg"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/27/601496e904f86d47067b1cbd3d15684b.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;啊这不就是凑合了点瘦金的笔画进去，然后再用楷体书法写 哈哈哈屮 主要是控笔的力气不行QAQ（写字喜欢偏大力） 完了越看越不像了（成就：成功水一篇博文） 好像整体歪了，算了，不管了 &lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;htt</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="书法" scheme="https://www.xiaolfeng.xyz/tags/%E4%B9%A6%E6%B3%95/"/>
+    
+    <category term="硬笔" scheme="https://www.xiaolfeng.xyz/tags/%E7%A1%AC%E7%AC%94/"/>
+    
+    <category term="练字" scheme="https://www.xiaolfeng.xyz/tags/%E7%BB%83%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次 方舟：生存进化™ ARK Server Manager 搭建记录</title>
+    <link href="https://www.xiaolfeng.xyz/197.html"/>
+    <id>https://www.xiaolfeng.xyz/197.html</id>
+    <published>2020-07-26T08:14:13.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/382492c43141bcf78b23823bbec5ff12.png"></p><hr><p><strong>[title]前言[/title]</strong> 最先吧，原本是有人来问我Minecraft服务器的问题，就是打算开服务器然后来问我问题的 [collapse title=”前言-1”] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/e983550d0efc6798f47c45a5521ffb10.png"> [/collapse] 后面问着问着就说到可以开方舟服务器么。但是我根本不了解方舟的东西，所以我也不好说，后面就打算自己试一试咯~ [collapse title=”前言-2”] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/828b2816285ffa472917ceaca4669551.png"> [/collapse]</p><hr><p><strong>[title]搭建开始（过程）[/title]</strong> 最先下载软件我就不详细说明了，反正软件我有地方下载而且方式并不难。采用虚拟机软件为<a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">VMware Workstation 15.5 Pro（官方链接）</a> 当然有云服务器的更好啦。 推荐配置</p><ul><li><strong>CPU：型号无法确定（因为我不玩这个游戏，我没办法给出详细的配置信息，我也不知道在游戏内TPS怎么样）</strong>不过能带的起来至少双核以上【此次搭建CPU：Inter(R) Core(TM) i5-4440 @ 3.10Ghz x2核心（虚拟化）】</li><li><strong>内存：DDR4 6G（以上）</strong>【DDR3 4G为最低配置，此次搭建配置DDR3 6G】</li><li><strong>储存：你随意，系统留出5G，到时候的服务器在安装时候需要10G</strong>（也就是说你的储存不能低于15G，推荐40~60G方便其他操作）</li></ul><p>PS：硬性要求：必须使用Windows 10（Windows Server 2016以上） 首先吧，我可没有云服务器而且配置还算中等的服务器经行配置，穷死了没钱啊 所以呢，自己下载虚拟机来使用，我最先给虚拟机配置的是VMware自动给的配置<strong>1H2G</strong>配置，因为点太快我没看到，而且装的是Windows7（声明：Windows7无法带动此游戏） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/2133732cdbecc22d3b02f6b5538e34c9.png"> 然后在虚拟机正在安装系统的时候，然后就开始下载<a href="https://arkservermanager.freeforums.net/">ARK Server Manager</a>（也就是方舟：生存进化的Steam服务器） 讲真，我都怀疑他的下载地址是不是给墙了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/61db998cd808239831fb998f5ee13ab1.png"> 弄得我一直在换梯子，还去<a href="https://ping.chinaz.com/">ChinaZ</a>去ping这个IP有没有被墙 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/ff069fa59f6642f03e1bd5a1103eabf1.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/d5531183320000ad93cfb746899bf4d3.png"> 然后好吧，还是访问不了，看Ping延迟好像都是超时，估计我也属于在那个超时里面，还是换梯子链接吧，换了几个梯子算好很多的了，至少下载了233 然后我就花了一些时间在<a href="https://arkservermanager.freeforums.net/">https://arkservermanager.freeforums.net/</a>看看里面的官方说明（当然好像不是官方说明）这是个论坛，应该是论坛这里的管理员写的。反正就是有价值的东西，我稍微看了一会（因为系统安装太慢了，主要是配置没调好<strong>1H2G</strong>来装Windows开玩笑呢） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/cec3a2113180a661d680cbd4b1da1376.png"> 配置好了，桌面这些东西，然后就是要用远程桌面了，毕竟虚拟机自带的会有比远程连接还带一些延迟？这是我不理解的。 而且也要开始配置网络，自带的我没有配置过，所以正常不能自动分配IP，所以只能设置成主机模式，自动跟从我家路由器分配一个IP出来，这样会好很多，而且不用配置太多。（毕竟我也不是专业来做虚拟机的，专门配置虚拟网卡没有什么太大的必要。） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/4fbd36b475e0f151c97488c2f4e3309d.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/ed25d4e3803040f75418f7b38c35128b.png"> 可能是我用习惯了Windows10，讲真Windows7的优化是真的菜，菜的一批。 然后呢就开始安装ARK Server Manager。原本不应该先装这个。只是目前我先下载了这个就先安装这个吧。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/c33f832f56d0794305f36ed053824322.png"> 然后就开始用刚刚下载的Chrome来找.NET FrameWork前置，使用这个软件需要<a href="https://dotnet.microsoft.com/download/dotnet-framework/net48">.NET FrameWork</a>和<a href="https://www.jb51.net/softs/668698.html">DirectX 11</a>前置 在这里感谢 <a href="https://blog.csdn.net/u013833464/article/details/105000243">晋殇小飞的CSDN</a> 博文支持 然后就开始出现问题了，我在安装.NET FrameWork 4.8时候发现Windows 7不支持 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/54ef977a43f43b4ea83083bf9733fe37.png"> 于是我就开始尝试低版本的.NET FrameWork。这次选择版本是4.0（然后一些正常） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/0ad0cd2994bb6d61af41e6e0577daf89.png"> 然后安装完毕重启了系统，再次打开ARK Server Manager，哈哈哈屮版本低了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/a3dff7039aff43c784ca671e5acdcec4.png"> 没办法我只能赌一把，看看下载4.6.2的版本Windows7支不支持，如果不支持，那么只能删除虚拟机重新安装系统（其实可以直接重装，我嫌麻烦） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/382a70d3f3f2394dd4adf3ae078f35a5.png"> 哈哈哈屮，给爷爬.Windows7彻底作废。 好吧我的2020-07-25日结束，睡觉… Today：2020-07-26 又是元气满满的一天，开始windows 10的安装（其实一个小时前我等着慢慢下载下载了） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/bb1bd12d6688b6a3c45d3cde45b00a58.png"> 然后就开始了Windows 10的自动安装（这个过程又一个多小时）不过无所谓，我刚好在做家务，家里大扫除233 然后又重复着昨天做的东西重新安装了一遍 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/7a1252463e21667951b0b2a9a319f516.png"> 前置装完了，然后就是打开ARK Server Manager，这次打开了，但是报错了= =|| 主要这一次我直接一连串下一步完成了，默认安装在C盘的Program Files目录下，然后管理员权限获取不完全，然后打不开了，Data数据也有问题了… … <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/59c07cf4cf39878a426da5c1e8d2875f.png"> 没办法，删除了重新安装吧，这回直接换一个位置，直接在C盘根目录下创建一个ARK文件夹来执行操作。然后就出现这个啦 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/e483b097df3b2b12fa8296ff55d4c5c7.png"> 出现这个呢就是要叫你安装一个叫SteamCMD的一个东西，把他安装在我设置的ARK文件夹目录下就好了（在ARK文件夹下创建一个文件夹叫做SteamCMD即可） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/54cca7cc418f0d2e3939a5b20df48744.png"> 然后就可以继续，然后点ok <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/161b37340492869b38c2037a6314e033.png"> 确认完毕后，就开始安装一些必要的东西，等这一串东西过去就好了啦 在这里安装的时间算是比较快的，所以稍微耐心等待一会就好了，不会很久的（除非你的电脑配置太差不足以支持） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/1c86fdcbc23dd88c75844e6444e1e985.png"> 然后这个过程完毕后，就会进入一个GUI，我们点击设置然后设置语言成简体中文，默认有支持简体中文 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/a2b37c226b84d5bbf03e70becdd15d74.png"> 然后关闭点击绿色的“+”创建一个服务器，修改名字 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/0764e94740873f276ec49bb213a952b5.png"> 我在这里只是测试使用设置Text Server支持中文，可以慢慢想 设置好了以后就需要安装了，这个安装可能半小时甚至长达一个小时，如果家里网速很慢可能需要更久，大伙可以泡一杯咖啡享受片刻后回来 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/72f375f60f59e8f1b25cf459b931533e.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/a71a2bd31f937168806269077da93c5a.png"> 等待安装好了回来，点开基础管理设置好你需要的，设置部分参数即可，不懂的参数可以到上面的论坛去查询或者百度Google 然后你的咖啡不要喝完了，这里还需要等待… … 这个时候配置完毕后就可以点击右上角的开始按钮，然后开启服务器（这个过程需要半个小时到一个小时） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/464d3e98eee214d5af891cff239e8143.png"> 开始等待启动，以及配置安装 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/0421aab4894c6ac9fbc1356ef8f2145b.png"> 然后等待出现这个（注：由于忘记截图这张图，所以这张图是百度出来的） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/af0536c519f6a3214348dafeed4ee1af.png"> 当看到这两个出现后，基本配置已经完毕了，服务器制作已近到了尾声。基本开完了。然后就是配置服务器的IP地址 在配置IP地址的时候这个我并不是特别清楚，因为我没有经行实际进入服务器的操作，只是做了服务器（也就是后端/后台）前端/游戏台没有做对应的检查 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/2fffcb76f23f2cf8f090807366cf9709.png"> 这里感谢 <a href="https://blog.csdn.net/u013833464/article/details/105000243">晋殇小飞的CSDN</a> 博文支持~ 总体搭建完毕开启服务器后，我的CPU x2和DDR3 6G中CPU占用一半，我的6G基本占满，系统占用2G内存，也就是服务端用了4G左右，这属于低配置的吧（因为我是DDR3，而且我的主机，母鸡总共16G不够我开（我主电脑占用8G只有6G给我开，剩下2G做备用，以防电脑死机） 初步能判断服务器用的配置大概就是</p><ul><li>系统：Windows 10 （Windows Server 2016以上</li><li>内存：不低于4G，推荐8G（不低于DDR3</li><li>硬盘：至少15G以上</li><li>前置： .NET FrameWork 4.6.2以上；DirectX 11</li><li>服务端：ARK Server Manager</li></ul><hr><p><strong>[title]后言[/title]</strong> 总的来讲，算成功的吧，也不是特别难，都是百度和官方论坛说明走过来。 就是搭建时候感觉绕了点弯路。 QAQ</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/07/26/382492c43141bcf78b23823bbec5ff12.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="ARK Server" scheme="https://www.xiaolfeng.xyz/tags/ARK-Server/"/>
+    
+    <category term="方舟" scheme="https://www.xiaolfeng.xyz/tags/%E6%96%B9%E8%88%9F/"/>
+    
+    <category term="生存进化" scheme="https://www.xiaolfeng.xyz/tags/%E7%94%9F%E5%AD%98%E8%BF%9B%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>看看我大阳光</title>
+    <link href="https://www.xiaolfeng.xyz/192.html"/>
+    <id>https://www.xiaolfeng.xyz/192.html</id>
+    <published>2020-07-24T02:05:40.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我也是服了，我家又停电了，你敢信 为什么说又呢。（因为今年已经停了三次了） 人家小农村甚至别人小花园“百年”停一次。我大阳光一年多次 :mao38:</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我也是服了，我家又停电了，你敢信 为什么说又呢。（因为今年已经停了三次了） 人家小农村甚至别人小花园“百年”停一次。我大阳光一年多次 :mao38:&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次博客更新2020-07-23</title>
+    <link href="https://www.xiaolfeng.xyz/190.html"/>
+    <id>https://www.xiaolfeng.xyz/190.html</id>
+    <published>2020-07-23T15:41:28.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/Pixiv/2020-07-19/68825375_p0.png"></p><hr><p><strong>[title]博客更新[/title]</strong> <strong>这次嘛</strong>，博客也就更新了一点东西，我当初本来只想做更新下页脚的一些标签。于是更新如下 还是一样，没有ICP备案，搞得我这个一直想填却填不进（不慌明年就好了，自我安慰ing） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/53d10bbf69114da143992c1306cabd5f.png"> <strong>其次就</strong>是更新了博客的表情包。 这个更新别说最先有点难倒我了，以前我就打算弄一下表情包，也弄过一点但是出了点问题就是，我不知道如何调用图床，因为有一个很严重的问题，就是这些图片是原作者的jsdelivr然而我不可能在作者的jsdelivr上传对吧，所以新加入的图片都出现了这样 （全部图片看不到） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/0d4da991c2732bd41138287217a39b3f.png"> 然后我就找了下这个主题的作者，<a href="https://moedog.org/">MoeDoge</a>去问问。但是他好像也不太愿意接收关于这些的说明 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/0d9d8d7e8a1fed2b9d3103386f3c2f61.png"> 所以我就算找了，也没管我，算了 后面吧，我觉得这是插件，而不是原作者自制的，所以我就打算Google一下，找一下原作者或者插件看看能不能给我一些启发。 然后就在阿里云社区找到了原作者的<a href="https://github.com/DIYgod/OwO">GitHub</a>文档，里面就有OwO.json我就打开来看一看，然后对比不同（作者好久没有更新过了，应该是弃坑了） 然后就在OwO.json找到了这个 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/0f2787ddb769ffcbfaff44014df5cc2f.png"> 与我的经行对比 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/89d98bf6c200767764277b7e196a7c2f.png"> 啊这，完全不一样好吧。 试试全部改成他这样？也许可以 然后就试了试原作者这样 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/32f7861669ae2448e26fff177a547100.png"> Good，完成了（这里好像写的好简单，我可是琢磨了半个多小时了） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/b71fc357fcb19b0106542184360135fe.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/654ef78fbdad876940c8880ace913e30.png"> 这Emoji就是原作者那里扒来的~ <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/b82fc7bc7130c0e6bfbfbb228c7755fa.png"> <strong>最后吧</strong>，给博客加了一个CDN。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/1a5fc6fc46a33c3674f17391598f0821.png"> 这个CDN用处不大，因为不是国内加速，我已经说了，我域名没有做备案。所以淦！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/Pixiv/2020-07-19/68825375_p0.png&quot;&gt;&lt;/</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="博客" scheme="https://www.xiaolfeng.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="更新" scheme="https://www.xiaolfeng.xyz/tags/%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今天开始我要练字了</title>
+    <link href="https://www.xiaolfeng.xyz/189.html"/>
+    <id>https://www.xiaolfeng.xyz/189.html</id>
+    <published>2020-07-23T11:35:06.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天开始我要练字了 来一点难度的瘦金体（千字文）！ :good:</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天开始我要练字了 来一点难度的瘦金体（千字文）！ :good:&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用Centos来开一个Minecraft服务器</title>
+    <link href="https://www.xiaolfeng.xyz/182.html"/>
+    <id>https://www.xiaolfeng.xyz/182.html</id>
+    <published>2020-07-21T02:31:58.000Z</published>
+    <updated>2020-08-12T13:03:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h3><blockquote><p>其实这玩意早想写了，然后一直咕咕咕，主要是没有时间，然后把服务器还在正常用，没有出现什么问题要重装，所以我就没有服务器来做演示。现在吧我阿里云轻量应用服务器空出来了，那是一台阿里云学生机，我原本想用这个开博客的，但是我<strong>未满18岁</strong>，过不了<strong>ICP备案</strong>，所以我就不能用国内主机来开网站，所以呢，<strong>拿来开MC服务器的确是一个不错的选择~</strong> 注意：这个服务器一般联机使用纯净生存都能带的起。如果是带Mod带不起，首先这个CPU带一般般，其次这是单核心，虽然Mod服吃单核心，但是单核心容易卡线程（周知！）</p></blockquote><hr><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a><strong>准备</strong></h3><p>准备材料如下</p><ul><li>云服务器一台（云服务器或者VPS都可以「注：云服务器和VPS有一定差别，详情google/百度一下」）</li><li>连接工具<a href="https://www.xiaolfeng.xyz/wp-content/uploads/2020/07/Xshell-6.0.0193p.zip">Xshell</a>以及文件传输工具<a href="https://www.xiaolfeng.xyz/wp-content/uploads/2020/07/Xftp-6.0.0187p.zip">Xftp</a></li><li>一个端（MC服务端，非客户端小白请百度）</li><li>脑子一个（带好，按照代码敲过去你也能ok）</li></ul><p>云服务器的话，推荐几个店，首先肯定是<a href="https://www.aliyun.com/">阿里云</a>或者<a href="https://cloud.tencent.com/">腾讯云</a>，其次我正在开服使用的<a href="https://tb.am/m8oz8">星域互联</a>的，如果要开一个大型服务器可以用星域互联嗷<del>虽然任何层面都比不上阿里云或者腾讯云但是对于你开Minecraft服务器已近足以了。主要是性价比高，如果执意要买这两个大商家或者其他都可以，只不过提醒下，淘宝有些要注意一下，不要轻信嗷。顺带一提，还有这里<a href="https://www.mcbbs.net/forum-trade-1.html">MCBBS的服务商宣传地</a>也可以嗷，只不过我都没用过，除了星域互联。 如果是朋友联机开小型2</del>8人服务器，而且插件不多，mod很少无大型模组或者根本没有模组的我强烈推荐<a href="https://promotion.aliyun.com/ntms/act/campus2018.html">阿里云学生机</a>或者<a href="https://cloud.tencent.com/act/campus">腾讯云学生机</a>服务器，毕竟一个月10块钱，不香么~ 这里我的阿里云轻量服务器，演示就是此服务器进行演示。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/14fd578f35ff1c87207110af3aadf498.jpg"></p><hr><h3 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a><strong>开始搭建</strong></h3><p>注：搭建所用到端版本为1.16.1，主要是我要跟同学联机 首先吧，连接吧，这个我就不多说了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/2c14a7ea1d3526db93be22211463e475.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/8902a8d6aa08c1c57ffbc90c06ef2b25.png"> 接受并保存 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/e550992a4fa242c59db906344fb22719.png"> 然后输入密码就可以进去了 注：对于阿里云购买后需要先在阿里云后台设置密码，否则能连接，但是你不知道密码 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/572f7cc9412c6e2525280446a0d71a60.png"> 然后呢，我们不着急搭建服务器。首先吧，更新下先</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum update -y</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/4476bd86d4746b593eb4066a1cf2495e.png"> 等待那一大串东西慢慢过去，过去玩就更新完了，是不是很方便（Linux有些地方就是很方便，但是在国内正常使用就不行了）最基本的QQ和微信<strong>不有点技术还是玩不了</strong>的~ 好了，当你安装完以后就要安装java了 [collapse title=”指令复制一键安装”]</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install java-1.8.0-openjdk.x86_64</span><br></pre></td></tr></table></figure><p>[/collapse]   [collapse title=”通用办法”] 如果你不知道对于版本你可以先输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum list java*</span><br></pre></td></tr></table></figure><p>这条指令会列出Linux库中所有java，一般所有Linux都包含java7/8 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/98a8c363c995d263760a0c7fc6ab296f.png"> 然后再输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install java-1.8.0-openjdk.x86_64</span><br></pre></td></tr></table></figure><p>讲解 上面参数中“-y”表示确认（也就是说，不需要等待出现这个直接进入安装，<strong>事前确认</strong>） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/fffa45b44a4cae2047a5acc4b5588e69.png"> [/collapse] 然后就是跟更新插件那样等他一个个过去就好了 注：您在这里安装的java默认是jdk，当然jdk是可以拿来开服的，也比jre开服要好。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/87e200348a6e49f7ad534b2959149d6a.png"> 上图出现后，就是安装完毕了~ 然后呢你需要安装一个screen [collapse title=”解释”] 你可以不选择安装screen，但是前提要求，你不能关闭后台，加入你一关闭服务器会跟着关闭。 正常讲，就是说如果不安装screen只能把任务放在前端，不能在后端执行，如果想要在后端执行，必须安装screen以设置可以允许将程序 放在后端执行 就是说东西可以挂载最小化，不会直接叉叉掉（虽然不能这么说，但是这么理解也可以的） [/collapse]</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install screen</span><br></pre></td></tr></table></figure><p>上面指令就是安装screen的 稍后我会在最下面展示出来screen的基本用法。 <strong>到此，前期基本准备工作已经基本完成了</strong> 接下来，让我们打开Xftp然后上传文件吧~ <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/ad9c21058f647ca4ac01ece4d5ae9341.png"> 当你点击打开后，不会要求输入密码，因为在连接Xshell的时候已经执行连接了，所以一般直接认为是可以直接连接的 且连接后如果没有进入什么文件夹。默认打开文件夹为/root <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/7c59f0d21b266cbd8af0a8b4e9a0fbfd.png"> 就以root文件夹为例子，右键创建一个名字为Minecraft的文件夹，尽量取英文名，因为后期进入文件夹比较方便（当然不要太复杂了） 然后双击进入文件夹 将你的整合包丢进去，指的是根目录 例如下图所示 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/3afc27671c5beac5e2bffcee920efafa.png"> 另外给一个镜像站，如果有自己搭建一个端的需要，只需要一个核心的话，可以参考这里<a href="https://www.tcotp.cn/">Sakura’s Mirror</a> 然后回到Xshell就可以启动服务器了 首先我们创建一个screen</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -S MC</span><br></pre></td></tr></table></figure><p>[collapse title=”参数说明”] 原指令为</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -[A] [B]</span><br></pre></td></tr></table></figure><p>[A]中你可以选“S”，“r”，“d”这是常用的</p><ul><li>S指的是创建一个screen（注意：注意大小写，Linux对大小写敏感）</li><li>r指的是回到某某screen</li><li>d指的是当你的screen被占用的时候强制结束占用，换到你连接进入（不会强行关闭服务器）</li></ul><p>[B]中你可以随意，但是不允许中文</p><ul><li>这里是叫你取名，给这个窗口取名，到时候返回的名字就以这个名字作为返回，例如例子的MC</li></ul><p>[/collapse] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/fb2744cffc1d3f7623638e011e6a23d2.png"> 然后就进入一个新的screen下 然后进入你刚在在Xftp创建的文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd Minecraft</span><br></pre></td></tr></table></figure><p>然后就进入该文件夹下，如果你不确定你的文件是不是都在这里你可以输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure><p>进行文件名查看，确定后即可开服，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Xms1G -Xmx2G -XX:+UseG1GC -jar Paper-1.16.1-latest.jar nogui</span><br></pre></td></tr></table></figure><p>这条指令与Windows下的CMD是一样的，但是部分参数请修改 [collapse title=”参数说明”]</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Xms1G -Xmx2G -XX:+UseG1GC -jar Paper-1.16.1-latest.jar nogui</span><br></pre></td></tr></table></figure><ul><li>-Xms[~G/M]  最低内存堆</li><li>-Xmx[~G/M]  最大内存堆</li><li>-XX:+UseG1GC  优化参数，不懂不需要管</li><li>-jar [核心名字带.jar]  开服核心</li><li>nogui  参数，不懂不需要管</li></ul><p>[/collapse] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/1273d31811907d977b87144849d8a2a3.png"> 然后确定打开服务器时候你能看到你的Linux信息（这是题外话） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/699e11065aaa10cb243307926d95d953.png"> 如果遇到EULA等那些信息开服不起来，请到<a href="https://www.mcbbs.net/">MCBBS</a>询问，这里不做讲解 然后服务器就开完了233 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/f4224b9fd224acb66f7fa12882d20f54.png"></p><hr><h3 id="一些说明"><a href="#一些说明" class="headerlink" title="一些说明"></a><strong>一些说明</strong></h3><p>关于screen使用说明</p><ul><li>如果你想返回到主screen可以按下Ctrl+A+D可以返回主屏幕</li><li>一定要按顺序按下去</li><li>返回那个窗口 screen -r MC</li></ul><p>关于Linux的一些说明</p><ul><li>平常复制按钮在Linux不会这么认为，Ctrl+C指的是强行关闭服务器，所以在Linux使用时候切记不能按下这个按钮，除非服务器卡这不动，强行终止进程</li><li>平常能用到的Linux指令</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ls  #查看文件</span><br><span class="line">cd  #进入文件夹</span><br><span class="line">reboot  #重启服务器</span><br><span class="line">poweroff  #关闭服务器</span><br><span class="line">screen  #screen相关用法</span><br><span class="line">yum  #Centos安装指令</span><br><span class="line">apt-get  #Ubuntu安装指令</span><br></pre></td></tr></table></figure><p>关于Minecraft服务器说明</p><ul><li>没有什么好说明的</li><li>就是不要乱来，乱来也无所谓，反正主机不是我的，我提醒你下</li><li>如果遇到不会的可以去MCBBS查阅</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;其实这玩意早想写了，然后一直咕咕咕，主要是没有时间，然后把服务器还在正常用，没有</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://www.xiaolfeng.xyz/categories/Minecraft/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="服务器" scheme="https://www.xiaolfeng.xyz/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="Centos" scheme="https://www.xiaolfeng.xyz/tags/Centos/"/>
+    
+    <category term="Linux" scheme="https://www.xiaolfeng.xyz/tags/Linux/"/>
+    
+    <category term="我的世界" scheme="https://www.xiaolfeng.xyz/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>猫咖的快乐</title>
+    <link href="https://www.xiaolfeng.xyz/176.html"/>
+    <id>https://www.xiaolfeng.xyz/176.html</id>
+    <published>2020-07-19T04:03:31.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(29).jpg"></p><hr><p><strong>[title]猫咖~[/title]</strong> 地址：<a href="https://show.bilibili.com/platform/detail.html?id=26813&from=search">https://show.bilibili.com/platform/detail.html?id=26813&amp;from=search</a> 流量党注意你的流量，下面有多图，如果是流量不建议访问图片总计流量<strong>（46Mb）</strong> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/8e0f83562150e45679750c90d02115df.png"> Emmm这个地点也就是深圳这儿吧，深圳南山，反正我很喜欢的，嘿嘿~ 主要这里可以撸猫，就是零食那些有点贵，别看bilibili上面写的撸猫券才这一点，里面像薯条我在KFC买才11多一点，在那里一份28块，我吐了。而且分量还没有KFC多（WDNMD）。 当然，既然去了就不要搞心态了，好好玩吧~ 最初这个地方讲真有点吓到我，因为你看具体地方 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"></p><hr><p><strong>[title]经过[/title]</strong> 首先吧，我和我们班的班长一起约到这里，然后呢，集合时间是上午十点，最初我觉得我可能会迟到，的确我也迟到了，我是十点半到的，然后看了下<a href="https://www.amap.com/place/B0FFKLWNXI">缺德地图（高德地图）</a>的上班时间 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/0f60151b1256c575ef62daa4d324fcce.png"> 然后我又，WDNMD搞啥啊，算了旁边有个KFC在这呆着吧，顺便等我同学，因为他还没有到… … <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/003921a7346ab68be93a0f0eadcf60dd.png"> 然后我… … <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/7915554a5dffb327a40386f804b87b1e.png"> 然后就没有然后了，我们就在KFC这里吃了中午饭（随便吃了一点，因为下午要去猫咖再买小吃，结果我没想到这么贵） 然后（扇了几巴掌给同学/假的） 吃饭这里就没得好说，我们去找猫咖的时候那个时候难啊。 上面的截图 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"> 我们在南山区深南花园附近没有问题，然后我们从A4出口乱找，而且我当初以为华润万家超市会很大（也就是说入口很大，能很明显看到） 结果呢，我们找了半天，因为在住宅楼附近，附近全是住宅楼根本看不到那种大型超市，我也是服了，后面我们打算折回去看A4出口附近，结果眼睛一瓢，我去？我看到了 就是那种沙县小吃那种门口大小，很小的一个华润万家超市，我也是服了，而且我们走过去刚好是视觉盲区，根本找不到，因为给建筑挡住了，大概就像……（灵魂画师不要在意） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/b7005e42e956b91ae11bda0827240be7.png"> 在这里最左边角落，我吐了，然后来一张平面图 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/78f03ce5a222ef57622351452f82980d.png"> 就是（下图意思）我也是傻了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"> 真的超级神奇的设计哎，不过嘛最后还是去到了，玩的还是蛮开心的~~</p><hr><p><strong>[title]上图[/title]</strong> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(2).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(4).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(5).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(9).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(11).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(13).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(17).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(18).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(21).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(23).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(25).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(24).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(26).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(28).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(31).jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="猫咖" scheme="https://www.xiaolfeng.xyz/tags/%E7%8C%AB%E5%92%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Music] ほうらい「蓬莱伝說」</title>
+    <link href="https://www.xiaolfeng.xyz/170.html"/>
+    <id>https://www.xiaolfeng.xyz/170.html</id>
+    <published>2020-07-18T02:15:21.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/48b606ae5d14c3e47b2edc971a0ebb1d.png"></p><hr><p><strong>[title]蓬莱伝說[/title]</strong> 好吧，这是我瞎做的，其实也不算是瞎做的，主要是我想自己翻版一次，因为这是我喜欢的歌曲（とても大好きだね） 主要他那个调调我喜欢，所以大多数只要是蓬莱伝说，管他个三七二十一直接收录听，除了带歌词的，我比较喜欢纯音乐。 之后我就百度去了，好像有蓬莱伝说的谱子，虽然是五线谱（搞得我还专门学习了下五线谱），不过好在，专辑出来了，好像前奏怪怪的，到时候再改完发布一个正式版。 下面就是蓬莱人形介绍了。</p><blockquote><p><strong>蓬莱人形 ～ Dolls in Pseudo Paradise</strong>（ほうらい にんぎょう，_Hourai Ningyou_）即蓬莱人形。</p><p>蓬莱人形是<a href="https://baike.baidu.com/item/ZUN">ZUN</a>‘s Music Collection的第一张音乐CD，共收录了13曲。</p></blockquote><hr><p><strong>[title]歌曲[/title]</strong></p><p>网易云：<a href="https://music.163.com/#/album?id=92565757">《ほうらい「蓬莱伝説」（翻自 上海アリス幻樂団）》</a></p><p>[music autoplay=”0”]1463620581[/music]</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/07/17/48b606ae5d14c3e47b2edc971a0ebb1d.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;</summary>
+      
+    
+    
+    
+    <category term="音乐" scheme="https://www.xiaolfeng.xyz/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="歌曲" scheme="https://www.xiaolfeng.xyz/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+    <category term="音乐" scheme="https://www.xiaolfeng.xyz/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="蓬莱伝說" scheme="https://www.xiaolfeng.xyz/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>私は夏休みになった</title>
+    <link href="https://www.xiaolfeng.xyz/168.html"/>
+    <id>https://www.xiaolfeng.xyz/168.html</id>
+    <published>2020-07-17T12:12:49.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.5/Pixiv/2020-07-19/69675602_p0.jpg"></p><p><strong>[title]私は夏休みになった[/title]</strong></p><p>2020-07-18号，我放暑假了，可惜并没有什么卵用（假的）也不就是换了一个地方写作业罢了。</p><p>因为作业也忒多了，61张卷子，有点吃不消（虽然有答案）但是我没打算想抄，我像好好自己写一下（立个Flag，鬼知道我能不能这么干）</p><p>好吧抛开作业不说，作业这玩意太没趣了，还不如玩（假的）。</p><hr><p><strong>[title]默默吐几句[/title]</strong></p><p>我真的服了，这个学期跟个<strong>憨批</strong>一样，学校也是也不知道怎么想的。首先吧，我住在深圳这没问题，期中考试不考也就算了，期末考试也不考（当然我很开心），但是不考我哪知道我自己哪个der样，而且不考的原因就一个<strong>憨批跳楼自杀</strong>？(当然我不是吐槽必须考试，我是想说这个人）</p><p>[collapse title=”Image”]<img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/91516e23436e7011c9f1fd86da1b440c.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/9a657dcf259aa9277edec4a346bc84f0.png">[/collapse]</p><p>真别讲现在的学生怎么心里素质这么差？虽然现在学习压力很大，但是也不足以达到让你<strong>不要命</strong>的节奏。这样搞这孩子的父母情何以堪，而且搞得那么大动乱</p><p>（真可以这么说，学校里面：十个泪目九个在笑还有一个在狂笑那种，全部因为不用考试笑开了花，不过我想在其中也应该有很多人会思考他为什么会跳楼，即使只是粗略想想）</p><p>不过既然事情都已经发生了，已经没有办法挽回了，我只能替他们家的长辈们和晚辈们感到伤心，才初一呢前途无限好就GG了。不过我想父母应该也有一部分责任，毕竟初一强度达不到那么高，而且深圳这个地方强度不像内地，强度不高的，我们能做到轻松学习，而且不会特别难。只能说教育吧，这一次教训也该提醒一些家长要怎么做了。（当然我家长挺开明的）</p><hr><p><strong>[title]这一周[/title]</strong></p><p>这一周吧，还是皮为主，写暑假作业为辅。</p><p>为杀吗（啥）会这样呢？首先没有期末考试，然后这周二就发了暑假作业，你说我能不写么，我还记得刚刚发下来数学10张卷子，发下来就疯狂写，管他个三七二十一的课，不听也罢，听了也没啥用都是复习，还不如我写暑假作业来的实在。</p><p>不过到了星期四，因为我们学校已经分科完毕了，也就是说在<a href="http://www.gaosan.com/gaokao/244188.html">新高考3+2+1</a>的模式下，我们已经分班完了（当然我是选科全理），然而星期四都是我们学考（不高考）课程，那当然更不用听，而且根本想听也听不了，因为没课讲，讲完了，那就写作业吧看电影吧。好了星期四就这样胡闹过去了。</p><p>最后星期五，也就是今天，我！一节课没听。上午两节文的（一节语文，一节外语）上完就散学典礼啦，然后10点半就放学了。最后吧，回家，好没问题我爸来接我，结果打电话给他时候（老师电话）还根本没有出门，我也是无语了，就这样吧，慢慢等，于是我等到了中午十二点半我才上车… …吐了。</p><hr><p><strong>[title]暑假小打算[/title]</strong></p><p>重新翻版歌曲：<a href="http://music.163.com/song?id=1427604582&userid=1325484279">《想い出は遠くの日々》</a>，<a href="http://music.163.com/song?id=1433426975&userid=1325484279">《later in autumn》</a></p><p>新发布歌曲：《蓬萊伝説》，《Bad Apple》</p><p>然后写完61张卷子，对完答案（要自己写完，不能抄答案）</p><p>再重新管理FrontLeaves服务器</p><p>复习，开学要市统考</p><hr><p>私は夏休みになった → 我放暑假了~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.5/Pixiv/2020-07-19/69675602_p0.jpg&quot;&gt;&lt;/p</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="暑假" scheme="https://www.xiaolfeng.xyz/tags/%E6%9A%91%E5%81%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高考加油</title>
+    <link href="https://www.xiaolfeng.xyz/163.html"/>
+    <id>https://www.xiaolfeng.xyz/163.html</id>
+    <published>2020-07-05T11:19:39.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>高考加油</p><p>頑張ってくださいね～</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;高考加油&lt;/p&gt;
+&lt;p&gt;頑張ってくださいね～&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今天什么运气</title>
+    <link href="https://www.xiaolfeng.xyz/129.html"/>
+    <id>https://www.xiaolfeng.xyz/129.html</id>
+    <published>2020-05-29T12:46:53.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天我快吐了，不知道什么垃圾运气。 总结一下下。</p><ol><li>今天回家，钱包没带（我的钱包里面有坐地铁的银行卡）</li><li>然后我的钥匙没带，硬是坐在家门口就是进不去家门</li><li>打开电脑后电脑直接跳闸，然后系统system炸掉</li></ol><p><strong>[title]经过[/title]</strong> 首先把，一切的一切只能从学校开始说起，因为今天刚刚考完试，然后考完试就可以直接放学。然后太兴奋了，而且又没有作业，于是我就没带书包，带着我的手提包就回家了。 于是我的钱包和钥匙都没带着。 而且我是寄宿生，周五回家要坐校巴到指定位置然后回家。我最先上校巴总感觉少带了什么，可是我什么都想不起，然后校巴出发，已经快到目的地我突然睡觉醒了想起来，我没带钱包。（当时我没有意料到我没带钥匙） 我同学就跟我说，我带了零钱，然后直接买单程票吧，我直接纾缓一口气。 结果！！ 我去？疫情期间不给买单程票，因为无法实名认证，WDNMD这是搞人吧… … 好吧，我只能做的士回家了，好到家了，交钱了。25块，我只有现金30整，的士没有零钱找，哈哈哈屮。我TM直呼内行。 最后还是的士师傅好心，直接收20就走了，最先我给他了微信，结果还是没加我，我还想还回去，总感觉不太好。 好的，我搞完了，而且到了家门口，我giao，我钥匙呢？？？ WDNMD，算了，没带就没带吧，我还有MP4我还可以看番哈哈哈屮！！ 好的，然后我到家了。打开电脑，我直接直呼内行。我吐了 <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.1.5/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E4%BB%8A%E5%A4%A9%E4%BB%80%E4%B9%88%E8%BF%90%E6%B0%94/IMG_20200529_185346.jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.1.5/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E4%BB%8A%E5%A4%A9%E4%BB%80%E4%B9%88%E8%BF%90%E6%B0%94/IMG_20200529_190117.jpg"> 插座跳闸，然后电脑炸掉，我吐了… … 淦不写了，气死我了。 我绝对记住今天这一天！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天我快吐了，不知道什么垃圾运气。 总结一下下。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;今天回家，钱包没带（我的钱包里面有坐地铁的银行卡）&lt;/li&gt;
+&lt;li&gt;然后我的钥匙没带，硬是坐在家门口就是进不去家门&lt;/li&gt;
+&lt;li&gt;打开电脑后电脑直接跳闸，然后系统system炸掉&lt;/li&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="实用" scheme="https://www.xiaolfeng.xyz/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>萌国ICP备案「杂记」</title>
+    <link href="https://www.xiaolfeng.xyz/128.html"/>
+    <id>https://www.xiaolfeng.xyz/128.html</id>
+    <published>2020-05-23T08:00:58.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.1.0/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E8%90%8C%E5%9B%BDICP%E5%A4%87%E6%A1%88/icp.gov.moe.png"> <strong>[title]起源（还是找来的）[/title]</strong> 自从某萌主(娜娜)买了 gov.moe 域名以后 心便大了 开始在网络上兴风作浪 前不多久 <a href="https://www.qiuzq.cn/">瑾忆童鞋</a> 在百忙中抽空写了个ICP系统 然后大家看到的萌国ICP备案查询系统就上线了 <strong>[title]萌国ICP备案[/title]</strong> 嗯，你没看错，这是萌国的ICP备案。 萌国在哪呢，听某萌主说，好像是个网络上虚拟的国度。 反正别问博主了，本博主也是听来的。 我们说的是萌国ICP备案，简称 萌ICP备 <strong>萌ICP备非真实中国ICP备案</strong> 仅供萌友网站互动，请放心食用。 <strong>[title]申请[/title]</strong> 请发送一份 EMAIL，标题：加入萌备，内容（示例）：</p><hr><p>站名：萌心见地 地址：get.moe 首页：get.moe 简介：萌域中心 站长：萌域萌主 联系：<a href="mailto:&#105;&#64;&#x73;&#x2e;&#109;&#x6f;&#x65;">&#105;&#64;&#x73;&#x2e;&#109;&#x6f;&#x65;</a> 萌号：20201314</p><hr><p>萌号自选 (8-10位数字，2020开头 如 20201314 ) 发送到 <a href="mailto:&#x61;&#x64;&#x6d;&#x69;&#110;&#x40;&#103;&#x6f;&#118;&#x2e;&#109;&#x6f;&#101;">&#x61;&#x64;&#x6d;&#x69;&#110;&#x40;&#103;&#x6f;&#118;&#x2e;&#109;&#x6f;&#101;</a> 小声音bb： ICP备的是一级地址，同时要求首页能够访问。ICP号是8－10位以2020开头的号码，目前自选号,也就说可以选靓号玩。邮箱建议用对应的域名邮箱申请，目前似乎不用证明域名是不是你的样子，我是不是要帮度娘申请个？ 号码请先查询是否已占用 <strong><a href="https://icp.gov.moe/">https://icp.gov.moe</a></strong> 申请通过后，邮箱收萌备案号，例如 <a href="https://icp.gov.moe/?keyword=20201118">萌ICP备 20201118号</a>，并按提示在页脚加上萌ICP备的链接，以便查询对接系统。 <strong>[title]后言[/title]</strong> 什么时候我也能嫖一个gov的域名，我能飞天 我的备案号 萌ICP备 20201118号 最底下也有233</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.1.0/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.xyz/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="萌国ICP备案" scheme="https://www.xiaolfeng.xyz/tags/%E8%90%8C%E5%9B%BDICP%E5%A4%87%E6%A1%88/"/>
+    
+  </entry>
+  
+</feed>
