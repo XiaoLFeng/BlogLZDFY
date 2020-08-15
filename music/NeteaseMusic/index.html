@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>网易云音乐查询/下载 | 凌中的锋雨</title><meta name="description" content="网易云音乐音乐下载         由于本站开启PJAX，如看到下方搜索框较小请刷新一次                                      &lt;div v-if&#x3D;&quot;s_sear"><meta name="keywords" content="筱锋,xiao_lfeng,xiaolfeng,凌中的锋雨,小峰"><meta name="author" content="筱锋xiao_lfeng"><meta name="copyright" content="筱锋xiao_lfeng"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.xiaolfeng.xyz/music/NeteaseMusic/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta name="baidu-site-verification" content="Mbn0GcXYbzCNYlTh"/><meta name="360-site-verification" content="d182b3f28525f2db83acfaaf6e696dba"/><meta property="og:type" content="website"><meta property="og:title" content="网易云音乐查询/下载"><meta property="og:url" content="https://www.xiaolfeng.xyz/music/NeteaseMusic/"><meta property="og:site_name" content="凌中的锋雨"><meta property="og:description" content="网易云音乐音乐下载         由于本站开启PJAX，如看到下方搜索框较小请刷新一次                                      &lt;div v-if&#x3D;&quot;s_sear"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/Pixiv/2020-07-19/59506989_p0.jpg"><meta property="article:published_time" content="2020-08-13T16:00:00.000Z"><meta property="article:modified_time" content="2020-08-15T05:33:50.661Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>网易云音乐查询/下载 | 凌中的锋雨</title><meta name="description" content="网易云音乐音乐下载         由于本站开启PJAX，如看到下方搜索框较小请刷新一次"><meta name="keywords" content="筱锋,xiao_lfeng,xiaolfeng,凌中的锋雨,小峰"><meta name="author" content="筱锋xiao_lfeng"><meta name="copyright" content="筱锋xiao_lfeng"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.xiaolfeng.xyz/music/NeteaseMusic/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta name="baidu-site-verification" content="Mbn0GcXYbzCNYlTh"/><meta name="360-site-verification" content="d182b3f28525f2db83acfaaf6e696dba"/><meta property="og:type" content="website"><meta property="og:title" content="网易云音乐查询/下载"><meta property="og:url" content="https://www.xiaolfeng.xyz/music/NeteaseMusic/"><meta property="og:site_name" content="凌中的锋雨"><meta property="og:description" content="网易云音乐音乐下载         由于本站开启PJAX，如看到下方搜索框较小请刷新一次"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/Pixiv/2020-07-19/54341472_p0.jpg"><meta property="article:published_time" content="2020-08-13T16:00:00.000Z"><meta property="article:modified_time" content="2020-08-15T05:34:30.313Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
   document.documentElement.setAttribute('data-theme', 'dark')
   if (document.querySelector('meta[name="theme-color"]') !== null) {
     document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
@@ -97,7 +97,7 @@ if (autoChangeMode === '1') {
   isHome: false,
   isHighlightShrink: false,
   isSidebar: false,
-  postUpdate: '2020-08-15 13:33:50'
+  postUpdate: '2020-08-15 13:34:30'
 }</script><noscript><style>
 #nav {
   opacity: 1
@@ -124,98 +124,84 @@ if (autoChangeMode === '1') {
         <div style="margin:0 auto;text-align:center">
             <a-input-search placeholder="还不快点输入歌曲名字，我只支持网易云我跟你说" @search="onSearch" enterButton="Search" size="large" />
         </div>
-
-
-<pre><code>    &lt;div v-if=&quot;s_search&quot; style=&quot;margin-top:30px&quot;&gt;
-        &lt;a-spin :spinning=&quot;spinning&quot;&gt;
-            &lt;a-card title=&quot;匹配歌曲&quot;&gt;
-        &lt;a-card-grid style=&quot;width:25%;textAlign:&#39;left&#39;&quot; v-for=&quot;(item,index) in items&quot; @click=&quot;showModal(item.id)&quot;&gt;
-            &lt;a-card-meta :title=&quot;item.name&quot; :description=&quot;item.artists[0].name&quot;&gt;&lt;/a-card-meta&gt;
-        &lt;/a-card-grid&gt;
-        &lt;/a-card&gt;
-        &lt;/a-spin&gt;
-    &lt;/div&gt;
-
-
-
-
-
-    &lt;a-modal title=&quot;歌曲详情&quot; :visible=&quot;visible&quot; @ok=&quot;handleOk&quot; :confirmLoading=&quot;confirmLoading&quot; @cancel=&quot;handleCancel&quot;&gt;
-        &lt;a-spin :spinning=&quot;song_visible&quot;&gt;
-        &lt;div style=&quot;text-align: center;&quot; v-if=&quot;song_content&quot;&gt;
-            &lt;img :src=&quot;song.album.picture&quot; style=&quot;box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.11);margin-bottom: 35px;border-radius: 10px;border: 1px solid #eee;width: 300px;height: 300px;&quot;&gt;
-            &lt;audio :src=&quot;song_src&quot; controls=&quot;controls&quot;&gt;
-                Your browser does not support the audio element.
-            &lt;/audio&gt;
-            &lt;h1 style=&quot;line-height: 1.3;font-weight: 600;color: #444;margin-bottom: 2px;margin-top: 10px;&quot;&gt;&#123;&#123; song.name &#125;&#125;&lt;/h1&gt; 
-            &lt;p style=&quot;color: #999;font-weight: 300;margin: 0px;&quot; v-for=&quot;art in song.artists&quot;&gt;&#123;&#123; art &#125;&#125;&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;/a-spin&gt;
-    &lt;/a-modal&gt;
-&lt;/div&gt;
-
-
-
-
-
-    &lt;script&gt;
-        var index = new Vue(&#123;
-            el:&#39;#view&#39;,
-            data()&#123;
-                return &#123;
-                    items : null,
-                    loading : true,
-                    s_search : false,
-                    spinning : false,
-                    song : null,
-                    visible : false,
-                    confirmLoading : false,
-                    song_visible : true,
-                    song_content : false,
-                    song_src : null
-                &#125;
-            &#125;,
-            methods : &#123;
-                onSearch : function(key)&#123;
-                    if(key !== &#39;&#39;)&#123;
-                        this.s_search = true;
-                        this.spinning = true;
-                        axios.get(&#39;https://v1.hitokoto.cn/nm/search/&#39;+key.toString()+&#39;?limit=32&#39;)
-                        .then(response=&gt;&#123;
-                            this.items = response.data.result.songs;
-                            this.spinning = false;
-                        &#125;)
-                    &#125;
-                &#125;,
-                showModal(id) &#123;
-                  this.visible = true;
-                  axios.get(&#39;https://v1.hitokoto.cn/nm/summary/&#39;+id)
-                  .then(response=&gt;&#123;
-                      this.song = response.data[id];
-                      this.song_visible = false;
-                      this.song_content = true;
-                      this.song_src = &#39;https://v1.hitokoto.cn/nm/redirect/music/&#39;+id;
-                  &#125;);
-                &#125;,
-                handleOk(e) &#123;
-                    this.ModalText = &#39;准备下载&#39;;
-                    this.confirmLoading = true;
-                    window.open(this.song_src,&#39;_blank&#39;,&quot;top=0,left=100,width=400,height=250&quot;).location;
-                    this.visible = false;
-                    this.confirmLoading = false;
-                &#125;,
-                handleCancel(e) &#123;
-                    this.visible = false;
-                    this.song = null;
-                    this.song_visible = true;
-                    this.song_content = false;
-                &#125;
-
-            &#125;
-        &#125;)
-
-    &lt;/script&gt;
-&lt;/body&gt;</code></pre>
+        <div v-if="s_search" style="margin-top:30px">
+            <a-spin :spinning="spinning">
+                <a-card title="匹配歌曲">
+            <a-card-grid style="width:25%;textAlign:'left'" v-for="(item,index) in items" @click="showModal(item.id)">
+                <a-card-meta :title="item.name" :description="item.artists[0].name"></a-card-meta>
+            </a-card-grid>
+            </a-card>
+            </a-spin>
+        </div>       
+        <a-modal title="歌曲详情" :visible="visible" @ok="handleOk" :confirmLoading="confirmLoading" @cancel="handleCancel">
+            <a-spin :spinning="song_visible">
+            <div style="text-align: center;" v-if="song_content">
+                <img :src="song.album.picture" style="box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.11);margin-bottom: 35px;border-radius: 10px;border: 1px solid #eee;width: 300px;height: 300px;">
+                <audio :src="song_src" controls="controls">
+                    Your browser does not support the audio element.
+                </audio>
+                <h1 style="line-height: 1.3;font-weight: 600;color: #444;margin-bottom: 2px;margin-top: 10px;"></h1> 
+                <p style="color: #999;font-weight: 300;margin: 0px;" v-for="art in song.artists"></p>
+            </div>
+            </a-spin>
+        </a-modal>
+    </div> 
+        <script>
+            var index = new Vue({
+                el:'#view',
+                data(){
+                    return {
+                        items : null,
+                        loading : true,
+                        s_search : false,
+                        spinning : false,
+                        song : null,
+                        visible : false,
+                        confirmLoading : false,
+                        song_visible : true,
+                        song_content : false,
+                        song_src : null
+                    }
+                },
+                methods : {
+                    onSearch : function(key){
+                        if(key !== ''){
+                            this.s_search = true;
+                            this.spinning = true;
+                            axios.get('https://v1.hitokoto.cn/nm/search/'+key.toString()+'?limit=32')
+                            .then(response=>{
+                                this.items = response.data.result.songs;
+                                this.spinning = false;
+                            })
+                        }
+                    },
+                    showModal(id) {
+                      this.visible = true;
+                      axios.get('https://v1.hitokoto.cn/nm/summary/'+id)
+                      .then(response=>{
+                          this.song = response.data[id];
+                          this.song_visible = false;
+                          this.song_content = true;
+                          this.song_src = 'https://v1.hitokoto.cn/nm/redirect/music/'+id;
+                      });
+                    },
+                    handleOk(e) {
+                        this.ModalText = '准备下载';
+                        this.confirmLoading = true;
+                        window.open(this.song_src,'_blank',"top=0,left=100,width=400,height=250").location;
+                        this.visible = false;
+                        this.confirmLoading = false;
+                    },
+                    handleCancel(e) {
+                        this.visible = false;
+                        this.song = null;
+                        this.song_visible = true;
+                        this.song_content = false;
+                    }    
+                }
+            })          
+        </script>
+    </body>
 </html>
 </div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/ico/logo.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">筱锋xiao_lfeng</div><div class="author-info__description">不为如何，只为在茫茫人海中有自己的一片天空</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">44</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">46</div></a></div><div class="card-info-data-item is-center"><a href="/categories"><div class="headline">分类</div><div class="length_num">9</div></a></div></div><a class="button--animated" id="card-info-btn" href="https://www.xiaolfeng.xyz/122.html"><i class="fa fa-user"></i><span>关于我的一些事？</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xiaolfeng" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:lfengzeng@vip.qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="tencent://message/?uin=1144939537" rel="external nofollow noreferrer" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://twitter.com/lfeng_xiao" rel="external nofollow noreferrer" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a><a class="social-icon" href="https://music.163.com/#/artist?id=32459197" rel="external nofollow noreferrer" target="_blank" title="163Music"><i class="fas fa-music"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">博客迁移至Hexo，评论丢失，阅读量丢失QAQ</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a class="aside-post-cover" href="/b-dual-existence.html" title="[Music] dual-existence Fripside Full Version"><img class="aside-post-bg" data-lazy-src="https://fp1.fghrsh.net/2020/08/14/fb6bd9ae16ee17e01afe425255ee70cf.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="[Music] dual-existence Fripside Full Version"/></a><div class="aside-post-info"><a class="aside-post-title" href="/b-dual-existence.html" title="[Music] dual-existence Fripside Full Version">[Music] dual-existence Fripside Full Version</a><time class="aside-post_meta post-meta-date" datetime="2020-08-14T13:17:21.000Z" title="发表于 2020-08-14 21:17:21">2020-08-14</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/1001.html" title="腾讯云开发CloudBase搭建Hexo博客"><img class="aside-post-bg" data-lazy-src="https://fp1.fghrsh.net/2020/08/14/c524e8c7b5803b69804a89dac58cba71.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="腾讯云开发CloudBase搭建Hexo博客"/></a><div class="aside-post-info"><a class="aside-post-title" href="/1001.html" title="腾讯云开发CloudBase搭建Hexo博客">腾讯云开发CloudBase搭建Hexo博客</a><time class="aside-post_meta post-meta-date" datetime="2020-08-14T03:26:50.000Z" title="发表于 2020-08-14 11:26:50">2020-08-14</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/1000.html" title="博客更新-迁移博客至Hexo的艰辛"><img class="aside-post-bg" data-lazy-src="https://fp1.fghrsh.net/2020/03/20/19001739972e963278e061e945b5292d.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="博客更新-迁移博客至Hexo的艰辛"/></a><div class="aside-post-info"><a class="aside-post-title" href="/1000.html" title="博客更新-迁移博客至Hexo的艰辛">博客更新-迁移博客至Hexo的艰辛</a><time class="aside-post_meta post-meta-date" datetime="2020-08-12T15:15:02.000Z" title="发表于 2020-08-12 23:15:02">2020-08-12</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/235.html" title="凌中的锋雨 —— 书签／记录"><img class="aside-post-bg" data-lazy-src="https://fp1.fghrsh.net/2020/08/11/f84d6956d48faf167824e96f92a939d7.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="凌中的锋雨 —— 书签／记录"/></a><div class="aside-post-info"><a class="aside-post-title" href="/235.html" title="凌中的锋雨 —— 书签／记录">凌中的锋雨 —— 书签／记录</a><time class="aside-post_meta post-meta-date" datetime="2020-08-11T11:01:38.000Z" title="发表于 2020-08-11 19:01:38">2020-08-11</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/224.html" title="基于PicGo搭建稳定的图床（支持GitHub）"><img class="aside-post-bg" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200808000133.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="基于PicGo搭建稳定的图床（支持GitHub）"/></a><div class="aside-post-info"><a class="aside-post-title" href="/224.html" title="基于PicGo搭建稳定的图床（支持GitHub）">基于PicGo搭建稳定的图床（支持GitHub）</a><time class="aside-post_meta post-meta-date" datetime="2020-08-07T15:39:32.000Z" title="发表于 2020-08-07 23:39:32">2020-08-07</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Minecraft/"><span class="card-category-list-name">Minecraft</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/PhotoShop/"><span class="card-category-list-name">PhotoShop</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/minecraft/"><span class="card-category-list-name">minecraft</span><span class="card-category-list-count">3</span></a></li><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/minecraft/%E6%8F%92%E4%BB%B6/"><span class="card-category-list-name">插件</span><span class="card-category-list-count">3</span></a></li></ul><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%9E%E7%94%A8/"><span class="card-category-list-name">实用</span><span class="card-category-list-count">14</span></a></li>
