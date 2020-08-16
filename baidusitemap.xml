@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.xiaolfeng.xyz/myself.html</loc>
+    <lastmod>2020-08-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.xiaolfeng.xyz/y-late-in-autumn.html</loc>
     <lastmod>2020-08-16</lastmod>
   </url>
@@ -97,10 +101,6 @@
     <lastmod>2020-08-13</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.xyz/122.html</loc>
-    <lastmod>2020-08-12</lastmod>
-  </url>
-  <url>
     <loc>https://www.xiaolfeng.xyz/224.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
@@ -129,11 +129,11 @@
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.xyz/41.html</loc>
+    <loc>https://www.xiaolfeng.xyz/63.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.xyz/63.html</loc>
+    <loc>https://www.xiaolfeng.xyz/41.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
