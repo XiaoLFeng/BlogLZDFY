@@ -178,6 +178,14 @@ template {
 [hidden] {
   display: none
 }
+
+.icon { 
+  width: 1em; 
+  height: 1em; 
+  vertical-align: -0.15em; 
+  fill: currentColor; 
+  overflow: hidden; 
+} 
 .limit-one-line,
 #aside_content .card-info .card-info-data > .card-info-data-item a .headline,
 #aside_content .card-archives ul.card-archive-list > .card-archive-list-item a span,
