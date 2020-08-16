@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xiaolfeng.xyz/b-dual-existence.html</loc>
+    
+    <lastmod>2020-08-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.xyz/myself.html</loc>
     
     <lastmod>2020-08-16</lastmod>
@@ -157,13 +164,6 @@
   
   <url>
     <loc>https://www.xiaolfeng.xyz/music/index.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.xyz/b-dual-existence.html</loc>
     
     <lastmod>2020-08-14</lastmod>
     
@@ -592,13 +592,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.xyz/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/</loc>
-    <lastmod>2020-08-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.xyz/tags/%E5%85%AC%E4%B8%BB%E7%84%8A%E6%8E%A5/</loc>
     <lastmod>2020-08-16</lastmod>
     <changefreq>daily</changefreq>
@@ -607,6 +600,13 @@
   
   <url>
     <loc>https://www.xiaolfeng.xyz/tags/%E7%8C%AB%E5%92%96/</loc>
+    <lastmod>2020-08-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.xyz/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/</loc>
     <lastmod>2020-08-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
