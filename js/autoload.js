@@ -42,7 +42,7 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "../js/waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/XiaoLFeng/live2d-API@latest/live2d_api/"
+			cdnPath: "https://live2d.xiaolfeng.top/"
 		});
 	});
 }
@@ -53,7 +53,7 @@ if (screen.width >= 768) {
 console.log(`
 未经允许禁止翻版，贩卖等行为，本Live2d为免费使用版本
 作者：筱锋xiao_lfeng
-具体信息：https://www.xiaolfeng.cn/api/live2d.html
+具体信息：https://www.xiaolfeng.cn/live2d.html
 
   く__,.ヘヽ.        /  ,ー､ 〉
            ＼ ', !-─‐-i  /  /´
