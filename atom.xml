@@ -44,90 +44,6 @@
   </entry>
   
   <entry>
-    <title>Live2D后端API</title>
-    <link href="https://www.xiaolfeng.cn/live2d.html"/>
-    <id>https://www.xiaolfeng.cn/live2d.html</id>
-    <published>2020-08-19T16:00:00.000Z</published>
-    <updated>2020-08-22T01:53:49.286Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Live2D后端API"><a href="#Live2D后端API" class="headerlink" title="Live2D后端API"></a>Live2D后端API</h2><div class="note info">            <p>本 API 稳定版本构建在jsdelivr。其次构建于API服务终端<br>本构建位置：<a href="https://github.com/XiaoLFeng/Live2D-API">GitHub</a></p>          </div><div class="note success">            <p>服务器状态监控系统：<a href="https://check.xiaolfeng.xyz/">筱锋服务器状态监控</a></p>          </div><div class="note info">            <p>构建过程：<a href="/live2d_api.html">Live2D</a></p>          </div><hr><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><h3 id="调取地址"><a href="#调取地址" class="headerlink" title="调取地址"></a>调取地址</h3><ul><li><p>jsdelivr:</p>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-API@latest&#x2F;</span><br></pre></td></tr></table></figure></li><li><p>API服务</p>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;live2d.xiaolfeng.top&#x2F;</span><br></pre></td></tr></table></figure></li></ul><h3 id="接口调取方法"><a href="#接口调取方法" class="headerlink" title="接口调取方法"></a>接口调取方法</h3><div class="note warning">            <p>jsdelivr无法进行API调取，只能作为使用，如果需要调取请使用上方API服务，而不是jsdelivr服务</p>          </div><ul><li><p>调用方法</p><ul><li>/add/ <strong>检测更新加缓存（正常勿需用到）</strong></li><li>/get/?id=X-Y <strong>获取第X分组第Y号皮肤</strong><ul><li>其中分组为Live2d排列顺序</li></ul></li><li>/rand/?id=X <strong>根据上一个分组随即切换顺序</strong></li><li>/switch/?id=X <strong>根据 上一分组 顺序切换</strong></li><li>/rand_textures/?id=X-Y <strong>根据 上一皮肤 随机切换 同分组其他皮肤</strong></li><li>/switch_textures/?id=X-Y <strong>根据 上一皮肤 顺序切换 同分组其他皮肤</strong></li></ul></li><li><p>调用例子</p><ul><li>/add/  <strong>检测 新增皮肤 并更新 缓存列表</strong></li><li>/get/?id=1-23 <strong>获取 分组 1 的 第 23 号 皮肤</strong></li><li>/rand/?id=1 <strong>根据 上一分组 随机切换</strong></li><li>/switch/?id=1 <strong>根据 上一分组 顺序切换</strong></li><li>/rand_textures/?id=1-23 <strong>根据 上一皮肤 随机切换 同分组其他皮肤</strong></li><li>/switch_textures/?id=1-23 <strong>根据 上一皮肤 顺序切换 同分组其他皮肤</strong></li></ul></li></ul><h3 id="接口调用示例图片"><a href="#接口调用示例图片" class="headerlink" title="接口调用示例图片"></a>接口调用示例图片</h3><ul><li><p>get<br><img src= "/img/loading.gif" data-lazy-src=""></p></li><li><p>rand<br><img src= "/img/loading.gif" data-lazy-src=""></p></li><li><p>switch<br><img src= "/img/loading.gif" data-lazy-src=""></p></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Live2D后端API&quot;&gt;&lt;a href=&quot;#Live2D后端API&quot; class=&quot;headerlink&quot; title=&quot;Live2D后端API&quot;&gt;&lt;/a&gt;Live2D后端API&lt;/h2&gt;&lt;div class=&quot;note info&quot;&gt;
-            &lt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Live2D后端API</title>
-    <link href="https://www.xiaolfeng.cn/live2d_widget.html"/>
-    <id>https://www.xiaolfeng.cn/live2d_widget.html</id>
-    <published>2020-08-19T16:00:00.000Z</published>
-    <updated>2020-08-22T01:55:36.263Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Live2D前端API"><a href="#Live2D前端API" class="headerlink" title="Live2D前端API"></a>Live2D前端API</h2><div class="note info">            <p>本API构建于API服务器，本API服务器可能会因为资金问题导致续费，请勿过度依赖本API项目<br>如果构建量过大请自行构建API</p>          </div><div class="note success">            <p>服务器状态监控系统：<a href="https://check.xiaolfeng.xyz/">筱锋服务器状态监控</a></p>          </div><div class="note info">            <p>构建过程：<a href="/live2d_api.html">Live2D</a></p>          </div><hr><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><h3 id="调取地址"><a href="#调取地址" class="headerlink" title="调取地址"></a>调取地址</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;api.xiaolfeng.xyz&#x2F;live2d_widget&#x2F;</span><br></pre></td></tr></table></figure><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>- </p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Live2D前端API&quot;&gt;&lt;a href=&quot;#Live2D前端API&quot; class=&quot;headerlink&quot; title=&quot;Live2D前端API&quot;&gt;&lt;/a&gt;Live2D前端API&lt;/h2&gt;&lt;div class=&quot;note info&quot;&gt;
-            &lt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>GitHub图表API</title>
-    <link href="https://www.xiaolfeng.cn/githubchart.html"/>
-    <id>https://www.xiaolfeng.cn/githubchart.html</id>
-    <published>2020-08-17T16:00:00.000Z</published>
-    <updated>2020-08-22T01:45:31.774Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="GitHub图表API"><a href="#GitHub图表API" class="headerlink" title="GitHub图表API"></a>GitHub图表API</h2><div class="note info">            <p>本 API 为反代理得，非自行构建，反代理后已加CDN加速，放心使用。<br>本构建位置：<a href="https://github.com/2016rshah/githubchart-api">GitHub</a></p>          </div><div class="note success">            <p>服务器状态监控系统：<a href="https://check.xiaolfeng.xyz/">筱锋服务器状态监控</a></p>          </div><hr><p>示例图</p><img src= "/img/loading.gif" data-lazy-src="https://ghc.xiaolfeng.xyz/XiaoLFeng" alt="" /><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><h4 id="API调用方法"><a href="#API调用方法" class="headerlink" title="API调用方法"></a>API调用方法</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://ghc.xiaolfeng.xyz/YourGitHubName&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](https://ghc.xiaolfeng.xyz/XiaoLFeng)</span><br></pre></td></tr></table></figure><ul><li>其他调用方式类似。</li><li>将YourGitHubName替换为你的Github的名字，即可调用。</li></ul><div class="hide-block"><button type="button" class="hide-button button--animated" style="">图片例子    </button><span class="hide-content"><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/18/f2a0c707c881425d3b9acb45f961fa28.png"></p></span></div><h4 id="更多配置"><a href="#更多配置" class="headerlink" title="更多配置"></a>更多配置</h4><p>示例图</p><img src= "/img/loading.gif" data-lazy-src="https://ghc.xiaolfeng.xyz/409ba5/XiaoLFeng" alt="" /><img src= "/img/loading.gif" data-lazy-src="https://ghc.xiaolfeng.xyz/6600FF/XiaoLFeng" alt="" /><p>您可以在代码中插入自定义颜色方案。您可以提供任何颜色（仅限16进制颜色代码不需要带“#”），例如上图颜色代码为 <strong>#409ba5</strong> 而您填入仅需填写 <strong>409ba5</strong> 即可</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://ghc.xiaolfeng.xyz/409ba5/YourGitHubName&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](https://ghc.xiaolfeng.xyz/409ba5/YourGitHubName)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;GitHub图表API&quot;&gt;&lt;a href=&quot;#GitHub图表API&quot; class=&quot;headerlink&quot; title=&quot;GitHub图表API&quot;&gt;&lt;/a&gt;GitHub图表API&lt;/h2&gt;&lt;div class=&quot;note info&quot;&gt;
-            &lt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>API文档</title>
-    <link href="https://www.xiaolfeng.cn/api.html"/>
-    <id>https://www.xiaolfeng.cn/api.html</id>
-    <published>2020-08-17T16:00:00.000Z</published>
-    <updated>2020-08-22T01:52:09.224Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="API项目使用文档"><a href="#API项目使用文档" class="headerlink" title="API项目使用文档"></a>API项目使用文档</h2><div class="note info">            <p>您在这里可以看到我的全部公共开放的 <strong>API</strong> 项目，对于项目须知请查阅 <a href="/tos">TOS</a> 谢谢。</p>          </div><div class="note success">            <p>服务器状态监控系统：<a href="https://check.xiaolfeng.xyz/">筱锋服务器状态监控</a></p>          </div><hr><h3 id="GitHub图表API"><a href="#GitHub图表API" class="headerlink" title="GitHub图表API"></a><a href="/githubchart.html">GitHub图表API</a></h3><h3 id="看板娘API"><a href="#看板娘API" class="headerlink" title="看板娘API"></a><a href="/live2d.html">看板娘API</a></h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;API项目使用文档&quot;&gt;&lt;a href=&quot;#API项目使用文档&quot; class=&quot;headerlink&quot; title=&quot;API项目使用文档&quot;&gt;&lt;/a&gt;API项目使用文档&lt;/h2&gt;&lt;div class=&quot;note info&quot;&gt;
-            &lt;p&gt;您在这里可以</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>[Music] Late In Autumn 「Piano」重制版-母本</title>
     <link href="https://www.xiaolfeng.cn/y-late-in-autumn.html"/>
     <id>https://www.xiaolfeng.cn/y-late-in-autumn.html</id>
@@ -164,7 +80,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-dThzkkxm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-TyQMOUYV" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
@@ -595,6 +511,122 @@
     <category term="博客" scheme="https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="更新" scheme="https://www.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今天开始我要练字了</title>
+    <link href="https://www.xiaolfeng.cn/189.html"/>
+    <id>https://www.xiaolfeng.cn/189.html</id>
+    <published>2020-07-23T11:35:06.000Z</published>
+    <updated>2020-08-15T06:41:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天开始我要练字了 来一点难度的瘦金体（千字文）！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天开始我要练字了 来一点难度的瘦金体（千字文）！&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用Centos来开一个Minecraft服务器</title>
+    <link href="https://www.xiaolfeng.cn/182.html"/>
+    <id>https://www.xiaolfeng.cn/182.html</id>
+    <published>2020-07-21T02:31:58.000Z</published>
+    <updated>2020-08-12T13:03:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h3><blockquote><p>其实这玩意早想写了，然后一直咕咕咕，主要是没有时间，然后把服务器还在正常用，没有出现什么问题要重装，所以我就没有服务器来做演示。现在吧我阿里云轻量应用服务器空出来了，那是一台阿里云学生机，我原本想用这个开博客的，但是我<strong>未满18岁</strong>，过不了<strong>ICP备案</strong>，所以我就不能用国内主机来开网站，所以呢，<strong>拿来开MC服务器的确是一个不错的选择~</strong> 注意：这个服务器一般联机使用纯净生存都能带的起。如果是带Mod带不起，首先这个CPU带一般般，其次这是单核心，虽然Mod服吃单核心，但是单核心容易卡线程（周知！）</p></blockquote><hr><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a><strong>准备</strong></h3><p>准备材料如下</p><ul><li>云服务器一台（云服务器或者VPS都可以「注：云服务器和VPS有一定差别，详情google/百度一下」）</li><li>连接工具<a href="https://www.xiaolfeng.xyz/wp-content/uploads/2020/07/Xshell-6.0.0193p.zip">Xshell</a>以及文件传输工具<a href="https://www.xiaolfeng.xyz/wp-content/uploads/2020/07/Xftp-6.0.0187p.zip">Xftp</a></li><li>一个端（MC服务端，非客户端小白请百度）</li><li>脑子一个（带好，按照代码敲过去你也能ok）</li></ul><p>云服务器的话，推荐几个店，首先肯定是<a href="https://www.aliyun.com/">阿里云</a>或者<a href="https://cloud.tencent.com/">腾讯云</a>，其次我正在开服使用的<a href="https://tb.am/m8oz8">星域互联</a>的，如果要开一个大型服务器可以用星域互联嗷<del>虽然任何层面都比不上阿里云或者腾讯云但是对于你开Minecraft服务器已近足以了。主要是性价比高，如果执意要买这两个大商家或者其他都可以，只不过提醒下，淘宝有些要注意一下，不要轻信嗷。顺带一提，还有这里<a href="https://www.mcbbs.net/forum-trade-1.html">MCBBS的服务商宣传地</a>也可以嗷，只不过我都没用过，除了星域互联。 如果是朋友联机开小型2</del>8人服务器，而且插件不多，mod很少无大型模组或者根本没有模组的我强烈推荐<a href="https://promotion.aliyun.com/ntms/act/campus2018.html">阿里云学生机</a>或者<a href="https://cloud.tencent.com/act/campus">腾讯云学生机</a>服务器，毕竟一个月10块钱，不香么~ 这里我的阿里云轻量服务器，演示就是此服务器进行演示。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/14fd578f35ff1c87207110af3aadf498.jpg"></p><hr><h3 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a><strong>开始搭建</strong></h3><p>注：搭建所用到端版本为1.16.1，主要是我要跟同学联机 首先吧，连接吧，这个我就不多说了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/2c14a7ea1d3526db93be22211463e475.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/8902a8d6aa08c1c57ffbc90c06ef2b25.png"> 接受并保存 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/e550992a4fa242c59db906344fb22719.png"> 然后输入密码就可以进去了 注：对于阿里云购买后需要先在阿里云后台设置密码，否则能连接，但是你不知道密码 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/572f7cc9412c6e2525280446a0d71a60.png"> 然后呢，我们不着急搭建服务器。首先吧，更新下先</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum update -y</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/4476bd86d4746b593eb4066a1cf2495e.png"> 等待那一大串东西慢慢过去，过去玩就更新完了，是不是很方便（Linux有些地方就是很方便，但是在国内正常使用就不行了）最基本的QQ和微信<strong>不有点技术还是玩不了</strong>的~ 好了，当你安装完以后就要安装java了 [collapse title=”指令复制一键安装”]</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install java-1.8.0-openjdk.x86_64</span><br></pre></td></tr></table></figure><p>[/collapse]   [collapse title=”通用办法”] 如果你不知道对于版本你可以先输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum list java*</span><br></pre></td></tr></table></figure><p>这条指令会列出Linux库中所有java，一般所有Linux都包含java7/8 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/98a8c363c995d263760a0c7fc6ab296f.png"> 然后再输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install java-1.8.0-openjdk.x86_64</span><br></pre></td></tr></table></figure><p>讲解 上面参数中“-y”表示确认（也就是说，不需要等待出现这个直接进入安装，<strong>事前确认</strong>） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/fffa45b44a4cae2047a5acc4b5588e69.png"> [/collapse] 然后就是跟更新插件那样等他一个个过去就好了 注：您在这里安装的java默认是jdk，当然jdk是可以拿来开服的，也比jre开服要好。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/20/87e200348a6e49f7ad534b2959149d6a.png"> 上图出现后，就是安装完毕了~ 然后呢你需要安装一个screen [collapse title=”解释”] 你可以不选择安装screen，但是前提要求，你不能关闭后台，加入你一关闭服务器会跟着关闭。 正常讲，就是说如果不安装screen只能把任务放在前端，不能在后端执行，如果想要在后端执行，必须安装screen以设置可以允许将程序 放在后端执行 就是说东西可以挂载最小化，不会直接叉叉掉（虽然不能这么说，但是这么理解也可以的） [/collapse]</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install screen</span><br></pre></td></tr></table></figure><p>上面指令就是安装screen的 稍后我会在最下面展示出来screen的基本用法。 <strong>到此，前期基本准备工作已经基本完成了</strong> 接下来，让我们打开Xftp然后上传文件吧~ <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/ad9c21058f647ca4ac01ece4d5ae9341.png"> 当你点击打开后，不会要求输入密码，因为在连接Xshell的时候已经执行连接了，所以一般直接认为是可以直接连接的 且连接后如果没有进入什么文件夹。默认打开文件夹为/root <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/7c59f0d21b266cbd8af0a8b4e9a0fbfd.png"> 就以root文件夹为例子，右键创建一个名字为Minecraft的文件夹，尽量取英文名，因为后期进入文件夹比较方便（当然不要太复杂了） 然后双击进入文件夹 将你的整合包丢进去，指的是根目录 例如下图所示 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/3afc27671c5beac5e2bffcee920efafa.png"> 另外给一个镜像站，如果有自己搭建一个端的需要，只需要一个核心的话，可以参考这里<a href="https://www.tcotp.cn/">Sakura’s Mirror</a> 然后回到Xshell就可以启动服务器了 首先我们创建一个screen</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -S MC</span><br></pre></td></tr></table></figure><p>[collapse title=”参数说明”] 原指令为</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -[A] [B]</span><br></pre></td></tr></table></figure><p>[A]中你可以选“S”，“r”，“d”这是常用的</p><ul><li>S指的是创建一个screen（注意：注意大小写，Linux对大小写敏感）</li><li>r指的是回到某某screen</li><li>d指的是当你的screen被占用的时候强制结束占用，换到你连接进入（不会强行关闭服务器）</li></ul><p>[B]中你可以随意，但是不允许中文</p><ul><li>这里是叫你取名，给这个窗口取名，到时候返回的名字就以这个名字作为返回，例如例子的MC</li></ul><p>[/collapse] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/fb2744cffc1d3f7623638e011e6a23d2.png"> 然后就进入一个新的screen下 然后进入你刚在在Xftp创建的文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd Minecraft</span><br></pre></td></tr></table></figure><p>然后就进入该文件夹下，如果你不确定你的文件是不是都在这里你可以输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure><p>进行文件名查看，确定后即可开服，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Xms1G -Xmx2G -XX:+UseG1GC -jar Paper-1.16.1-latest.jar nogui</span><br></pre></td></tr></table></figure><p>这条指令与Windows下的CMD是一样的，但是部分参数请修改 [collapse title=”参数说明”]</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Xms1G -Xmx2G -XX:+UseG1GC -jar Paper-1.16.1-latest.jar nogui</span><br></pre></td></tr></table></figure><ul><li>-Xms[~G/M]  最低内存堆</li><li>-Xmx[~G/M]  最大内存堆</li><li>-XX:+UseG1GC  优化参数，不懂不需要管</li><li>-jar [核心名字带.jar]  开服核心</li><li>nogui  参数，不懂不需要管</li></ul><p>[/collapse] <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/1273d31811907d977b87144849d8a2a3.png"> 然后确定打开服务器时候你能看到你的Linux信息（这是题外话） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/699e11065aaa10cb243307926d95d953.png"> 如果遇到EULA等那些信息开服不起来，请到<a href="https://www.mcbbs.net/">MCBBS</a>询问，这里不做讲解 然后服务器就开完了233 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/21/f4224b9fd224acb66f7fa12882d20f54.png"></p><hr><h3 id="一些说明"><a href="#一些说明" class="headerlink" title="一些说明"></a><strong>一些说明</strong></h3><p>关于screen使用说明</p><ul><li>如果你想返回到主screen可以按下Ctrl+A+D可以返回主屏幕</li><li>一定要按顺序按下去</li><li>返回那个窗口 screen -r MC</li></ul><p>关于Linux的一些说明</p><ul><li>平常复制按钮在Linux不会这么认为，Ctrl+C指的是强行关闭服务器，所以在Linux使用时候切记不能按下这个按钮，除非服务器卡这不动，强行终止进程</li><li>平常能用到的Linux指令</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ls  #查看文件</span><br><span class="line">cd  #进入文件夹</span><br><span class="line">reboot  #重启服务器</span><br><span class="line">poweroff  #关闭服务器</span><br><span class="line">screen  #screen相关用法</span><br><span class="line">yum  #Centos安装指令</span><br><span class="line">apt-get  #Ubuntu安装指令</span><br></pre></td></tr></table></figure><p>关于Minecraft服务器说明</p><ul><li>没有什么好说明的</li><li>就是不要乱来，乱来也无所谓，反正主机不是我的，我提醒你下</li><li>如果遇到不会的可以去MCBBS查阅</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;其实这玩意早想写了，然后一直咕咕咕，主要是没有时间，然后把服务器还在正常用，没有</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://www.xiaolfeng.cn/categories/Minecraft/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="服务器" scheme="https://www.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="Centos" scheme="https://www.xiaolfeng.cn/tags/Centos/"/>
+    
+    <category term="Linux" scheme="https://www.xiaolfeng.cn/tags/Linux/"/>
+    
+    <category term="我的世界" scheme="https://www.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>猫咖的快乐</title>
+    <link href="https://www.xiaolfeng.cn/176.html"/>
+    <id>https://www.xiaolfeng.cn/176.html</id>
+    <published>2020-07-19T04:03:31.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(29).jpg"></p><hr><p><strong>[title]猫咖~[/title]</strong> 地址：<a href="https://show.bilibili.com/platform/detail.html?id=26813&from=search">https://show.bilibili.com/platform/detail.html?id=26813&amp;from=search</a> 流量党注意你的流量，下面有多图，如果是流量不建议访问图片总计流量<strong>（46Mb）</strong> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/8e0f83562150e45679750c90d02115df.png"> Emmm这个地点也就是深圳这儿吧，深圳南山，反正我很喜欢的，嘿嘿~ 主要这里可以撸猫，就是零食那些有点贵，别看bilibili上面写的撸猫券才这一点，里面像薯条我在KFC买才11多一点，在那里一份28块，我吐了。而且分量还没有KFC多（WDNMD）。 当然，既然去了就不要搞心态了，好好玩吧~ 最初这个地方讲真有点吓到我，因为你看具体地方 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"></p><hr><p><strong>[title]经过[/title]</strong> 首先吧，我和我们班的班长一起约到这里，然后呢，集合时间是上午十点，最初我觉得我可能会迟到，的确我也迟到了，我是十点半到的，然后看了下<a href="https://www.amap.com/place/B0FFKLWNXI">缺德地图（高德地图）</a>的上班时间 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/0f60151b1256c575ef62daa4d324fcce.png"> 然后我又，WDNMD搞啥啊，算了旁边有个KFC在这呆着吧，顺便等我同学，因为他还没有到… … <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/003921a7346ab68be93a0f0eadcf60dd.png"> 然后我… … <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/7915554a5dffb327a40386f804b87b1e.png"> 然后就没有然后了，我们就在KFC这里吃了中午饭（随便吃了一点，因为下午要去猫咖再买小吃，结果我没想到这么贵） 然后（扇了几巴掌给同学/假的） 吃饭这里就没得好说，我们去找猫咖的时候那个时候难啊。 上面的截图 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"> 我们在南山区深南花园附近没有问题，然后我们从A4出口乱找，而且我当初以为华润万家超市会很大（也就是说入口很大，能很明显看到） 结果呢，我们找了半天，因为在住宅楼附近，附近全是住宅楼根本看不到那种大型超市，我也是服了，后面我们打算折回去看A4出口附近，结果眼睛一瓢，我去？我看到了 就是那种沙县小吃那种门口大小，很小的一个华润万家超市，我也是服了，而且我们走过去刚好是视觉盲区，根本找不到，因为给建筑挡住了，大概就像……（灵魂画师不要在意） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/b7005e42e956b91ae11bda0827240be7.png"> 在这里最左边角落，我吐了，然后来一张平面图 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/78f03ce5a222ef57622351452f82980d.png"> 就是（下图意思）我也是傻了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"> 真的超级神奇的设计哎，不过嘛最后还是去到了，玩的还是蛮开心的~~</p><hr><p><strong>[title]上图[/title]</strong> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(2).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(4).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(5).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(9).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(11).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(13).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(17).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(18).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(21).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(23).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(25).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(24).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(26).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(28).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(31).jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="猫咖" scheme="https://www.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Music] ほうらい「蓬莱伝說」</title>
+    <link href="https://www.xiaolfeng.cn/horainingyo.html"/>
+    <id>https://www.xiaolfeng.cn/horainingyo.html</id>
+    <published>2020-07-18T02:15:21.000Z</published>
+    <updated>2020-08-14T12:45:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/48b606ae5d14c3e47b2edc971a0ebb1d.png"></p><hr><p><strong>[title]蓬莱伝說[/title]</strong> 好吧，这是我瞎做的，其实也不算是瞎做的，主要是我想自己翻版一次，因为这是我喜欢的歌曲（とても大好きだね） 主要他那个调调我喜欢，所以大多数只要是蓬莱伝说，管他个三七二十一直接收录听，除了带歌词的，我比较喜欢纯音乐。 之后我就百度去了，好像有蓬莱伝说的谱子，虽然是五线谱（搞得我还专门学习了下五线谱），不过好在，专辑出来了，好像前奏怪怪的，到时候再改完发布一个正式版。 下面就是蓬莱人形介绍了。</p><blockquote><p><strong>蓬莱人形 ～ Dolls in Pseudo Paradise</strong>（ほうらい にんぎょう，_Hourai Ningyou_）即蓬莱人形。</p><p>蓬莱人形是<a href="https://baike.baidu.com/item/ZUN">ZUN</a>‘s Music Collection的第一张音乐CD，共收录了13曲。</p></blockquote><hr><p><strong>[title]歌曲[/title]</strong></p><p>网易云：<a href="https://music.163.com/#/album?id=92565757">《ほうらい「蓬莱伝説」（翻自 上海アリス幻樂団）》</a></p><p>[music autoplay=”0”]1463620581[/music]</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/07/17/48b606ae5d14c3e47b2edc971a0ebb1d.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;</summary>
+      
+    
+    
+    
+    <category term="音乐" scheme="https://www.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="歌曲" scheme="https://www.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+    <category term="音乐" scheme="https://www.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="蓬莱伝說" scheme="https://www.xiaolfeng.cn/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/"/>
     
   </entry>
   
