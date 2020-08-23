@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.xiaolfeng.cn/google4d6edc1c9c8de519.html</loc>
-    
-    <lastmod>2020-08-23</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/myself.html</loc>
     
     <lastmod>2020-08-22</lastmod>
@@ -417,20 +410,6 @@
 
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/</loc>
-    <lastmod>2020-08-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2020-08-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/</loc>
     <lastmod>2020-08-23</lastmod>
     <changefreq>daily</changefreq>
@@ -439,6 +418,20 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/late-in-autumn/</loc>
+    <lastmod>2020-08-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/</loc>
+    <lastmod>2020-08-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2020-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
