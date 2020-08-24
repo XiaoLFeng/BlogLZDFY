@@ -711,14 +711,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -767,20 +767,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2020-08-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2020-08-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/ARK-Server/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
@@ -796,6 +782,20 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E7%94%9F%E5%AD%98%E8%BF%9B%E5%8C%96/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
