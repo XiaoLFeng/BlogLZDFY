@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.cn/"/>
-  <updated>2020-08-23T11:02:29.037Z</updated>
+  <updated>2020-08-24T02:29:06.669Z</updated>
   <id>https://www.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>严重漏洞宝塔7.4.2</title>
+    <link href="https://www.xiaolfeng.cn/1004.html"/>
+    <id>https://www.xiaolfeng.cn/1004.html</id>
+    <published>2020-08-24T02:18:05.000Z</published>
+    <updated>2020-08-24T02:29:06.669Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>讲真，我真的挺庆幸这个BUG能在这个时候被发现，而不是在8月30号以后，也就是我开学了。如果要是在我开学之后发现了这个BUG，我直接裂开来。<br>虽然我平常有做快照的习惯，但是PhpMyAdmin的日志记录我倒是没有开启过。不过也好在我的PhpMyAdmin默认端口不是888<br>但是如果真要查，端口扫几下就能扫出来了。所以我挺庆幸的。</p><p>政府的数据库（也就是gov.cn）的一些数据库有些都给删了，这我觉得也是一个十分严重的问题了。</p><h2 id="宝塔PhpMyAdmin漏洞"><a href="#宝塔PhpMyAdmin漏洞" class="headerlink" title="宝塔PhpMyAdmin漏洞"></a>宝塔PhpMyAdmin漏洞</h2><h3 id="漏洞"><a href="#漏洞" class="headerlink" title="漏洞"></a>漏洞</h3><div class="note danger">            <p>请勿随意使用并且修改别人的库，如果你想活久一点。</p>          </div><p>这个漏洞原理很简单，而且操作难度太低了。简简单单按照端口加参数就可以访问，根本没有难度需求<br>导致某些xxs直接进入一些库然后开始不正当行为操作了。</p><p>本来这个BUG知道的人并不是特别多，但是在群里面说的人多了起来传的就很广。</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/24/54a29ccde246ed63c0aa064343b71b8a.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;讲真，我真的挺庆幸这个BUG能在这个时候被发现，而不是在8月30号以后，也就是我开学了。如果要是在我开学之后发现了这个BUG，我直接裂开来。</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="漏洞" scheme="https://www.xiaolfeng.cn/tags/%E6%BC%8F%E6%B4%9E/"/>
+    
+    <category term="宝塔" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="PhpMyAdmin" scheme="https://www.xiaolfeng.cn/tags/PhpMyAdmin/"/>
+    
+  </entry>
   
   <entry>
     <title>301跳转</title>
@@ -114,7 +144,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-ipfrVbdW" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-qGTSWZlq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
@@ -607,30 +637,6 @@
     <category term="Linux" scheme="https://www.xiaolfeng.cn/tags/Linux/"/>
     
     <category term="我的世界" scheme="https://www.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>猫咖的快乐</title>
-    <link href="https://www.xiaolfeng.cn/176.html"/>
-    <id>https://www.xiaolfeng.cn/176.html</id>
-    <published>2020-07-19T04:03:31.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(29).jpg"></p><hr><p><strong>[title]猫咖~[/title]</strong> 地址：<a href="https://show.bilibili.com/platform/detail.html?id=26813&from=search">https://show.bilibili.com/platform/detail.html?id=26813&amp;from=search</a> 流量党注意你的流量，下面有多图，如果是流量不建议访问图片总计流量<strong>（46Mb）</strong> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/8e0f83562150e45679750c90d02115df.png"> Emmm这个地点也就是深圳这儿吧，深圳南山，反正我很喜欢的，嘿嘿~ 主要这里可以撸猫，就是零食那些有点贵，别看bilibili上面写的撸猫券才这一点，里面像薯条我在KFC买才11多一点，在那里一份28块，我吐了。而且分量还没有KFC多（WDNMD）。 当然，既然去了就不要搞心态了，好好玩吧~ 最初这个地方讲真有点吓到我，因为你看具体地方 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"></p><hr><p><strong>[title]经过[/title]</strong> 首先吧，我和我们班的班长一起约到这里，然后呢，集合时间是上午十点，最初我觉得我可能会迟到，的确我也迟到了，我是十点半到的，然后看了下<a href="https://www.amap.com/place/B0FFKLWNXI">缺德地图（高德地图）</a>的上班时间 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/0f60151b1256c575ef62daa4d324fcce.png"> 然后我又，WDNMD搞啥啊，算了旁边有个KFC在这呆着吧，顺便等我同学，因为他还没有到… … <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/003921a7346ab68be93a0f0eadcf60dd.png"> 然后我… … <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/7915554a5dffb327a40386f804b87b1e.png"> 然后就没有然后了，我们就在KFC这里吃了中午饭（随便吃了一点，因为下午要去猫咖再买小吃，结果我没想到这么贵） 然后（扇了几巴掌给同学/假的） 吃饭这里就没得好说，我们去找猫咖的时候那个时候难啊。 上面的截图 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"> 我们在南山区深南花园附近没有问题，然后我们从A4出口乱找，而且我当初以为华润万家超市会很大（也就是说入口很大，能很明显看到） 结果呢，我们找了半天，因为在住宅楼附近，附近全是住宅楼根本看不到那种大型超市，我也是服了，后面我们打算折回去看A4出口附近，结果眼睛一瓢，我去？我看到了 就是那种沙县小吃那种门口大小，很小的一个华润万家超市，我也是服了，而且我们走过去刚好是视觉盲区，根本找不到，因为给建筑挡住了，大概就像……（灵魂画师不要在意） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/b7005e42e956b91ae11bda0827240be7.png"> 在这里最左边角落，我吐了，然后来一张平面图 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/78f03ce5a222ef57622351452f82980d.png"> 就是（下图意思）我也是傻了 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/19/05b25ce2b18e7c2efe4d77e7cbe59c4b.png"> 真的超级神奇的设计哎，不过嘛最后还是去到了，玩的还是蛮开心的~~</p><hr><p><strong>[title]上图[/title]</strong> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(2).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(4).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(5).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(9).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(11).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(13).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(17).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(18).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(21).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(23).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(25).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(24).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(26).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(28).jpg"> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E7%8C%AB%E5%92%96%E7%9A%84%E5%BF%AB%E4%B9%90/cat%20(31).jpg"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.2.6/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    
-    <category term="猫咖" scheme="https://www.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/"/>
     
   </entry>
   
