@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xiaolfeng.cn/1005.html</loc>
+    
+    <lastmod>2020-08-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/1004.html</loc>
     
     <lastmod>2020-08-24</lastmod>
@@ -487,6 +494,27 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/Live2D/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/API/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/tags/Minecraft/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
@@ -571,13 +599,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2020-08-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/%E6%BC%8F%E6%B4%9E/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
@@ -593,6 +614,13 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/PhpMyAdmin/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -683,14 +711,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -804,14 +832,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/Minecraft/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/Minecraft/</loc>
     <lastmod>2020-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
