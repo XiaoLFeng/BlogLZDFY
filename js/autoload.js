@@ -43,6 +43,9 @@ if (screen.width >= 768) {
 // 初始化看板娘会自动加载指定目录下的 waifu-tips.json
 
 console.log(`
+Live2D图形作者：筱锋xiao_lfeng
+Docs文档：https://www.xiaolfeng.cn/doc-live2d.html
+
   く__,.ヘヽ.        /  ,ー､ 〉
            ＼ ', !-─‐-i  /  /´
            ／｀ｰ'       L/／｀ヽ､
