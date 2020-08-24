@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.cn/"/>
-  <updated>2020-08-24T02:29:06.669Z</updated>
+  <updated>2020-08-24T02:55:22.195Z</updated>
   <id>https://www.xiaolfeng.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.xiaolfeng.cn/1004.html"/>
     <id>https://www.xiaolfeng.cn/1004.html</id>
     <published>2020-08-24T02:18:05.000Z</published>
-    <updated>2020-08-24T02:29:06.669Z</updated>
+    <updated>2020-08-24T02:55:22.195Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>讲真，我真的挺庆幸这个BUG能在这个时候被发现，而不是在8月30号以后，也就是我开学了。如果要是在我开学之后发现了这个BUG，我直接裂开来。<br>虽然我平常有做快照的习惯，但是PhpMyAdmin的日志记录我倒是没有开启过。不过也好在我的PhpMyAdmin默认端口不是888<br>但是如果真要查，端口扫几下就能扫出来了。所以我挺庆幸的。</p><p>政府的数据库（也就是gov.cn）的一些数据库有些都给删了，这我觉得也是一个十分严重的问题了。</p><h2 id="宝塔PhpMyAdmin漏洞"><a href="#宝塔PhpMyAdmin漏洞" class="headerlink" title="宝塔PhpMyAdmin漏洞"></a>宝塔PhpMyAdmin漏洞</h2><h3 id="漏洞"><a href="#漏洞" class="headerlink" title="漏洞"></a>漏洞</h3><div class="note danger">            <p>请勿随意使用并且修改别人的库，如果你想活久一点。</p>          </div><p>这个漏洞原理很简单，而且操作难度太低了。简简单单按照端口加参数就可以访问，根本没有难度需求<br>导致某些xxs直接进入一些库然后开始不正当行为操作了。</p><p>本来这个BUG知道的人并不是特别多，但是在群里面说的人多了起来传的就很广。</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/24/54a29ccde246ed63c0aa064343b71b8a.png"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>讲真，我真的挺庆幸这个BUG能在这个时候被发现，而不是在8月30号以后，也就是我开学了。如果要是在我开学之后发现了这个BUG，我直接裂开来。<br>虽然我平常有做快照的习惯，但是PhpMyAdmin的日志记录我倒是没有开启过。不过也好在我的PhpMyAdmin默认端口不是888<br>但是如果真要查，端口扫几下就能扫出来了。所以我挺庆幸的。</p><p>政府的数据库（也就是gov.cn）的一些数据库有些都给删了，这我觉得也是一个十分严重的问题了。</p><h2 id="宝塔PhpMyAdmin漏洞"><a href="#宝塔PhpMyAdmin漏洞" class="headerlink" title="宝塔PhpMyAdmin漏洞"></a>宝塔PhpMyAdmin漏洞</h2><h3 id="漏洞"><a href="#漏洞" class="headerlink" title="漏洞"></a>漏洞</h3><div class="note danger">            <p>请勿随意使用并且修改别人的库，如果你想活久一点。</p>          </div><p>这个漏洞原理很简单，而且操作难度太低了。简简单单按照端口加参数就可以访问，根本没有难度需求<br>导致某些xxs直接进入一些库然后开始不正当行为操作了。</p><p>本来这个BUG知道的人并不是特别多，但是在群里面说的人多了起来传的就很广。</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/24/54a29ccde246ed63c0aa064343b71b8a.png"></p><h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>由于我Hexo不需要数据库，所以我也没有开放888端口，所以这个事情对我影响不大。</p><ol><li>7.4.2版本宝塔用户尽快升级到7.4.3哦</li><li>关闭888对外端口开放</li><li>更改888默认端口（最好没事别开放了）</li><li>设置域名访问，不允许除白名单外任何IP访问</li></ol><p>好了，水完了。准备祝贺我开学吧</p>]]></content>
     
     
       
@@ -144,7 +144,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-qGTSWZlq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-lgwmxgxf" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
