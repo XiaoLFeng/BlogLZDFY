@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xiaolfeng.cn/frontleavesRL.html</loc>
+    
+    <lastmod>2020-08-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/myself.html</loc>
     
     <lastmod>2020-08-26</lastmod>
@@ -816,6 +823,20 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.cn/tags/FrontLeavesRL/</loc>
+    <lastmod>2020-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/1-12-2/</loc>
+    <lastmod>2020-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/tags/Wordpress/</loc>
     <lastmod>2020-08-26</lastmod>
     <changefreq>daily</changefreq>
@@ -860,7 +881,7 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/Minecraft/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -874,7 +895,7 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/Minecraft/</loc>
     <lastmod>2020-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
