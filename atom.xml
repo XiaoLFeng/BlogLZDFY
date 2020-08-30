@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.cn/"/>
-  <updated>2020-08-24T10:12:49.642Z</updated>
+  <updated>2020-08-30T03:57:27.030Z</updated>
   <id>https://www.xiaolfeng.cn/</id>
   
   <author>
@@ -17,13 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Nginx反代理Google访问谷歌搜索吧~</title>
+    <link href="https://www.xiaolfeng.cn/1006.html"/>
+    <id>https://www.xiaolfeng.cn/1006.html</id>
+    <published>2020-08-30T03:01:18.000Z</published>
+    <updated>2020-08-30T03:57:27.030Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本教程适合 <strong>宝塔</strong> 使用，Nginx反代理。<br>如果您使用其他，可以按需提取。不要盲目看文~</p><div class="note success">            <p>本反代理适用于 谷歌，YouTuBe等</p>          </div><div class="note info">            <p>需要服务商嘛：<a href="https://www.rainyun.com/?ref=15138">雨云</a></p>          </div><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul><li>准备资料</li></ul><table><thead><tr><th>材料</th></tr></thead><tbody><tr><td>宝塔</td></tr><tr><td>Nginx</td></tr><tr><td>电脑一台</td></tr><tr><td>海外服务器一台</td></tr><tr><td>脑子一个</td></tr></tbody></table><ul><li>本次搭建</li></ul><table><thead><tr><th>材料</th><th>版本</th></tr></thead><tbody><tr><td>雨云香港云服务器</td><td>Centos7.8</td></tr><tr><td>宝塔</td><td>7.4.3</td></tr><tr><td>Nginx</td><td>1.18.0</td></tr><tr><td>PHP</td><td>7.2</td></tr></tbody></table><h2 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a>开始搭建</h2><div class="note danger">            <p>由于运用反代理，故必须使用海外机，国内主机无法访问Google</p>          </div><div class="note info">            <p>本次搭建基于Linux（Centos7），其他系统用户按需取舍</p>          </div><h3 id="测试服务器"><a href="#测试服务器" class="headerlink" title="测试服务器"></a>测试服务器</h3><p>在Linux的SSH终端测试能否链接到谷歌</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ping www.google.com</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/30/c748cdd69ef82d27947c079f2a46609e.png"></p><h3 id="安装宝塔"><a href="#安装宝塔" class="headerlink" title="安装宝塔"></a>安装宝塔</h3><p>宝塔安装：<a href="https://bt.cn/">宝塔官网</a><br>选择对应版本进行安装操作 <em>（或使用下面代码安装）</em></p><ul><li><p>Centos安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure></li><li><p>Ubuntu/Deepin</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh</span><br></pre></td></tr></table></figure><div class="note primary">            <p>如发现无法安装请先安装 <strong>wget</strong></p>          </div></li><li><p>Debain</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install-ubuntu_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure><div class="note primary">            <p>如发现无法安装请先安装 <strong>wget</strong></p>          </div></li></ul><h3 id="反代理"><a href="#反代理" class="headerlink" title="反代理"></a>反代理</h3><p>安装完宝塔后，进入宝塔后台面板会出现安装环境</p><ul><li>LNMP</li><li>LAMP</li></ul><p>选择哪一种环境都可以</p><div class="note info">            <p>本次安装采用 <strong>LNMP</strong> 环境</p>          </div><h4 id="创建网站"><a href="#创建网站" class="headerlink" title="创建网站"></a>创建网站</h4><p>宝塔左侧管理面板点击 <em>网站→添加站点</em></p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/30/7fa153cacadf22035d01785192937863.png"></p><h4 id="设置反代理"><a href="#设置反代理" class="headerlink" title="设置反代理"></a>设置反代理</h4><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/30/f8cdf3d1f5dc00889c32548c83c036dd.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/30/a18599471e156e93383ce98b5e705ef6.png"></p><p>不需要开启缓存和高级功能</p><div class="note info">            <p>如果发现你的反代理面板跟我不同<br>那么你安装的是Apache [LAMP环境]</p>          </div><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/30/80ca1116edb3466c1eb78f79650c5a8d.png"></p><h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><p>到此，你的反代理基本设置成功<br>域名解析这一步一般不需要教程都会自己加，这一步也可以放到最前面</p><p>我的域名服务商为阿里云，那么进入域名进行DNS解析，解析到本服务器即可</p><h2 id="快乐访问吧"><a href="#快乐访问吧" class="headerlink" title="快乐访问吧~"></a>快乐访问吧~</h2><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/30/b5424bd6992a4fe2d9ceb91ca04d5ac6.png"></p><h2 id="后言"><a href="#后言" class="headerlink" title="后言"></a>后言</h2><p>由于我第一次搭建就很顺利成功了，所以我搭建过程没有发现什么BUG。<br>如果遇到任何BUG可以留言嗷~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本教程适合 &lt;strong&gt;宝塔&lt;/strong&gt; 使用，Nginx反代理。&lt;br&gt;如果您使用其他，可以按需提取。不要盲目看文~&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="Google" scheme="https://www.xiaolfeng.cn/tags/Google/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="搜索" scheme="https://www.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Live2D看板娘使用文档</title>
     <link href="https://www.xiaolfeng.cn/doc-live2d.html"/>
     <id>https://www.xiaolfeng.cn/doc-live2d.html</id>
     <published>2020-08-24T05:00:00.000Z</published>
     <updated>2020-08-24T10:12:49.642Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#108;&#102;&#101;&#x6e;&#x67;&#x7a;&#101;&#x6e;&#103;&#x40;&#x76;&#x69;&#x70;&#46;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#108;&#102;&#101;&#x6e;&#x67;&#x7a;&#101;&#x6e;&#103;&#x40;&#x76;&#x69;&#x70;&#46;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
+    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#x6c;&#x66;&#x65;&#110;&#103;&#122;&#101;&#110;&#x67;&#x40;&#118;&#105;&#112;&#x2e;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#x6c;&#x66;&#x65;&#110;&#103;&#122;&#101;&#110;&#x67;&#x40;&#118;&#105;&#112;&#x2e;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
     
     
       
@@ -40,6 +73,8 @@
     <category term="Docs - Live2D - 实用" scheme="https://www.xiaolfeng.cn/categories/Docs-Live2D-%E5%AE%9E%E7%94%A8/"/>
     
     
+    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
     <category term="Docs" scheme="https://www.xiaolfeng.cn/tags/Docs/"/>
     
     <category term="Live2D" scheme="https://www.xiaolfeng.cn/tags/Live2D/"/>
@@ -47,8 +82,6 @@
     <category term="看板娘" scheme="https://www.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
     
     <category term="API" scheme="https://www.xiaolfeng.cn/tags/API/"/>
-    
-    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -69,20 +102,20 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="Live2D" scheme="https://www.xiaolfeng.cn/tags/Live2D/"/>
     
     <category term="看板娘" scheme="https://www.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
     
     <category term="API" scheme="https://www.xiaolfeng.cn/tags/API/"/>
-    
-    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
   </entry>
   
@@ -133,18 +166,18 @@
     
     
     
+    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
     <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
-    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
     <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
     <category term="301跳转" scheme="https://www.xiaolfeng.cn/tags/301%E8%B7%B3%E8%BD%AC/"/>
     
@@ -214,7 +247,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-RNdCEUsv" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-yTZUmpsU" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
@@ -251,9 +284,9 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
@@ -349,9 +382,9 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
@@ -386,9 +419,9 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
@@ -426,9 +459,9 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
@@ -576,11 +609,11 @@
     
     
     
+    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
     <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
-    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
     <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
@@ -617,34 +650,6 @@
     
     
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一次博客更新2020-07-23</title>
-    <link href="https://www.xiaolfeng.cn/190.html"/>
-    <id>https://www.xiaolfeng.cn/190.html</id>
-    <published>2020-07-23T15:41:28.000Z</published>
-    <updated>2020-08-15T06:40:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>[title]博客更新[/title]</strong> <strong>这次嘛</strong>，博客也就更新了一点东西，我当初本来只想做更新下页脚的一些标签。于是更新如下 还是一样，没有ICP备案，搞得我这个一直想填却填不进（不慌明年就好了，自我安慰ing） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/53d10bbf69114da143992c1306cabd5f.png"> <strong>其次就</strong>是更新了博客的表情包。 这个更新别说最先有点难倒我了，以前我就打算弄一下表情包，也弄过一点但是出了点问题就是，我不知道如何调用图床，因为有一个很严重的问题，就是这些图片是原作者的jsdelivr然而我不可能在作者的jsdelivr上传对吧，所以新加入的图片都出现了这样 （全部图片看不到） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/0d4da991c2732bd41138287217a39b3f.png"> 然后我就找了下这个主题的作者，<a href="https://moedog.org/">MoeDoge</a>去问问。但是他好像也不太愿意接收关于这些的说明 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/0d9d8d7e8a1fed2b9d3103386f3c2f61.png"> 所以我就算找了，也没管我，算了 后面吧，我觉得这是插件，而不是原作者自制的，所以我就打算Google一下，找一下原作者或者插件看看能不能给我一些启发。 然后就在阿里云社区找到了原作者的<a href="https://github.com/DIYgod/OwO">GitHub</a>文档，里面就有OwO.json我就打开来看一看，然后对比不同（作者好久没有更新过了，应该是弃坑了） 然后就在OwO.json找到了这个 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/0f2787ddb769ffcbfaff44014df5cc2f.png"> 与我的经行对比 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/89d98bf6c200767764277b7e196a7c2f.png"> 啊这，完全不一样好吧。 试试全部改成他这样？也许可以 然后就试了试原作者这样 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/32f7861669ae2448e26fff177a547100.png"> Good，完成了（这里好像写的好简单，我可是琢磨了半个多小时了） <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/b71fc357fcb19b0106542184360135fe.png"> <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/654ef78fbdad876940c8880ace913e30.png"> 这Emoji就是原作者那里扒来的~ <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/b82fc7bc7130c0e6bfbfbb228c7755fa.png"> <strong>最后吧</strong>，给博客加了一个CDN。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/23/1a5fc6fc46a33c3674f17391598f0821.png"> 这个CDN用处不大，因为不是国内加速，我已经说了，我域名没有做备案。所以淦！！！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;[title]博客更新[/title]&lt;/strong&gt; &lt;strong&gt;这次嘛&lt;/strong&gt;，博客也就更新了一点东西，我当初本来只想做更新下页脚的一些标签。于是更新如下 还是一样，没有ICP备案，搞得我这个一直想填却填不进（不慌明年就好了，自我安慰in</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
-    
-    <category term="博客" scheme="https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="更新" scheme="https://www.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/"/>
     
   </entry>
   
