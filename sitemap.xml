@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xiaolfeng.cn/1007.html</loc>
+    
+    <lastmod>2020-08-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/1006.html</loc>
     
     <lastmod>2020-08-30</lastmod>
@@ -445,34 +452,6 @@
 
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/Google/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
@@ -522,6 +501,13 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
@@ -557,6 +543,13 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/tags/301%E8%B7%B3%E8%BD%AC/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
@@ -579,6 +572,20 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/Google/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -690,27 +697,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/PicGo/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/%E4%B9%A6%E6%B3%95/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
@@ -726,6 +712,27 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E7%BB%83%E5%AD%97/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/PicGo/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -837,6 +844,20 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.cn/tags/Flarum/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E8%AE%BA%E5%9D%9B/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/tags/Wordpress/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
@@ -853,21 +874,7 @@
 
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/</loc>
-    <lastmod>2020-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -895,6 +902,20 @@
   </url>
   
   <url>
+    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2020-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/categories/Minecraft/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
@@ -902,14 +923,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/minecraft/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/minecraft/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
