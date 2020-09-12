@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xiaolfeng.cn/categories/index.html</loc>
+    
+    <lastmod>2020-09-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/index.html</loc>
+    
+    <lastmod>2020-09-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/nihongo-mae.html</loc>
     
     <lastmod>2020-09-12</lastmod>
@@ -241,20 +255,6 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/music/my.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/index.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/categories/index.html</loc>
     
     <lastmod>2020-08-14</lastmod>
     
