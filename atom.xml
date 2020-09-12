@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.cn/"/>
-  <updated>2020-08-30T12:35:29.523Z</updated>
+  <updated>2020-09-12T08:04:34.425Z</updated>
   <id>https://www.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,63 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日语学习手册</title>
+    <link href="https://www.xiaolfeng.cn/nihongo-index.html"/>
+    <id>https://www.xiaolfeng.cn/nihongo-index.html</id>
+    <published>2020-09-11T16:00:00.000Z</published>
+    <updated>2020-09-12T08:04:34.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="序章"><a href="#序章" class="headerlink" title="序章"></a>序章</h2><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ol><li><a href="/nihongo-mae.html">说明文档</a></li><li>基础入门<ol><li><a href="/nihongo-2.1.html">五十音图</a></li><li><a href="/nihongo-2.2.html">日语发音</a></li></ol></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;序章&quot;&gt;&lt;a href=&quot;#序章&quot; class=&quot;headerlink&quot; title=&quot;序章&quot;&gt;&lt;/a&gt;序章&lt;/h2&gt;&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;ol&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="日语" scheme="https://www.xiaolfeng.cn/categories/%E6%97%A5%E8%AF%AD/"/>
+    
+    
+    <category term="日语" scheme="https://www.xiaolfeng.cn/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日语学习手册 - 说明文档</title>
+    <link href="https://www.xiaolfeng.cn/nihongo-mae.html"/>
+    <id>https://www.xiaolfeng.cn/nihongo-mae.html</id>
+    <published>2020-09-11T16:00:00.000Z</published>
+    <updated>2020-09-12T08:04:38.367Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note primary">            <p>返回 <strong><a href="/nihongo-index.html">–&gt; 目录页 &lt;–</a></strong></p>          </div><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>嘛，只是一个学习手册就不要搞得那么严谨啦。我又不是为了应试教育等，只是写一写学习日语，而又不是真正学习日语的童鞋（虽然说真正学习日语的人也可以看，如果有错也可以帮我纠正233），但是真正学习日语的话，教材估计比这个详细多啦~</p><p>如果在学习当中发现任何<strong>错误</strong>地方，欢迎指出，对于不明白的地方也可以<strong>留言说明</strong>。（这样也可以修正下我日语，よろしくお願いします。）</p><blockquote><p>文章作者: <em>筱锋xiao_lfeng</em><br>版权声明: <strong>未经作者允许，禁止转载！</strong></p></blockquote><h4 id="版权说明"><a href="#版权说明" class="headerlink" title="版权说明"></a>版权说明</h4><p>无特别详细说明，由于都是个人理解与教材说明，如果对于需要转载（且认为有必要地方，请查阅原教材进行查看）<br><strong>如果发现有任何未经允许转载的，请及时<a href="myself.html">联系我</a></strong></p><ul><li><a href="https://m.hujiang.com/jp_biaori/biaoricjsc/">人教版（新版标准日本语）</a></li><li><a href="https://bp.pep.com.cn/ebook/gzrybx2/mobile/index.html">人教版-日语</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note primary&quot;&gt;
+            &lt;p&gt;返回 &lt;strong&gt;&lt;a href=&quot;/nihongo-index.html&quot;&gt;–&amp;gt; 目录页 &amp;lt;–&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;h2 id</summary>
+      
+    
+    
+    
+    <category term="日语" scheme="https://www.xiaolfeng.cn/categories/%E6%97%A5%E8%AF%AD/"/>
+    
+    
+    <category term="日语" scheme="https://www.xiaolfeng.cn/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次搭建 Flarum 论坛</title>
@@ -87,7 +144,7 @@
     <published>2020-08-24T05:00:00.000Z</published>
     <updated>2020-08-24T10:12:49.642Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#108;&#102;&#101;&#110;&#103;&#122;&#x65;&#110;&#x67;&#64;&#x76;&#105;&#x70;&#x2e;&#x71;&#113;&#46;&#99;&#111;&#x6d;">&#108;&#102;&#101;&#110;&#103;&#122;&#x65;&#110;&#x67;&#64;&#x76;&#105;&#x70;&#x2e;&#x71;&#113;&#46;&#99;&#111;&#x6d;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
+    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#x6c;&#x66;&#101;&#x6e;&#x67;&#122;&#x65;&#x6e;&#103;&#64;&#x76;&#105;&#x70;&#x2e;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;">&#x6c;&#x66;&#101;&#x6e;&#x67;&#122;&#x65;&#x6e;&#103;&#64;&#x76;&#105;&#x70;&#x2e;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
     
     
       
@@ -278,7 +335,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-EUGHiNFR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-hnYqLOSu" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
@@ -356,9 +413,9 @@
     <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="博客更新" scheme="https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
-    
     <category term="教程" scheme="https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="博客更新" scheme="https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
     
     <category term="Hexo" scheme="https://www.xiaolfeng.cn/tags/Hexo/"/>
     
@@ -420,6 +477,8 @@
     <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+    <category term="教程" scheme="https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
@@ -427,8 +486,6 @@
     <category term="PicGo" scheme="https://www.xiaolfeng.cn/tags/PicGo/"/>
     
     <category term="图床" scheme="https://www.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-    <category term="教程" scheme="https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -532,9 +589,9 @@
     
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="新标日" scheme="https://www.xiaolfeng.cn/tags/%E6%96%B0%E6%A0%87%E6%97%A5/"/>
-    
     <category term="日语" scheme="https://www.xiaolfeng.cn/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+    <category term="新标日" scheme="https://www.xiaolfeng.cn/tags/%E6%96%B0%E6%A0%87%E6%97%A5/"/>
     
   </entry>
   
@@ -588,74 +645,6 @@
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
     <category term="盗号未遂" scheme="https://www.xiaolfeng.cn/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>啊啊~说好练瘦金练成自改版楷体</title>
-    <link href="https://www.xiaolfeng.cn/198.html"/>
-    <id>https://www.xiaolfeng.cn/198.html</id>
-    <published>2020-07-27T07:48:06.000Z</published>
-    <updated>2020-08-15T06:27:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>啊这不就是凑合了点瘦金的笔画进去，然后再用楷体书法写 哈哈哈屮 主要是控笔的力气不行QAQ（写字喜欢偏大力） 完了越看越不像了（成就：成功水一篇博文） 好像整体歪了，算了，不管了 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/27/8387ebcdb4779f24b4362c3fe23af271.jpg"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/27/601496e904f86d47067b1cbd3d15684b.jpg"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;啊这不就是凑合了点瘦金的笔画进去，然后再用楷体书法写 哈哈哈屮 主要是控笔的力气不行QAQ（写字喜欢偏大力） 完了越看越不像了（成就：成功水一篇博文） 好像整体歪了，算了，不管了 &lt;/p&gt;
-&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
-    
-    <category term="书法" scheme="https://www.xiaolfeng.cn/tags/%E4%B9%A6%E6%B3%95/"/>
-    
-    <category term="硬笔" scheme="https://www.xiaolfeng.cn/tags/%E7%A1%AC%E7%AC%94/"/>
-    
-    <category term="练字" scheme="https://www.xiaolfeng.cn/tags/%E7%BB%83%E5%AD%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一次 方舟：生存进化™ ARK Server Manager 搭建记录</title>
-    <link href="https://www.xiaolfeng.cn/197.html"/>
-    <id>https://www.xiaolfeng.cn/197.html</id>
-    <published>2020-07-26T08:14:13.000Z</published>
-    <updated>2020-08-15T06:40:15.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最先吧，原本是有人来问我Minecraft服务器的问题，就是打算开服务器然后来问我问题的</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">查看图片（偏长）    </button><span class="hide-content"><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/e983550d0efc6798f47c45a5521ffb10.png"></p></span></div><p>后面问着问着就说到可以开方舟服务器么。<br>但是我根本不了解方舟的东西，所以我也不好说，后面就打算自己试一试咯~ </p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">查看图片（偏长）    </button><span class="hide-content"><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/828b2816285ffa472917ceaca4669551.png"> </p></span></div><hr><h2 id="搭建开始（过程）"><a href="#搭建开始（过程）" class="headerlink" title="搭建开始（过程）"></a>搭建开始（过程）</h2><p>最先下载软件我就不详细说明了，反正软件我有地方下载而且方式并不难。采用虚拟机软件为</p><p><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">VMware Workstation 15.5 Pro（官方链接）</a> 当然有云服务器的更好啦。 </p><p>推荐配置</p><ul><li><strong>CPU：型号无法确定（因为我不玩这个游戏，我没办法给出详细的配置信息，我也不知道在游戏内TPS怎么样）</strong>不过能带的起来至少双核以上【此次搭建CPU：Inter(R) Core(TM) i5-4440 @ 3.10Ghz x2核心（虚拟化）】</li><li><strong>内存：DDR4 6G（以上）</strong>【DDR3 4G为最低配置，此次搭建配置DDR3 6G】</li><li><strong>储存：你随意，系统留出5G，到时候的服务器在安装时候需要10G</strong>（也就是说你的储存不能低于15G，推荐40~60G方便其他操作）</li></ul><div class="note info">            <p>硬性要求：必须使用Windows 10（Windows Server 2016以上） </p>          </div><p>首先吧，我可没有云服务器而且配置还算中等的服务器经行配置，穷死了没钱啊 所以呢，自己下载虚拟机来使用，我最先给虚拟机配置的是VMware自动给的配置<strong>1H2G</strong>配置，因为点太快我没看到，而且装的是Windows7</p><div class="note warning">            <p>（声明：Windows7无法带动此游戏） </p>          </div><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/2133732cdbecc22d3b02f6b5538e34c9.png"> </p><p>然后在虚拟机正在安装系统的时候，然后就开始下载<a href="https://arkservermanager.freeforums.net/">ARK Server Manager</a>（也就是方舟：生存进化的Steam服务器） 讲真，我都怀疑他的下载地址是不是给墙了 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/61db998cd808239831fb998f5ee13ab1.png"> </p><p>弄得我一直在换梯子，还去<a href="https://ping.chinaz.com/">ChinaZ</a>去ping这个IP有没有被墙 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/ff069fa59f6642f03e1bd5a1103eabf1.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/d5531183320000ad93cfb746899bf4d3.png"> </p><p>然后好吧，还是访问不了，看Ping延迟好像都是超时，估计我也属于在那个超时里面，还是换梯子链接吧，换了几个梯子算好很多的了，至少下载了233 然后我就花了一些时间在<a href="https://arkservermanager.freeforums.net/">https://arkservermanager.freeforums.net/</a>看看里面的官方说明（当然好像不是官方说明）<br>这是个论坛，应该是论坛这里的管理员写的。反正就是有价值的东西，我稍微看了一会（因为系统安装太慢了，主要是配置没调好<strong>1H2G</strong>来装Windows开玩笑呢） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/cec3a2113180a661d680cbd4b1da1376.png"> </p><p>配置好了，桌面这些东西，然后就是要用远程桌面了，毕竟虚拟机自带的会有比远程连接还带一些延迟？这是我不理解的。 而且也要开始配置网络，自带的我没有配置过，所以正常不能自动分配IP，所以只能设置成主机模式，自动跟从我家路由器分配一个IP出来，这样会好很多，而且不用配置太多。（毕竟我也不是专业来做虚拟机的，专门配置虚拟网卡没有什么太大的必要。） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/4fbd36b475e0f151c97488c2f4e3309d.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/ed25d4e3803040f75418f7b38c35128b.png"> </p><p>可能是我用习惯了Windows10，讲真Windows7的优化是真的菜，菜的一批。 然后呢就开始安装ARK Server Manager。</p><p>原本不应该先装这个。只是目前我先下载了这个就先安装这个吧。 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/c33f832f56d0794305f36ed053824322.png"> </p><p>然后就开始用刚刚下载的Chrome来找.NET FrameWork前置，使用这个软件需要<a href="https://dotnet.microsoft.com/download/dotnet-framework/net48">.NET FrameWork</a>和<a href="https://www.jb51.net/softs/668698.html">DirectX 11</a>前置 </p><p>在这里感谢 <a href="https://blog.csdn.net/u013833464/article/details/105000243">晋殇小飞的CSDN</a> 博文支持 </p><p>然后就开始出现问题了，我在安装.NET FrameWork 4.8时候发现Windows 7不支持 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/54ef977a43f43b4ea83083bf9733fe37.png"> </p><p>于是我就开始尝试低版本的.NET FrameWork。这次选择版本是4.0（然后一些正常） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/0ad0cd2994bb6d61af41e6e0577daf89.png"> </p><p>然后安装完毕重启了系统，再次打开ARK Server Manager，哈哈哈屮版本低了 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/a3dff7039aff43c784ca671e5acdcec4.png"> </p><p>没办法我只能赌一把，看看下载4.6.2的版本Windows7支不支持，如果不支持，那么只能删除虚拟机重新安装系统（其实可以直接重装，我嫌麻烦） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/382a70d3f3f2394dd4adf3ae078f35a5.png"> </p><p>哈哈哈屮，给爷爬.Windows7彻底作废。 </p><p>好吧我的2020-07-25日结束，睡觉… </p><p>Today：2020-07-26 </p><p>又是元气满满的一天，开始windows 10的安装（其实一个小时前我等着慢慢下载下载了） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/bb1bd12d6688b6a3c45d3cde45b00a58.png"> </p><p>然后就开始了Windows 10的自动安装（这个过程又一个多小时）不过无所谓，我刚好在做家务，家里大扫除233 然后又重复着昨天做的东西重新安装了一遍 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/7a1252463e21667951b0b2a9a319f516.png"> </p><p>前置装完了，然后就是打开ARK Server Manager，这次打开了，但是报错了= =|| </p><p>主要这一次我直接一连串下一步完成了，默认安装在C盘的Program Files目录下，然后管理员权限获取不完全，然后打不开了，Data数据也有问题了… … </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/59c07cf4cf39878a426da5c1e8d2875f.png"> </p><p>没办法，删除了重新安装吧，这回直接换一个位置，直接在C盘根目录下创建一个ARK文件夹来执行操作。然后就出现这个啦 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/e483b097df3b2b12fa8296ff55d4c5c7.png"> </p><p>出现这个呢就是要叫你安装一个叫SteamCMD的一个东西，把他安装在我设置的ARK文件夹目录下就好了（在ARK文件夹下创建一个文件夹叫做SteamCMD即可） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/54cca7cc418f0d2e3939a5b20df48744.png"> </p><p>然后就可以继续，然后点ok </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/161b37340492869b38c2037a6314e033.png"> </p><p>确认完毕后，就开始安装一些必要的东西，等这一串东西过去就好了啦 在这里安装的时间算是比较快的，所以稍微耐心等待一会就好了，不会很久的（除非你的电脑配置太差不足以支持） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/1c86fdcbc23dd88c75844e6444e1e985.png"> </p><p>然后这个过程完毕后，就会进入一个GUI，我们点击设置然后设置语言成简体中文，默认有支持简体中文 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/a2b37c226b84d5bbf03e70becdd15d74.png"> </p><p>然后关闭点击绿色的“+”创建一个服务器，修改名字 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/0764e94740873f276ec49bb213a952b5.png"> </p><p>我在这里只是测试使用设置Text Server支持中文，可以慢慢想 设置好了以后就需要安装了，这个安装可能半小时甚至长达一个小时，如果家里网速很慢可能需要更久，大伙可以泡一杯咖啡享受片刻后回来 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/72f375f60f59e8f1b25cf459b931533e.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/a71a2bd31f937168806269077da93c5a.png"> </p><p>等待安装好了回来，点开基础管理设置好你需要的，设置部分参数即可，不懂的参数可以到上面的论坛去查询或者百度Google 然后你的咖啡不要喝完了，这里还需要等待… … 这个时候配置完毕后就可以点击右上角的开始按钮，然后开启服务器（这个过程需要半个小时到一个小时） </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/464d3e98eee214d5af891cff239e8143.png"> </p><p>开始等待启动，以及配置安装 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/0421aab4894c6ac9fbc1356ef8f2145b.png"> </p><p>然后等待出现这个</p><div class="note info">            <p>（注：由于忘记截图这张图，所以这张图是百度出来的）</p>          </div><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/af0536c519f6a3214348dafeed4ee1af.png"> </p><p>当看到这两个出现后，基本配置已经完毕了，服务器制作已近到了尾声。基本开完了。</p><p>然后就是配置服务器的IP地址 在配置IP地址的时候这个我并不是特别清楚，因为我没有经行实际进入服务器的操作，只是做了服务器（也就是后端/后台）前端/游戏台没有做对应的检查 </p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/26/2fffcb76f23f2cf8f090807366cf9709.png"> </p><p>这里感谢 <a href="https://blog.csdn.net/u013833464/article/details/105000243">晋殇小飞的CSDN</a> 博文支持~ </p><p>总体搭建完毕开启服务器后，我的CPU x2和DDR3 6G中CPU占用一半，我的6G基本占满，系统占用2G内存，也就是服务端用了4G左右，这属于低配置的吧</p><p>（因为我是DDR3，而且我的主机，母鸡总共16G不够我开（我主电脑占用8G只有6G给我开，剩下2G做备用，以防电脑死机） 初步能判断服务器用的配置大概就是</p><ul><li>系统：Windows 10 （Windows Server 2016以上</li><li>内存：不低于4G，推荐8G（不低于DDR3</li><li>硬盘：至少15G以上</li><li>前置： .NET FrameWork 4.6.2以上；DirectX 11</li><li>服务端：ARK Server Manager</li></ul><h2 id="后言"><a href="#后言" class="headerlink" title="后言"></a>后言</h2><p>总的来讲，算成功的吧，也不是特别难，都是百度和官方论坛说明走过来。 就是搭建时候感觉绕了点弯路。 QAQ</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最先吧，原本是有人来问我Minecraft服务器的问题，就是打算开服务器然后来问我问题的&lt;/p&gt;
-&lt;div class=&quot;hide-bloc</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
-    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
-    
-    <category term="ARK Server" scheme="https://www.xiaolfeng.cn/tags/ARK-Server/"/>
-    
-    <category term="方舟" scheme="https://www.xiaolfeng.cn/tags/%E6%96%B9%E8%88%9F/"/>
-    
-    <category term="生存进化" scheme="https://www.xiaolfeng.cn/tags/%E7%94%9F%E5%AD%98%E8%BF%9B%E5%8C%96/"/>
     
   </entry>
   

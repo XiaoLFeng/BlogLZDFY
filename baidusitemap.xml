@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.xiaolfeng.cn/nihongo-mae.html</loc>
+    <lastmod>2020-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.xiaolfeng.cn/nihongo-index.html</loc>
+    <lastmod>2020-09-12</lastmod>
+  </url>
+  <url>
     <loc>https://www.xiaolfeng.cn/1006.html</loc>
     <lastmod>2020-09-06</lastmod>
   </url>
@@ -169,19 +177,19 @@
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/58.html</loc>
-    <lastmod>2020-08-12</lastmod>
-  </url>
-  <url>
     <loc>https://www.xiaolfeng.cn/64.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/110.html</loc>
+    <loc>https://www.xiaolfeng.cn/129.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/129.html</loc>
+    <loc>https://www.xiaolfeng.cn/58.html</loc>
+    <lastmod>2020-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.xiaolfeng.cn/110.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
@@ -197,6 +205,10 @@
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
+    <loc>https://www.xiaolfeng.cn/192.html</loc>
+    <lastmod>2020-08-12</lastmod>
+  </url>
+  <url>
     <loc>https://www.xiaolfeng.cn/168.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
@@ -205,19 +217,15 @@
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/163.html</loc>
-    <lastmod>2020-08-12</lastmod>
-  </url>
-  <url>
     <loc>https://www.xiaolfeng.cn/29.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/199.html</loc>
+    <loc>https://www.xiaolfeng.cn/163.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/192.html</loc>
+    <loc>https://www.xiaolfeng.cn/199.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
 </urlset> 
