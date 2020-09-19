@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.cn/"/>
-  <updated>2020-09-13T04:02:40.053Z</updated>
+  <updated>2020-09-19T09:03:55.183Z</updated>
   <id>https://www.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自定义QQ发网址显示卡片内容</title>
+    <link href="https://www.xiaolfeng.cn/1009.html"/>
+    <id>https://www.xiaolfeng.cn/1009.html</id>
+    <published>2020-09-19T08:46:37.000Z</published>
+    <updated>2020-09-19T09:03:55.183Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>其实，事情的经过是这样的… …</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">点击展开（聊天截图）    </button><span class="hide-content"><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/19/655c44820c866593bffe4b5bdc3aaadb.png"></p></span></div><p>也就是说，这一群人在说卡片的东东一位以为卡片讲的是</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/19/599d66824c7802088e60c2c23c5a7a0c.png"></p><p>而这个需要</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/19/0d5feb742a04c6910f7900b92fab6a03.png"><br><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/19/770875b71ec87ce02c6bc86519e52bc5.png"></p><p>嘛但是呢，另一位仁兄再说使用META标签来做成的卡片，这应该是基于QQ的API一些东西（我也不是很清楚）<br>反正用这个META标签后就会生成一张卡片（嗯对就是这样）</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/19/4bf6a0c0c933b362d7c6bca8384ddcd4.png"></p><p>就是说我好比这个网站有 这个META 标签<br>然后QQ里面输入网址，例如：<a href="http://www.xiaolfeng.cn/">www.xiaolfeng.cn</a> 就会出现这样的卡片啦~</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>在HEAD标签添加如下</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- QQCard BEGIN --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;name&quot;</span> <span class="attr">content</span>=<span class="string">&quot;名字&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;图片URL&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">itemprop</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;描述&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- QQCard END --&gt;</span></span><br></pre></td></tr></table></figure><p>例如</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- QQCard BEGIN --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;name&quot;</span> <span class="attr">content</span>=<span class="string">&quot;凌中的锋雨&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/ico/logo_144.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">itemprop</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;不为如何，只为在茫茫人海中有自己的一片天空~&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- QQCard END --&gt;</span></span><br></pre></td></tr></table></figure><p>然后就好啦</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/19/4bf6a0c0c933b362d7c6bca8384ddcd4.png"></p><p>恭喜他们，让我又有一个素材水一篇文章。哎，没办法，总有一些奇奇怪怪杠精出现，不过无所谓啦，开心就好啦。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;其实，事情的经过是这样的… …&lt;/p&gt;
+&lt;div class=&quot;hide-block&quot;&gt;&lt;button type=&quot;button&quot; clas</summary>
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>日语学习手册</title>
@@ -144,7 +173,7 @@
     <published>2020-08-24T05:00:00.000Z</published>
     <updated>2020-08-24T10:12:49.642Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#108;&#102;&#x65;&#110;&#x67;&#x7a;&#101;&#x6e;&#103;&#64;&#118;&#105;&#112;&#x2e;&#x71;&#113;&#46;&#x63;&#111;&#109;">&#108;&#102;&#x65;&#110;&#x67;&#x7a;&#101;&#x6e;&#103;&#64;&#118;&#105;&#112;&#x2e;&#x71;&#113;&#46;&#x63;&#111;&#109;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
+    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#108;&#102;&#x65;&#x6e;&#103;&#122;&#101;&#x6e;&#103;&#x40;&#118;&#105;&#x70;&#46;&#113;&#x71;&#x2e;&#99;&#x6f;&#x6d;">&#108;&#102;&#x65;&#x6e;&#103;&#122;&#101;&#x6e;&#103;&#x40;&#118;&#105;&#x70;&#46;&#113;&#x71;&#x2e;&#99;&#x6f;&#x6d;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
     
     
       
@@ -335,7 +364,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-wwAQeqEc" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-lHggELkG" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
@@ -609,32 +638,6 @@
       
     <summary type="html">&lt;p&gt;好，你慢慢试。多试几次我大概就知道你是谁了 &lt;/p&gt;
 &lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/07/31/596a1604011320826f523d2533203</summary>
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    
-    <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
-    
-    <category term="盗号未遂" scheme="https://www.xiaolfeng.cn/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>？？？想干嘛</title>
-    <link href="https://www.xiaolfeng.cn/199.html"/>
-    <id>https://www.xiaolfeng.cn/199.html</id>
-    <published>2020-07-30T14:28:31.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>？？？真就想盗号？ 就算盗了有什么用呢，我基本每天备份一次。就算被盗了，有什么用博客主机是在我手上，数据在我这？？？ 似乎还是挂梯子来尝试的哈，马来西亚的IP 或者还是不知道会发邮件给我 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/30/c3d2068d7cb591b9605fcea7788ad6f8.png"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;？？？真就想盗号？ 就算盗了有什么用呢，我基本每天备份一次。就算被盗了，有什么用博客主机是在我手上，数据在我这？？？ 似乎还是挂梯子来尝试的哈，马来西亚的IP 或者还是不知道会发邮件给我 &lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=</summary>
       
     
     
