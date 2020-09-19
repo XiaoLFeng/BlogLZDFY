@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.xiaolfeng.cn/1008.html</loc>
-    
-    <lastmod>2020-09-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/ipay/index.html</loc>
     
     <lastmod>2020-09-13</lastmod>
@@ -747,34 +740,6 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E7%BB%83%E5%AD%97/</loc>
-    <lastmod>2020-09-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E7%BD%91%E6%98%93%E4%BA%91/</loc>
-    <lastmod>2020-09-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E8%85%BE%E8%AE%AF%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2020-09-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2020-09-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2020-09-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
