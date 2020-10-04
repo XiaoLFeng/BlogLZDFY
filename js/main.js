@@ -822,6 +822,6 @@ document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
 }
 
 function mAlert() {
-  alert("你默默点开控制台想干嘛QAQ");
+  alert("啊啊啊，不要啊");
 }
 $(document).bind("contextmenu", function () { return false; });//禁止右键
