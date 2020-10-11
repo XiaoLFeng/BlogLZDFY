@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.cn/"/>
-  <updated>2020-10-08T03:11:48.780Z</updated>
+  <updated>2020-10-11T02:02:31.666Z</updated>
   <id>https://www.xiaolfeng.cn/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CDN攻击中</title>
+    <link href="https://www.xiaolfeng.cn/attark.html"/>
+    <id>https://www.xiaolfeng.cn/attark.html</id>
+    <published>2020-10-11T02:00:36.000Z</published>
+    <updated>2020-10-11T02:02:31.666Z</updated>
+    
+    <content type="html"><![CDATA[<p>嗯，我那服务商的CDN全部被别人攻击打死了，所以呢（现在会很慢）<br>换成阿里云国外CDN临时使用</p><p>如果修复了我会删除这篇文章QAQ</p><p>基本带了CDN的网站都挂了，我只修改了博客</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;嗯，我那服务商的CDN全部被别人攻击打死了，所以呢（现在会很慢）&lt;br&gt;换成阿里云国外CDN临时使用&lt;/p&gt;
+&lt;p&gt;如果修复了我会删除这篇文章QAQ&lt;/p&gt;
+&lt;p&gt;基本带了CDN的网站都挂了，我只修改了博客&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>[Music] 奏で 「かなで」</title>
     <link href="https://www.xiaolfeng.cn/y-kanade.html"/>
     <id>https://www.xiaolfeng.cn/y-kanade.html</id>
     <published>2020-10-07T04:20:29.000Z</published>
     <updated>2020-10-08T03:11:48.780Z</updated>
     
-    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/10/07/7411afab083af1d0cdd3ec81a45b0b46.png"></p><hr><h2 id="奏で「かなで」For-You"><a href="#奏で「かなで」For-You" class="headerlink" title="奏で「かなで」For You"></a>奏で「かなで」For You</h2>    <div id="aplayer-bmCrtwct" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="96427959" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#3F51B5"    ></div><h2 id="Bio"><a href="#Bio" class="headerlink" title="Bio"></a>Bio</h2><p>但是，我…有关朋友的记忆，一周就会消失……</p><p>但，但对于你，我永远都是你的朋友。然后，总有一天能告诉你，我是你的朋友</p><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>网易云：<a href="https://music.163.com/#/album?id=96427959">https://music.163.com/#/album?id=96427959</a><br>（去nm的腾讯音乐人，纯音乐给我拒了）</p><p>BiliBili（Video）：<a href="https://www.bilibili.com/video/BV1bA41177f4/">https://www.bilibili.com/video/BV1bA41177f4/</a><br>Bilibili（Music）：<a href="https://www.bilibili.com/audio/au1875848">https://www.bilibili.com/audio/au1875848</a></p><p>YouTuBe：<a href="https://www.youtube.com/watch?v=vfCyKjn1GQo">https://www.youtube.com/watch?v=vfCyKjn1GQo</a></p>]]></content>
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/10/07/7411afab083af1d0cdd3ec81a45b0b46.png"></p><hr><h2 id="奏で「かなで」For-You"><a href="#奏で「かなで」For-You" class="headerlink" title="奏で「かなで」For You"></a>奏で「かなで」For You</h2>    <div id="aplayer-BfTumHHC" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="96427959" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#3F51B5"    ></div><h2 id="Bio"><a href="#Bio" class="headerlink" title="Bio"></a>Bio</h2><p>但是，我…有关朋友的记忆，一周就会消失……</p><p>但，但对于你，我永远都是你的朋友。然后，总有一天能告诉你，我是你的朋友</p><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>网易云：<a href="https://music.163.com/#/album?id=96427959">https://music.163.com/#/album?id=96427959</a><br>（去nm的腾讯音乐人，纯音乐给我拒了）</p><p>BiliBili（Video）：<a href="https://www.bilibili.com/video/BV1bA41177f4/">https://www.bilibili.com/video/BV1bA41177f4/</a><br>Bilibili（Music）：<a href="https://www.bilibili.com/audio/au1875848">https://www.bilibili.com/audio/au1875848</a></p><p>YouTuBe：<a href="https://www.youtube.com/watch?v=vfCyKjn1GQo">https://www.youtube.com/watch?v=vfCyKjn1GQo</a></p>]]></content>
     
     
       
@@ -38,13 +61,13 @@
     <category term="音乐" scheme="https://www.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
     
     
-    <category term="一週間フレンズ" scheme="https://www.xiaolfeng.cn/tags/%E4%B8%80%E9%80%B1%E9%96%93%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/"/>
-    
-    <category term="kanade" scheme="https://www.xiaolfeng.cn/tags/kanade/"/>
-    
     <category term="歌曲" scheme="https://www.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
     
     <category term="音乐" scheme="https://www.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="一週間フレンズ" scheme="https://www.xiaolfeng.cn/tags/%E4%B8%80%E9%80%B1%E9%96%93%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/"/>
+    
+    <category term="kanade" scheme="https://www.xiaolfeng.cn/tags/kanade/"/>
     
   </entry>
   
@@ -229,7 +252,7 @@
     <published>2020-08-24T05:00:00.000Z</published>
     <updated>2020-08-24T10:12:49.642Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#x6c;&#102;&#x65;&#110;&#103;&#122;&#x65;&#110;&#103;&#64;&#x76;&#x69;&#x70;&#x2e;&#x71;&#x71;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#102;&#x65;&#110;&#103;&#122;&#x65;&#110;&#103;&#64;&#x76;&#x69;&#x70;&#x2e;&#x71;&#x71;&#x2e;&#99;&#x6f;&#109;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
+    <content type="html"><![CDATA[<div class="note info">            <p>文档说明：本Docs说明文档仅对本API启用及有效。</p>          </div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#x6c;&#x66;&#101;&#x6e;&#103;&#x7a;&#101;&#x6e;&#x67;&#x40;&#118;&#105;&#x70;&#x2e;&#x71;&#x71;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#x66;&#101;&#x6e;&#103;&#x7a;&#101;&#x6e;&#x67;&#x40;&#118;&#105;&#x70;&#x2e;&#x71;&#x71;&#x2e;&#99;&#x6f;&#109;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
     
     
       
@@ -420,7 +443,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-IHuXteJs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-EBYIKwwY" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
@@ -603,49 +626,15 @@
     
     <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
-    <category term="Centos" scheme="https://www.xiaolfeng.cn/tags/Centos/"/>
-    
     <category term="Frp" scheme="https://www.xiaolfeng.cn/tags/Frp/"/>
+    
+    <category term="Centos" scheme="https://www.xiaolfeng.cn/tags/Centos/"/>
     
     <category term="Linux" scheme="https://www.xiaolfeng.cn/tags/Linux/"/>
     
     <category term="Windows" scheme="https://www.xiaolfeng.cn/tags/Windows/"/>
     
     <category term="搭建" scheme="https://www.xiaolfeng.cn/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Centos搭建Frp内网映射服务</title>
-    <link href="https://www.xiaolfeng.cn/215.html"/>
-    <id>https://www.xiaolfeng.cn/215.html</id>
-    <published>2020-08-06T03:56:10.000Z</published>
-    <updated>2020-08-15T02:44:01.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>哎，真的，现在网络挺好的了，但是！唯一就是对我来讲没有公网是最淦的事情，做什么事情有时候想对外开放没有公网。 嘛，我原来准备是想去电信营业厅开放公网（我家是电信200Mbps网），听大多数人讲电信是可以开放公网的，只不过是动态的好像是的 不过无所谓，我爸又懒得去搞，所以嘛有一个阿里云学生服务器我就凑合着那他来搭建内网穿透，映射到阿里云学生服务器的IP（虽然以前拿来开Minecraft基友服联机，服务器我转移到我家的服务器里面了，反正配置也多就用那个开吧，然后阿里云学生服务器就当作映射服务器用）</p><h3 id="正文搭建"><a href="#正文搭建" class="headerlink" title="正文搭建"></a>正文搭建</h3><blockquote><p>Frp吧首先是稳，这一点我很喜欢，然后我以前用的开放的SakuraFRP，虽然现在也在运作，不过感觉没有以前的好用了，而且IP经常出现占用满的情况，所以我就直接打算自己搭建一个。 总感觉不是自己的就特别不爽（这样我就能搞开放网盘了，而且还不会被限制流量，虽然阿里云轻量应用服务器限流1000G，不过我感觉我一个月都用不了那么多，这是何等的用量呀。） 我某上网工具一个月才用60G，自己网络统计<img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/fff761b583851411f6487ccce98780b4.png"> 简直少的一批</p></blockquote><p> </p><h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><blockquote><p>你需要一台拥有外网的服务器，我这里提供的是阿里云轻量学生服务器。</p></blockquote><p>然后，为了一些不必要的麻烦，如果没有什么重要的文件在里面，可以选择重装系统。 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/d67e2fe03fddb0ec1cc5693868726a60.png"> 不同服务商更换系统略有不同，总体大致一样 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/1022917c47b54bbd833b3d17b805ec64.png"> 然后设置一个域名，然他指向你的服务器 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/73306533a9efb5c87948456fda4aaa5d.png"> 记录类型根据服务器给的是IP还是域名决定</p><blockquote><p>其中，我搭建使用域名为二级域名ftp.xiaolfeng.xyz以及泛指三级域名*.frp.xiaolfeng.xyz。</p></blockquote><p> </p><h4 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a>开始搭建</h4><p>首先还是跟以前一样，更新……（这个我就不截图了吧）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y update</span><br></pre></td></tr></table></figure><p>如果是阿里云以及腾讯云服务器，那个更新速度应该会很快，毕竟服务器都挺好的。</p><blockquote><p>在你更新的过程中首先建议您去GitHub看看Frp的最新版本是多少，然后需要安装的嗷 地址：<a href="https://github.com/fatedier/frp/releases">https://github.com/fatedier/frp/releases</a> 本次搭建使用版本：0.33.0</p></blockquote><p>当你看到最新的版本以后可以在Shell页面使用下面代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#其中XX表示版本，替换对应数字即可~</span><br><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;fatedier&#x2F;frp&#x2F;releases&#x2F;download&#x2F;v0.XX.0&#x2F;frp_0.XX.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>如果你不是很清楚，可以直接跟我搭建相同版本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#此为0.33.0的版本</span><br><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;fatedier&#x2F;frp&#x2F;releases&#x2F;download&#x2F;v0.33.0&#x2F;frp_0.33.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>等待更新完毕后，复制安装即可 <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/08/06/a565b27ec3ed22df25a9e3a873f26fb8.png"> 其次，这个只是下载下来的tar.gz包而已，然后需要解压下来。（此处如果您下载与我版本号不同请替换成您所下载的版本号）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar zxf frp_0.33.0_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>然后进入文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd frp_0.33.0_linux_amd64&#x2F;</span><br></pre></td></tr></table></figure><p>然后开始修改配置（这里使用vi，如果你觉得vi难看清可以下载vim）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#vim下载</span><br><span class="line">yum -y install vim</span><br><span class="line"></span><br><span class="line">#修改配置文件</span><br><span class="line">vi frps.ini</span><br></pre></td></tr></table></figure><p>然后添加下列</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line"># tunnel port通信管道 </span><br><span class="line">bind_port &#x3D; 7000 </span><br><span class="line"></span><br><span class="line"># http和https </span><br><span class="line">vhost_http_port &#x3D; 80 </span><br><span class="line">vhost_https_port &#x3D; 443 </span><br><span class="line"></span><br><span class="line"># 连接认证token </span><br><span class="line">token &#x3D; 123456</span><br><span class="line"> </span><br><span class="line"># 子域名(替换自己的) </span><br><span class="line">subdomain_host &#x3D; frp.xiaolfeng.xyz </span><br><span class="line"></span><br><span class="line"># 自定义404 页面，要用绝对路径哦！ </span><br><span class="line">custom_404_page &#x3D; &#x2F;root&#x2F;frp_0.33.0_linux_amd64&#x2F;404.html </span><br><span class="line"></span><br><span class="line"># dashboard图形管理页面 </span><br><span class="line">dashboard_port &#x3D; 81 </span><br><span class="line"></span><br><span class="line">dashboard_user &#x3D; admin </span><br><span class="line">dashboard_pwd &#x3D; admin</span><br></pre></td></tr></table></figure><p>然后如果你的阿里云限制了端口请开放上面几个端口（如果您没有修改的话）：7000；80；443；81</p><blockquote><p>如果你还需要更多配置需求，请查阅官方GitHub文档：<a href="https://github.com/fatedier/frp/blob/master/README_zh.md">Frp官方中文文档</a> 全配置参数查询：<a href="https://www.xiaolfeng.xyz/frp">https://www.xiaolfeng.xyz/frp</a></p></blockquote><p>启动项目</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;frps -c frps.ini</span><br></pre></td></tr></table></figure><h5 id="配置自启动"><a href="#配置自启动" class="headerlink" title="配置自启动"></a><strong>配置自启动</strong></h5><p>创建后台启动模版</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi &#x2F;etc&#x2F;systemd&#x2F;system&#x2F;frp.service</span><br></pre></td></tr></table></figure><p>内容如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[Unit] </span><br><span class="line">Description&#x3D;frps </span><br><span class="line">After&#x3D;network.target </span><br><span class="line"></span><br><span class="line">[Service] </span><br><span class="line">ExecStart&#x3D;&#x2F;root&#x2F;frp_0.33.0_linux_amd64&#x2F;frps -c &#x2F;root&#x2F;frp_0.33.0_linux_amd64&#x2F;frps.ini </span><br><span class="line"></span><br><span class="line">[Install] </span><br><span class="line">WantedBy&#x3D;multi-user.target</span><br></pre></td></tr></table></figure><p>输入下面一系列然后启动它（记得先关闭原来的临时启动）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 启动测试 </span><br><span class="line">systemctl start frp.service </span><br><span class="line"></span><br><span class="line"># 查看启动状态 </span><br><span class="line">systemctl status frp.service </span><br><span class="line"></span><br><span class="line"># 开机自启 </span><br><span class="line">systemctl enable frp.service</span><br></pre></td></tr></table></figure><p>然后后端就搭建完毕啦~</p><h3 id="前端搭建（点击传送）"><a href="#前端搭建（点击传送）" class="headerlink" title="前端搭建（点击传送）"></a><a href="https://www.xiaolfeng.xyz/216.html">前端搭建（点击传送）</a></h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;哎，真的，现在网络挺好的了，但是！唯一就是对我来讲没有公网是最淦的事情，做什么事情有时候想对外开放没有公网。 嘛，我原来准备是想去电信营业厅</summary>
-      
-    
-    
-    
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
-    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
-    
-    <category term="Frp" scheme="https://www.xiaolfeng.cn/tags/Frp/"/>
-    
-    <category term="内网映射" scheme="https://www.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/"/>
     
   </entry>
   
