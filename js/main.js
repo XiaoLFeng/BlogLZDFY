@@ -822,6 +822,5 @@ document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
 }
 
 function mAlert() {
-  alert("啊啊啊，不要啊");
+  alert("默默地打开F12是想看我的什么秘密吗QAQ......");
 }
-$(document).bind("contextmenu", function () { return false; });//禁止右键
