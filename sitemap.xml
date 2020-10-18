@@ -380,13 +380,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/94.html</loc>
-    
-    <lastmod>2020-08-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/95.html</loc>
     
     <lastmod>2020-08-12</lastmod>
@@ -394,7 +387,7 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/63.html</loc>
+    <loc>https://www.xiaolfeng.cn/94.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -402,6 +395,13 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/41.html</loc>
+    
+    <lastmod>2020-08-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/63.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -781,27 +781,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E4%B9%A6%E6%B3%95/</loc>
-    <lastmod>2020-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E7%A1%AC%E7%AC%94/</loc>
-    <lastmod>2020-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E7%BB%83%E5%AD%97/</loc>
-    <lastmod>2020-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/PicGo/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
@@ -831,6 +810,27 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E4%B9%A6%E6%B3%95/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E7%A1%AC%E7%AC%94/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E7%BB%83%E5%AD%97/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
