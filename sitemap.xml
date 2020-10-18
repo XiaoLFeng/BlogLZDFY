@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xiaolfeng.cn/1011.html</loc>
+    
+    <lastmod>2020-10-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xiaolfeng.cn/myself.html</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -662,20 +669,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/Frp/</loc>
-    <lastmod>2020-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
-    <lastmod>2020-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/Google/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
@@ -684,6 +677,20 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/Frp/</loc>
+    <lastmod>2020-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
     <lastmod>2020-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
