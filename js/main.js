@@ -808,19 +808,3 @@ $(function () {
   refreshFn()
   unRefreshFn()
 })
-/**
-* 禁用F12
-*/
-document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
-  var e = event || window.event || arguments.callee.caller.arguments[0];
-
-  if (e && e.keyCode == 123) {
-      mAlert();
-      e.returnValue = false;
-      return (false);
-  }
-}
-
-function mAlert() {
-  alert("默默地打开F12是想看我的什么秘密吗QAQ......");
-}
