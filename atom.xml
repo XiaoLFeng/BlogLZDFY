@@ -6,7 +6,7 @@
   <link href="https://www.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://www.xiaolfeng.cn/"/>
-  <updated>2020-10-25T04:33:00.362Z</updated>
+  <updated>2020-10-18T05:25:26.445Z</updated>
   <id>https://www.xiaolfeng.cn/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>CDN的问题</title>
-    <link href="https://www.xiaolfeng.cn/CDNBUG.html"/>
-    <id>https://www.xiaolfeng.cn/CDNBUG.html</id>
-    <published>2020-10-25T04:17:25.000Z</published>
-    <updated>2020-10-25T04:33:00.362Z</updated>
-    
-    <content type="html"><![CDATA[<p>由于CDN的问题，导致我目前项目经常掉线<br>也包括博客使用的API，导致访问变慢<br>所以请多包涵。</p><p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/10/25/dfc2cbcff93884b592b76cb602b94417.png"></p><p>当此博文删除时，则CDN基本恢复（但是小服务商我也不太好把握）<br>博客我也换到Github+vercel挂载，速度提升了很多喵。</p><p>还有，日语学习那篇文章总体咕咕咕一会，有时间马上更新QAQ</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;由于CDN的问题，导致我目前项目经常掉线&lt;br&gt;也包括博客使用的API，导致访问变慢&lt;br&gt;所以请多包涵。&lt;/p&gt;
-&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/10/2</summary>
-      
-    
-    
-    
-    <category term="公告" scheme="https://www.xiaolfeng.cn/categories/%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="公告" scheme="https://www.xiaolfeng.cn/tags/%E5%85%AC%E5%91%8A/"/>
-    
-  </entry>
   
   <entry>
     <title>Algolia搜索引擎</title>
@@ -58,11 +33,11 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="教程" scheme="https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
@@ -107,7 +82,7 @@
     <published>2020-10-07T04:20:29.000Z</published>
     <updated>2020-10-16T10:13:43.308Z</updated>
     
-    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/10/07/7411afab083af1d0cdd3ec81a45b0b46.png"></p><hr><h2 id="奏で「かなで」For-You"><a href="#奏で「かなで」For-You" class="headerlink" title="奏で「かなで」For You"></a>奏で「かなで」For You</h2>    <div id="aplayer-XaPHtZBr" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="96427959" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#3F51B5"    ></div><h2 id="Bio"><a href="#Bio" class="headerlink" title="Bio"></a>Bio</h2><p>但是，我…有关朋友的记忆，一周就会消失……</p><p>但，但对于你，我永远都是你的朋友。然后，总有一天能告诉你，我是你的朋友</p><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>网易云：<a href="https://music.163.com/#/album?id=96427959">https://music.163.com/#/album?id=96427959</a><br>QQ音乐：<a href="https://y.qq.com/n/yqq/album/0020VPnl1RImmv.html#stat=y_new.song.header.albumname">https://y.qq.com/n/yqq/album/0020VPnl1RImmv.html#stat=y_new.song.header.albumname</a><br>酷狗：<a href="https://www.kugou.com/album/39532349.html">https://www.kugou.com/album/39532349.html</a><br>酷我：<a href="https://kuwo.cn/play_detail/152726603">https://kuwo.cn/play_detail/152726603</a></p><p>BiliBili（Video）：<a href="https://www.bilibili.com/video/BV1bA41177f4/">https://www.bilibili.com/video/BV1bA41177f4/</a><br>Bilibili（Music）：<a href="https://www.bilibili.com/audio/au1875848">https://www.bilibili.com/audio/au1875848</a></p><p>YouTuBe：<a href="https://www.youtube.com/watch?v=vfCyKjn1GQo">https://www.youtube.com/watch?v=vfCyKjn1GQo</a></p>]]></content>
+    <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/10/07/7411afab083af1d0cdd3ec81a45b0b46.png"></p><hr><h2 id="奏で「かなで」For-You"><a href="#奏で「かなで」For-You" class="headerlink" title="奏で「かなで」For You"></a>奏で「かなで」For You</h2>    <div id="aplayer-YroGlSfk" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="96427959" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#3F51B5"    ></div><h2 id="Bio"><a href="#Bio" class="headerlink" title="Bio"></a>Bio</h2><p>但是，我…有关朋友的记忆，一周就会消失……</p><p>但，但对于你，我永远都是你的朋友。然后，总有一天能告诉你，我是你的朋友</p><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>网易云：<a href="https://music.163.com/#/album?id=96427959">https://music.163.com/#/album?id=96427959</a><br>QQ音乐：<a href="https://y.qq.com/n/yqq/album/0020VPnl1RImmv.html#stat=y_new.song.header.albumname">https://y.qq.com/n/yqq/album/0020VPnl1RImmv.html#stat=y_new.song.header.albumname</a><br>酷狗：<a href="https://www.kugou.com/album/39532349.html">https://www.kugou.com/album/39532349.html</a><br>酷我：<a href="https://kuwo.cn/play_detail/152726603">https://kuwo.cn/play_detail/152726603</a></p><p>BiliBili（Video）：<a href="https://www.bilibili.com/video/BV1bA41177f4/">https://www.bilibili.com/video/BV1bA41177f4/</a><br>Bilibili（Music）：<a href="https://www.bilibili.com/audio/au1875848">https://www.bilibili.com/audio/au1875848</a></p><p>YouTuBe：<a href="https://www.youtube.com/watch?v=vfCyKjn1GQo">https://www.youtube.com/watch?v=vfCyKjn1GQo</a></p>]]></content>
     
     
       
@@ -176,9 +151,9 @@
     
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
@@ -289,9 +264,9 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
@@ -311,7 +286,7 @@
     <published>2020-08-24T05:00:00.000Z</published>
     <updated>2020-08-24T10:12:49.642Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><p>文档说明：本Docs说明文档仅对本API启用及有效。</p></div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#x6c;&#102;&#x65;&#x6e;&#103;&#x7a;&#101;&#110;&#103;&#64;&#118;&#105;&#x70;&#46;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#x6c;&#102;&#x65;&#x6e;&#103;&#x7a;&#101;&#110;&#103;&#64;&#118;&#105;&#x70;&#46;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><p>文档说明：本Docs说明文档仅对本API启用及有效。</p></div><h2 id="鸣谢名单"><a href="#鸣谢名单" class="headerlink" title="鸣谢名单"></a>鸣谢名单</h2><table><thead><tr><th>人员</th><th>博客</th><th>内容</th></tr></thead><tbody><tr><td>筱锋xiao_lfeng</td><td><a href="https://www.xiaolfeng.cn/">凌中的锋雨</a></td><td>主制作</td></tr><tr><td>蓝白</td><td><a href="https://qilunuo.com/">冰精の家</a></td><td>素材提供</td></tr><tr><td>橘猫</td><td><a href="https://blog.xinyeqi.top/">橘猫Blog</a></td><td>软件提供</td></tr><tr><td>fghrsh</td><td><a href="https://www.fghrsh.net/">fghrsh</a></td><td>后端API提供</td></tr><tr><td>stevenjoezhang</td><td><a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang</a></td><td>前端API提供</td></tr></tbody></table><h2 id="调用地址"><a href="#调用地址" class="headerlink" title="调用地址"></a>调用地址</h2><ul><li><a href="/live2d.html">后端API调用地址</a></li><li><a href="/live2d_widget.html">前端API调用地址</a></li></ul><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><em>本API项目构建地址：</em> <strong><a href="https://live2d.xiaolfeng.top/">live2d.xiaolfeng.top</a></strong></p><ol><li>本项服务 <strong>免费</strong> 对外开放，使用时必须遵守 <strong>所在地区及香港特别行政区</strong> 的法律法规。 </li><li>不欢迎 <em>版权站</em> / <em>广告站</em> / <em>采集站</em> 等类型站点调用此服务。 </li><li>若您的站点对 API <strong>调用量很大</strong>，建议您自建服务。 </li><li>若您的站点由于各种原因导致本站 <strong>API 服务负载大量增加</strong>，我们可能会<strong>停止对贵站提供服务</strong>。</li><li>若贵站引用 API 时返回错误，则说明已被加入黑名单，如需说明情况，请通过邮件<em><a href="mailto:&#x6c;&#x66;&#x65;&#x6e;&#x67;&#122;&#101;&#110;&#103;&#64;&#x76;&#105;&#x70;&#46;&#113;&#x71;&#x2e;&#x63;&#x6f;&#109;">&#x6c;&#x66;&#x65;&#x6e;&#x67;&#122;&#101;&#110;&#103;&#64;&#x76;&#105;&#x70;&#46;&#113;&#x71;&#x2e;&#x63;&#x6f;&#109;</a></em>联系。 </li><li>介于服务器性能问题，<strong>本服务有可能在未来某一天停止提供支持，请不要 <em>过于依赖</em> 本服务</strong>。 </li><li>本 API 含有统计内容，如果拒绝统计可自行删除，如觉得不适请<strong>停止使用</strong>。</li></ol><h2 id="后端构建说明"><a href="#后端构建说明" class="headerlink" title="后端构建说明"></a>后端构建说明</h2><h3 id="接口调用方法"><a href="#接口调用方法" class="headerlink" title="接口调用方法"></a>接口调用方法</h3><ol><li>Add（添加/更新缓存接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/add/</li><li>后无特殊值</li></ul></li><li>返回值：<ul><li>XXX / textures.cache / Create #创建</li><li>XXX / textures.cache / Update #更新</li><li>XXX / textures.cache / No Update #无更新</li></ul></li></ul></li><li>Get（获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/get/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li><strong>X参数</strong>(模型参数) 1 #琪露诺 / 2 #22娘 / 3 #33娘</li><li><strong>Y参数</strong>(皮肤参数) 1,2,3,4,5,6,7……</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型json参数</li></ul></li></ul></li><li>Rand（随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取22娘与琪露诺的随即参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch（顺序获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch/?id=<strong>X</strong></li><li>参数<ul><li>?id=<strong>X</strong></li><li>参数参考值<ul><li>?id=0 #获取琪露诺参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Rand_textures（根据上一皮肤随机获取接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/rand_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取22娘与琪露诺的随即参数,后面参数<strong>1</strong>为获取皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li><li>Switch_textures（根据上皮肤顺序切换接口）<ul><li>调用方式：<ul><li>http(s)://live2d.xiaolfeng.top/switch_textures/?id=<strong>X-Y</strong></li><li>参数<ul><li>?id=<strong>X-Y</strong></li><li>参数参考值<ul><li>?id=0-1 #获取琪露诺第一号皮肤参数</li><li>可用参数 0,1,2等</li></ul></li></ul></li></ul></li><li>返回值：<ul><li>对应模型数据</li></ul></li></ul></li></ol><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>可自行构建前端API调取</p><p>也可以用我的前端API调取参数</p><h2 id="前端构建说明"><a href="#前端构建说明" class="headerlink" title="前端构建说明"></a>前端构建说明</h2><h3 id="前端调取"><a href="#前端调取" class="headerlink" title="前端调取"></a>前端调取</h3><ul><li>jsdelivr  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;XiaoLFeng&#x2F;live2d-widget@latest&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li><li>本API服务  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;widget.xiaolfeng.top&#x2F;autoload.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改说明"><a href="#修改说明" class="headerlink" title="修改说明"></a>修改说明</h3><p>待编辑……</p>]]></content>
     
     
       
@@ -356,9 +331,9 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="Live2D" scheme="https://www.xiaolfeng.cn/tags/Live2D/"/>
@@ -422,9 +397,9 @@
     
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
@@ -500,7 +475,7 @@
     <published>2020-08-14T13:17:21.000Z</published>
     <updated>2020-08-16T11:00:48.410Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-MskCeHhn" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Dual-Existence-Full-Ver-全版本"><a href="#Dual-Existence-Full-Ver-全版本" class="headerlink" title="Dual Existence (Full Ver.) 全版本"></a>Dual Existence (Full Ver.) 全版本</h2><blockquote><p>我的翻版</p></blockquote>    <div id="aplayer-KqqKxFFq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1467672067" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><blockquote><p>全版本下载（原版）</p></blockquote><p>蓝奏云网盘：<a href="https://xiaolfeng.lanzous.com/icB89fmmefi">点击下载</a><br>私人网盘：<a href="http://s.frp.xiaolfeng.xyz/#s/6HQ7bMJQ">点击下载</a></p>]]></content>
     
     
       
@@ -537,11 +512,11 @@
     
     
     
-    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="Hexo" scheme="https://www.xiaolfeng.cn/tags/Hexo/"/>
@@ -614,6 +589,43 @@
     
     
     <category term="闲聊" scheme="https://www.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于PicGo搭建稳定的图床（支持GitHub）</title>
+    <link href="https://www.xiaolfeng.cn/224.html"/>
+    <id>https://www.xiaolfeng.cn/224.html</id>
+    <published>2020-08-07T15:39:32.000Z</published>
+    <updated>2020-08-12T13:39:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>好像最近更新挺频繁的，可能时间多了作业少了（个鬼、死ね） Emmm，为什么我用Github做图床呢？为什么，我也不知道反正我就是这样玩。而且我以前也说了用 <a href="https://www.github.com/">Github</a> 做图床，因为可以使用 <a href="https://www.jsdelivr.com/">jsdelivr</a> 作为CDN节点使用，老快了堪比开飞机。还是全球的图床（误）。</p></blockquote><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master//Img/20200807221006.png"> 嘛，其实不只是只能用GitHub的，其实很多都可以用。例如免费的<a href="https://sm.ms/">SM.MS图床</a>，<a href="https://cloud.tencent.com/solution/bigdata-storage">腾讯云COS</a>，<a href="https://weibo.com/">微博图床[不提供了]</a>，<a href="https://github.com/XiaoLFeng/ImageGo">GitHub图床</a>，<a href="https://www.qiniu.com/products/kodo#storage_type">七牛图床</a>，<a href="https://imgurl.org/">Imgurl图床</a>，<a href="https://www.aliyun.com/product/oss">阿里云OSS</a>，<a href="https://www.upyun.com/products/file-storage">又拍云图床</a>，以及<a href="https://github.com/PicGo/Awesome-PicGo">增加插件</a>会有很多的效果。当然，这里只展示Github搭建过程。</p><h3 id="你可能需要的"><a href="#你可能需要的" class="headerlink" title="你可能需要的"></a>你可能需要的</h3><div class="note info flat"><p>PicGo项目地址：<a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a><br>软件使用文档：<a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html">https://picgo.github.io/PicGo-Doc/zh/guide/config.html</a> </p></div><p>首先下载软件啦：下载地址见上“PicGo项目地址”，如果是Windows系统找到「.exe」下载即可。<br>或者这里哦 <a href="http://s.frp.xiaolfeng.xyz/#s/6F3lefCQ">http://s.frp.xiaolfeng.xyz/#s/6F3lefCQ</a><br>然后自己安装总会吧，安装吧。这里用 <strong>Windows 10</strong> 做演示 既然是GitHub图床，那么必须创建一个库（不会创的隔壁百度咯） </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/15.jpg"> </p><p>建议将 <em>Initialize this repository with a README</em> 点开，你也可以不点开，就是后期自己上传一个README.md如果嫌麻烦就直接点开吧~ </p><p>然后打开设置，我们需要设置一个Token（令牌） </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224156.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224550.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224614.png"> </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224712.png"> </p><p>然后我们给这个Token分配权限，这些勾代表对应有的权限，下面打勾就足以够了，如果全部打钩无妨，但是要保证安全性（我不建议这么做，小心你号没了） </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807224933.png"> </p><p>然后拉到最下面看到绿色的按钮点下去~  </p><p>额，注意一下，这个代码你最好保存一下，他只会显示一次，以后忘了只能重置，所以保存一下奥~ </p><p>然后打开你的软件开始设置吧。打开软件→图床设置→GitHub图床进入设置 </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/NJG8H$6NEZ$~">H)1A7X{(0K.png) </p><p>首先仓库名可以在这里找，如下图所示即为仓库名 </p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/20200807230640.png"> </p><h1 id="对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置-对于设定Token说明：你刚刚创建的Token那一串代码-对于设定自定义域名说明："><a href="#对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置-对于设定Token说明：你刚刚创建的Token那一串代码-对于设定自定义域名说明：" class="headerlink" title="对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置 对于设定Token说明：你刚刚创建的Token那一串代码 对于设定自定义域名说明："></a>对于设定分支名说明：这个嘛，一般就是master如果你没有做特殊设置 对于设定Token说明：你刚刚创建的Token那一串代码 对于设定自定义域名说明：</h1><ul><li>首先jsdelivr的CDN节点IP为 <a href="https://cdn.jsdelivr.net/">https://cdn.jsdelivr.net/</a></li><li>然后在后面添加 gh/</li><li>然后在后面添加你的仓库名 XXXXX/XXXXX</li><li>（注意上一个后面不带“/”）然后添加 @master/ 就是你最后的CDN节点，属于这个仓库名的CDN节点</li><li>也就是说连起来就是 <a href="https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master/">https://cdn.jsdelivr.net/gh/XXXXX/XXXXX@master/</a></li><li>例如我的 <a href="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/">https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/</a></li><li>然后填入自定义域名即可（注意不要把最后面的“/”带上，只是我们访问需要带上）</li><li>举个例子，我填入就是 <a href="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master">https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master</a></li></ul><p>然后点击保存，然后上传一个文件试试吧~ <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/ImageGo@master/Img/156.png"></p><h4 id="感谢-KanoKano-XM的小窝-的文章支持"><a href="#感谢-KanoKano-XM的小窝-的文章支持" class="headerlink" title="感谢 KanoKano (XM的小窝) 的文章支持"></a><strong>感谢 KanoKano (<a href="https://kanokano.cn/archives/408.html">XM的小窝</a>) 的文章支持</strong></h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;好像最近更新挺频繁的，可能时间多了作业少了（个鬼、死ね） Emmm，为什么我用Github做图床呢？为什么，我也不知道反正我就是这样玩。而且我以前也说了用 &lt;a href=&quot;https://www.github.com/&quot;&gt;Github&lt;/a&gt; 做</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="教程" scheme="https://www.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="技术" scheme="https://www.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://www.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="PicGo" scheme="https://www.xiaolfeng.cn/tags/PicGo/"/>
+    
+    <category term="图床" scheme="https://www.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   

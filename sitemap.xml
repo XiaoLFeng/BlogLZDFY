@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/CDNBUG.html</loc>
-    
-    <lastmod>2020-10-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/Artitalk/index.html</loc>
     
     <lastmod>2020-10-25</lastmod>
@@ -543,13 +536,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E5%85%AC%E5%91%8A/</loc>
-    <lastmod>2020-10-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/%E6%97%A5%E8%AF%AD/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
@@ -634,14 +620,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/late-in-autumn/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/late-in-autumn/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -972,13 +958,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E5%85%AC%E5%91%8A/</loc>
-    <lastmod>2020-10-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/categories/%E6%97%A5%E8%AF%AD/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
@@ -1007,7 +986,7 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1021,7 +1000,7 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
