@@ -443,14 +443,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/97.html</loc>
+    <loc>https://www.xiaolfeng.cn/11.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/11.html</loc>
+    <loc>https://www.xiaolfeng.cn/97.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -648,14 +648,21 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/Minecraft/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
+    <loc>https://www.xiaolfeng.cn/tags/Hexo/</loc>
+    <lastmod>2020-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/Minecraft/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -691,13 +698,6 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
-    <lastmod>2020-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/Hexo/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -986,7 +986,7 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1000,14 +1000,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/Minecraft/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.xiaolfeng.cn/categories/Minecraft/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
