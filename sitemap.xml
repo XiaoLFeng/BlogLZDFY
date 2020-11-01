@@ -690,21 +690,14 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/Frp/</loc>
-    <lastmod>2020-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
-    <lastmod>2020-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/Centos/</loc>
+    <lastmod>2020-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/Frp/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -726,6 +719,13 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2020-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -886,20 +886,6 @@
   </url>
   
   <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2020-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2020-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xiaolfeng.cn/tags/ARK-Server/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
@@ -915,6 +901,20 @@
   
   <url>
     <loc>https://www.xiaolfeng.cn/tags/%E7%94%9F%E5%AD%98%E8%BF%9B%E5%8C%96/</loc>
+    <lastmod>2020-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2020-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2020-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
