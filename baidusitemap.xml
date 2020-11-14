@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.xiaolfeng.cn/myname.html</loc>
+    <loc>https://www.xiaolfeng.cn/myself.html</loc>
     <lastmod>2020-11-14</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/myself.html</loc>
-    <lastmod>2020-10-31</lastmod>
+    <loc>https://www.xiaolfeng.cn/myname.html</loc>
+    <lastmod>2020-11-14</lastmod>
   </url>
   <url>
     <loc>https://www.xiaolfeng.cn/1011.html</loc>
@@ -185,10 +185,6 @@
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/95.html</loc>
-    <lastmod>2020-08-12</lastmod>
-  </url>
-  <url>
     <loc>https://www.xiaolfeng.cn/63.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
@@ -198,6 +194,10 @@
   </url>
   <url>
     <loc>https://www.xiaolfeng.cn/64.html</loc>
+    <lastmod>2020-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.xiaolfeng.cn/95.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
@@ -237,11 +237,11 @@
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/29.html</loc>
+    <loc>https://www.xiaolfeng.cn/163.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
-    <loc>https://www.xiaolfeng.cn/163.html</loc>
+    <loc>https://www.xiaolfeng.cn/29.html</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
   <url>
