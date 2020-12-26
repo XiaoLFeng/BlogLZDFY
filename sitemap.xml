@@ -408,14 +408,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/94.html</loc>
+    <loc>https://blog.xiaolfeng.cn/95.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/95.html</loc>
+    <loc>https://blog.xiaolfeng.cn/94.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -443,14 +443,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/58.html</loc>
+    <loc>https://blog.xiaolfeng.cn/129.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/129.html</loc>
+    <loc>https://blog.xiaolfeng.cn/58.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -513,14 +513,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/199.html</loc>
+    <loc>https://blog.xiaolfeng.cn/163.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/163.html</loc>
+    <loc>https://blog.xiaolfeng.cn/199.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -620,20 +620,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E4%B8%80%E9%80%B1%E9%96%93%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/</loc>
-    <lastmod>2020-12-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/kanade/</loc>
-    <lastmod>2020-12-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
@@ -642,6 +628,20 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/late-in-autumn/</loc>
+    <lastmod>2020-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E4%B8%80%E9%80%B1%E9%96%93%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/</loc>
+    <lastmod>2020-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/kanade/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
