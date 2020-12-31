@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.xiaolfeng.cn/myname.html</loc>
+    <lastmod>2020-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.xiaolfeng.cn/nihongo-mae.html</loc>
+    <lastmod>2020-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.xiaolfeng.cn/nihongo-index.html</loc>
+    <lastmod>2020-12-31</lastmod>
+  </url>
+  <url>
     <loc>https://blog.xiaolfeng.cn/1012.html</loc>
     <lastmod>2020-12-26</lastmod>
   </url>
@@ -25,10 +37,6 @@
     <lastmod>2020-11-14</lastmod>
   </url>
   <url>
-    <loc>https://blog.xiaolfeng.cn/myname.html</loc>
-    <lastmod>2020-11-14</lastmod>
-  </url>
-  <url>
     <loc>https://blog.xiaolfeng.cn/1011.html</loc>
     <lastmod>2020-10-18</lastmod>
   </url>
@@ -47,14 +55,6 @@
   <url>
     <loc>https://blog.xiaolfeng.cn/1010.html</loc>
     <lastmod>2020-10-05</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.xiaolfeng.cn/nihongo-index.html</loc>
-    <lastmod>2020-09-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.xiaolfeng.cn/nihongo-mae.html</loc>
-    <lastmod>2020-09-13</lastmod>
   </url>
   <url>
     <loc>https://blog.xiaolfeng.cn/1006.html</loc>

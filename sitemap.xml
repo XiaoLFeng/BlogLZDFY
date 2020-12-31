@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/Artitalk/index.html</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/myname.html</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/nihongo-mae.html</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/nihongo-index.html</loc>
+    
+    <lastmod>2020-12-31</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/1012.html</loc>
     
     <lastmod>2020-12-26</lastmod>
@@ -51,20 +79,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/myname.html</loc>
-    
-    <lastmod>2020-11-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/Artitalk/index.html</loc>
-    
-    <lastmod>2020-10-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/1011.html</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -110,20 +124,6 @@
     <loc>https://blog.xiaolfeng.cn/link/index.html</loc>
     
     <lastmod>2020-09-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/nihongo-index.html</loc>
-    
-    <lastmod>2020-09-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/nihongo-mae.html</loc>
-    
-    <lastmod>2020-09-13</lastmod>
     
   </url>
   
@@ -641,6 +641,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/tags/late-in-autumn/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%83%B3%E3%81%84%E5%87%BA%E3%81%AF%E9%81%A0%E3%81%8F%E3%81%AE%E6%97%A5%E3%80%85/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -649,13 +656,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/late-in-autumn/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -816,13 +816,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%90%8D%E5%AD%97/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -837,14 +830,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/PicGo/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%90%8D%E5%AD%97/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -866,6 +852,20 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E7%BB%83%E5%AD%97/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/PicGo/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
