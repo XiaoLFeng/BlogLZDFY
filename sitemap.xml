@@ -436,14 +436,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/129.html</loc>
+    <loc>https://blog.xiaolfeng.cn/64.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/64.html</loc>
+    <loc>https://blog.xiaolfeng.cn/129.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -655,6 +655,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/tags/late-in-autumn/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -683,13 +690,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/late-in-autumn/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -698,6 +698,34 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/Hexo/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/Minecraft/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/Google/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,20 +774,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/Minecraft/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%96%B0%E6%A0%87%E6%97%A5/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -802,6 +816,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%90%8D%E5%AD%97/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -810,6 +831,20 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E5%9F%9F%E5%90%8D/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/PicGo/</loc>
+    <lastmod>2020-12-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -837,20 +872,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/PicGo/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -865,14 +886,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -963,27 +984,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/Google/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%90%8D%E5%AD%97/</loc>
-    <lastmod>2020-12-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/Wordpress/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
@@ -1042,7 +1042,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
+    <loc>https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1056,7 +1056,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1070,14 +1070,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/PhotoShop/</loc>
+    <loc>https://blog.xiaolfeng.cn/categories/minecraft/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/minecraft/</loc>
+    <loc>https://blog.xiaolfeng.cn/categories/PhotoShop/</loc>
     <lastmod>2020-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
