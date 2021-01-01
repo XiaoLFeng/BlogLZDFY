@@ -182,11 +182,11 @@
     
     
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
@@ -301,9 +301,9 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
@@ -416,9 +416,9 @@
     
     
     
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
@@ -485,9 +485,9 @@
     
     
     
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
     <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
@@ -553,9 +553,9 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
@@ -623,6 +623,1256 @@
     <category term="とある科学の超電磁炮" scheme="https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/"/>
     
     <category term="late in autumn" scheme="https://blog.xiaolfeng.cn/tags/late-in-autumn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Music] dual-existence Fripside Full Version</title>
+    <link href="https://blog.xiaolfeng.cn/b-dual-existence.html"/>
+    <id>https://blog.xiaolfeng.cn/b-dual-existence.html</id>
+    <published>2020-08-14T13:17:21.000Z</published>
+    <updated>2020-08-16T11:00:48.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Dual-Existence-Full-Ver-全版本&quot;&gt;&lt;a href=&quot;#Dual-Existence-Full-Ver-全版本&quot; class=&quot;headerlink&quot; title=&quot;Dual Existence (Full Ver.)</summary>
+        
+      
+    
+    
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腾讯云开发CloudBase搭建Hexo博客</title>
+    <link href="https://blog.xiaolfeng.cn/1001.html"/>
+    <id>https://blog.xiaolfeng.cn/1001.html</id>
+    <published>2020-08-14T03:26:50.000Z</published>
+    <updated>2020-08-14T09:30:17.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;这是题外话&quot;&gt;&lt;a href=&quot;#这是题外话&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.xiaolfeng.cn/tags/Hexo/"/>
+    
+    <category term="腾讯云" scheme="https://blog.xiaolfeng.cn/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+    <category term="CloudBase云开发" scheme="https://blog.xiaolfeng.cn/tags/CloudBase%E4%BA%91%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="静态网站托管" scheme="https://blog.xiaolfeng.cn/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E6%89%98%E7%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客更新-迁移博客至Hexo的艰辛</title>
+    <link href="https://blog.xiaolfeng.cn/1000.html"/>
+    <id>https://blog.xiaolfeng.cn/1000.html</id>
+    <published>2020-08-12T15:15:02.000Z</published>
+    <updated>2020-08-28T14:35:21.552Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="https://blog.xiaolfeng.cn/tags/Hexo/"/>
+    
+    <category term="博客更新" scheme="https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    
+    <category term="Wordpress" scheme="https://blog.xiaolfeng.cn/tags/Wordpress/"/>
+    
+    <category term="闲得慌" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E5%BE%97%E6%85%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>凌中的锋雨 —— 书签／记录</title>
+    <link href="https://blog.xiaolfeng.cn/235.html"/>
+    <id>https://blog.xiaolfeng.cn/235.html</id>
+    <published>2020-08-11T11:01:38.000Z</published>
+    <updated>2020-08-12T13:31:58.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;今天我也好累呀，换了一个主题。这也是我不太愿意做的事情，就是换主题&lt;br&gt;我先说说我为什么要换吧&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;我的书签&quot;&gt;&lt;a href=&quot;#我的书签&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于PicGo搭建稳定的图床（支持GitHub）</title>
+    <link href="https://blog.xiaolfeng.cn/224.html"/>
+    <id>https://blog.xiaolfeng.cn/224.html</id>
+    <published>2020-08-07T15:39:32.000Z</published>
+    <updated>2020-08-12T13:39:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;好像最近更新挺频繁的，可能时间多了作业少了（个鬼、死ね） Emmm，为什么我用Github做图床呢？为什么，我也不知道反正我就是这样玩。而且我以前也说了用 &lt;a href=&quot;https://www.github.com/&quot;&gt;Github&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="PicGo" scheme="https://blog.xiaolfeng.cn/tags/PicGo/"/>
+    
+    <category term="图床" scheme="https://blog.xiaolfeng.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Frp内外映射——前端[客户端]搭建</title>
+    <link href="https://blog.xiaolfeng.cn/216.html"/>
+    <id>https://blog.xiaolfeng.cn/216.html</id>
+    <published>2020-08-06T14:29:36.000Z</published>
+    <updated>2020-08-15T02:44:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;如果你不知道此后端教程在哪里请查阅：&lt;a href=&quot;https://www.xiaolfeng.xyz/215.html&quot;&gt;Centos搭建Frp内网映射服务&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="Frp" scheme="https://blog.xiaolfeng.cn/tags/Frp/"/>
+    
+    <category term="Centos" scheme="https://blog.xiaolfeng.cn/tags/Centos/"/>
+    
+    <category term="Linux" scheme="https://blog.xiaolfeng.cn/tags/Linux/"/>
+    
+    <category term="Windows" scheme="https://blog.xiaolfeng.cn/tags/Windows/"/>
+    
+    <category term="搭建" scheme="https://blog.xiaolfeng.cn/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos搭建Frp内网映射服务</title>
+    <link href="https://blog.xiaolfeng.cn/215.html"/>
+    <id>https://blog.xiaolfeng.cn/215.html</id>
+    <published>2020-08-06T03:56:10.000Z</published>
+    <updated>2020-08-15T02:44:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;哎，真的，现在网络挺好的了，但是！唯一就是对我来讲没有公网是最淦的事情，做什么事情有时候想对外开放没有公网。</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="Frp" scheme="https://blog.xiaolfeng.cn/tags/Frp/"/>
+    
+    <category term="内网映射" scheme="https://blog.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《标准日本语》小野さんの反撃</title>
+    <link href="https://blog.xiaolfeng.cn/214.html"/>
+    <id>https://blog.xiaolfeng.cn/214.html</id>
+    <published>2020-08-04T14:10:03.000Z</published>
+    <updated>2020-08-15T06:27:16.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;《标准日本语》小野さんの反撃 &lt;strong&gt;译文=&amp;gt;&lt;/strong&gt; 《标准日本语》小野的反击 &lt;/p&gt;
+&lt;div class=&quot;note warning</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="日语" scheme="https://blog.xiaolfeng.cn/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+    <category term="新标日" scheme="https://blog.xiaolfeng.cn/tags/%E6%96%B0%E6%A0%87%E6%97%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>好，你慢慢试</title>
+    <link href="https://blog.xiaolfeng.cn/203.html"/>
+    <id>https://blog.xiaolfeng.cn/203.html</id>
+    <published>2020-07-31T06:12:52.000Z</published>
+    <updated>2020-08-15T06:41:18.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;好，你慢慢试。多试几次我大概就知道你是谁了 &lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="盗号未遂" scheme="https://blog.xiaolfeng.cn/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>？？？想干嘛</title>
+    <link href="https://blog.xiaolfeng.cn/199.html"/>
+    <id>https://blog.xiaolfeng.cn/199.html</id>
+    <published>2020-07-30T14:28:31.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;？？？真就想盗号？ 就算盗了有什么用呢，我基本每天备份一次。就算被盗了，有什么用博客主机是在我手上，数据在我这？？？ 似乎还是挂梯子来尝试的哈，马来西亚的IP 或者还是不知道会发邮件给我 &lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="盗号未遂" scheme="https://blog.xiaolfeng.cn/tags/%E7%9B%97%E5%8F%B7%E6%9C%AA%E9%81%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>啊啊~说好练瘦金练成自改版楷体</title>
+    <link href="https://blog.xiaolfeng.cn/198.html"/>
+    <id>https://blog.xiaolfeng.cn/198.html</id>
+    <published>2020-07-27T07:48:06.000Z</published>
+    <updated>2020-08-15T06:27:17.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;啊这不就是凑合了点瘦金的笔画进去，然后再用楷体书法写 哈哈哈屮 主要是控笔的力气不行QAQ（写字喜欢偏大力） 完了越看越不像了（成就：成功水一篇博文） 好像整体歪了，算了，不管了 &lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="书法" scheme="https://blog.xiaolfeng.cn/tags/%E4%B9%A6%E6%B3%95/"/>
+    
+    <category term="硬笔" scheme="https://blog.xiaolfeng.cn/tags/%E7%A1%AC%E7%AC%94/"/>
+    
+    <category term="练字" scheme="https://blog.xiaolfeng.cn/tags/%E7%BB%83%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次 方舟：生存进化™ ARK Server Manager 搭建记录</title>
+    <link href="https://blog.xiaolfeng.cn/197.html"/>
+    <id>https://blog.xiaolfeng.cn/197.html</id>
+    <published>2020-07-26T08:14:13.000Z</published>
+    <updated>2020-08-15T06:40:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最先吧，原本是有人来问我Minecraft服务器的问题，就是打算开服务器然后来问我问题的&lt;/p&gt;
+&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="ARK Server" scheme="https://blog.xiaolfeng.cn/tags/ARK-Server/"/>
+    
+    <category term="方舟" scheme="https://blog.xiaolfeng.cn/tags/%E6%96%B9%E8%88%9F/"/>
+    
+    <category term="生存进化" scheme="https://blog.xiaolfeng.cn/tags/%E7%94%9F%E5%AD%98%E8%BF%9B%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>看看我大阳光</title>
+    <link href="https://blog.xiaolfeng.cn/192.html"/>
+    <id>https://blog.xiaolfeng.cn/192.html</id>
+    <published>2020-07-24T02:05:40.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我也是服了，我家又停电了，你敢信 为什么说又呢。（因为今年已经停了三次了）</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次博客更新2020-07-23</title>
+    <link href="https://blog.xiaolfeng.cn/190.html"/>
+    <id>https://blog.xiaolfeng.cn/190.html</id>
+    <published>2020-07-23T15:41:28.000Z</published>
+    <updated>2020-08-15T06:40:59.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;[title]博客更新[/title]&lt;/strong&gt; &lt;strong&gt;这次嘛&lt;/strong&gt;，博客也就更新了一点东西，我当初本来只想做更新下页脚的一些标签。于是更新如下</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="博客" scheme="https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="更新" scheme="https://blog.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今天开始我要练字了</title>
+    <link href="https://blog.xiaolfeng.cn/189.html"/>
+    <id>https://blog.xiaolfeng.cn/189.html</id>
+    <published>2020-07-23T11:35:06.000Z</published>
+    <updated>2020-08-15T06:41:37.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天开始我要练字了</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用Centos来开一个Minecraft服务器</title>
+    <link href="https://blog.xiaolfeng.cn/182.html"/>
+    <id>https://blog.xiaolfeng.cn/182.html</id>
+    <published>2020-07-21T02:31:58.000Z</published>
+    <updated>2020-08-12T13:03:04.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
+    
+    
+    <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="Centos" scheme="https://blog.xiaolfeng.cn/tags/Centos/"/>
+    
+    <category term="Linux" scheme="https://blog.xiaolfeng.cn/tags/Linux/"/>
+    
+    <category term="我的世界" scheme="https://blog.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>猫咖的快乐</title>
+    <link href="https://blog.xiaolfeng.cn/176.html"/>
+    <id>https://blog.xiaolfeng.cn/176.html</id>
+    <published>2020-07-19T04:03:31.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="猫咖" scheme="https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Music] ほうらい「蓬莱伝說」</title>
+    <link href="https://blog.xiaolfeng.cn/horainingyo.html"/>
+    <id>https://blog.xiaolfeng.cn/horainingyo.html</id>
+    <published>2020-07-18T02:15:21.000Z</published>
+    <updated>2020-10-07T05:38:30.892Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="蓬莱伝說" scheme="https://blog.xiaolfeng.cn/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>私は夏休みになった</title>
+    <link href="https://blog.xiaolfeng.cn/168.html"/>
+    <id>https://blog.xiaolfeng.cn/168.html</id>
+    <published>2020-07-17T12:12:49.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="暑假" scheme="https://blog.xiaolfeng.cn/tags/%E6%9A%91%E5%81%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高考加油</title>
+    <link href="https://blog.xiaolfeng.cn/163.html"/>
+    <id>https://blog.xiaolfeng.cn/163.html</id>
+    <published>2020-07-05T11:19:39.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;高考加油&lt;/p&gt;
+&lt;p&gt;頑張ってくださいね～&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今天什么运气</title>
+    <link href="https://blog.xiaolfeng.cn/129.html"/>
+    <id>https://blog.xiaolfeng.cn/129.html</id>
+    <published>2020-05-29T12:46:53.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天我快吐了，不知道什么垃圾运气。</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>萌国ICP备案「杂记」</title>
+    <link href="https://blog.xiaolfeng.cn/128.html"/>
+    <id>https://blog.xiaolfeng.cn/128.html</id>
+    <published>2020-05-23T08:00:58.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="萌国ICP备案" scheme="https://blog.xiaolfeng.cn/tags/%E8%90%8C%E5%9B%BDICP%E5%A4%87%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>准备开学了2020-05-11</title>
+    <link href="https://blog.xiaolfeng.cn/110.html"/>
+    <id>https://blog.xiaolfeng.cn/110.html</id>
+    <published>2020-05-11T04:02:53.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;准备开学了！&quot;&gt;&lt;a href=&quot;#准备开学了！&quot; class=&quot;headerlink&quot; title=&quot;准备开学了！&quot;&gt;&lt;/a&gt;准备开学了！&lt;/h2&gt;&lt;p&gt;今天我准备开学了，因为深圳这地方说了开学具体时间了哈哈哈屮。</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>接(ao)头(jiao)霸王 - PS</title>
+    <link href="https://blog.xiaolfeng.cn/100.html"/>
+    <id>https://blog.xiaolfeng.cn/100.html</id>
+    <published>2020-05-07T12:19:16.000Z</published>
+    <updated>2020-08-15T06:40:46.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;图片原图： &lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@0.1.4/MakeImg/Kyate.png&quot;&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PhotoShop" scheme="https://blog.xiaolfeng.cn/categories/PhotoShop/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="公主焊接" scheme="https://blog.xiaolfeng.cn/tags/%E5%85%AC%E4%B8%BB%E7%84%8A%E6%8E%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我觉得我PS会上瘾，一时P图一时爽一直P图一直爽</title>
+    <link href="https://blog.xiaolfeng.cn/97.html"/>
+    <id>https://blog.xiaolfeng.cn/97.html</id>
+    <published>2020-05-06T13:39:26.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://www.xiaolfeng.xyz/image/araara.png&quot;&gt; [music autoplay=”0”]22645196[/music]</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[MCBBS] 对于UniBan普及的正反说法</title>
+    <link href="https://blog.xiaolfeng.cn/95.html"/>
+    <id>https://blog.xiaolfeng.cn/95.html</id>
+    <published>2020-04-28T04:10:24.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://www.mcbbs.net/template/mcbbs/image/logo_sc.png&quot;&gt; [infobox title=”前言说明”]</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IP签名档源码，自己做一个属于自己的签名档吧</title>
+    <link href="https://blog.xiaolfeng.cn/94.html"/>
+    <id>https://blog.xiaolfeng.cn/94.html</id>
+    <published>2020-04-26T02:21:29.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://api.xiaolfeng.xyz/ip/index.php&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;4年ぶりの里帰り [music</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>合服？关于合服的利弊说明</title>
+    <link href="https://blog.xiaolfeng.cn/92.html"/>
+    <id>https://blog.xiaolfeng.cn/92.html</id>
+    <published>2020-04-25T14:14:20.000Z</published>
+    <updated>2020-08-15T06:32:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;事情事要说明&quot;&gt;&lt;a href=&quot;#事情事要说明&quot; class=&quot;headerlink&quot; title=&quot;事情事要说明&quot;&gt;&lt;/a&gt;事情事要说明&lt;/h2&gt;&lt;p&gt;其实没有什么首先问题，就是他直接私聊我说的话，如图上就是说明。</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Music] Only My Railgun 「电子 | 二次元」</title>
+    <link href="https://blog.xiaolfeng.cn/only-my-railgun.html"/>
+    <id>https://blog.xiaolfeng.cn/only-my-railgun.html</id>
+    <published>2020-04-21T14:32:12.000Z</published>
+    <updated>2020-08-14T13:17:56.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/21/JJHzcV.png&quot;&gt; [infobox title=”前言”] 我就是实在没有什么心思来译其他歌曲=w=</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="とある科学の超電磁炮" scheme="https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于UptimeRobot的云端状态监控系统</title>
+    <link href="https://blog.xiaolfeng.cn/80.html"/>
+    <id>https://blog.xiaolfeng.cn/80.html</id>
+    <published>2020-04-12T13:06:42.000Z</published>
+    <updated>2020-09-04T14:33:49.627Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/12/GOdRxg.png&quot;&gt; &lt;/p&gt;
+&lt;h2 id=&quot;⚠前言&quot;&gt;&lt;a href=&quot;#⚠前言&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="软件" scheme="https://blog.xiaolfeng.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>云端笔记本</title>
+    <link href="https://blog.xiaolfeng.cn/64.html"/>
+    <id>https://blog.xiaolfeng.cn/64.html</id>
+    <published>2020-04-11T15:30:17.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/12/GLH2ZR.jpg&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[music</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="网站" scheme="https://blog.xiaolfeng.cn/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Music] 音乐下载站</title>
+    <link href="https://blog.xiaolfeng.cn/63.html"/>
+    <id>https://blog.xiaolfeng.cn/63.html</id>
+    <published>2020-04-11T13:15:07.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/11/Gbqe7q.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[dangerbox title=”⚠前言”]</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>做一个桌面版的看板娘真的不尽人意</title>
+    <link href="https://blog.xiaolfeng.cn/58.html"/>
+    <id>https://blog.xiaolfeng.cn/58.html</id>
+    <published>2020-04-10T04:59:24.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://fp1.fghrsh.net/2020/04/10/3b1843898253b047e076a5252c80bf75.png&quot;&gt; [music autoplay=”0”]515647784[/music] &lt;strong&gt;[title]前言[/title]&lt;/strong&gt; 一切的一切只能从一只蝙蝠开始说起。 很不幸的事情，我们广东在2020-05-11就准备错峰开学了（而初三或者高三就在2020-04-27号开学） 不过这些不是重点，反正开学就开学了，劳资巴不得开学！呆在家里累的一批，出去玩还要带口罩麻烦……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Minecraft Plugin] NoDamage の 一个很多功能的大厅系统</title>
+    <link href="https://blog.xiaolfeng.cn/45.html"/>
+    <id>https://blog.xiaolfeng.cn/45.html</id>
+    <published>2020-04-08T02:09:33.000Z</published>
+    <updated>2020-09-04T14:30:19.335Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
+    
+    <category term="minecraft" scheme="https://blog.xiaolfeng.cn/categories/minecraft/"/>
+    
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/categories/minecraft/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
+    
+    <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Minecraft Plugin] CraftDisplay の 模仿故事模式合成动画~</title>
+    <link href="https://blog.xiaolfeng.cn/53.html"/>
+    <id>https://blog.xiaolfeng.cn/53.html</id>
+    <published>2020-04-07T07:52:17.000Z</published>
+    <updated>2020-12-20T03:53:27.358Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/07/GgPt7F.jpg&quot;&gt;&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
+    
+    <category term="minecraft" scheme="https://blog.xiaolfeng.cn/categories/minecraft/"/>
+    
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/categories/minecraft/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
+    
+    <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Minecraft Plugin] HubHats の 一个大厅帽子系统~</title>
+    <link href="https://blog.xiaolfeng.cn/48.html"/>
+    <id>https://blog.xiaolfeng.cn/48.html</id>
+    <published>2020-04-07T02:09:33.000Z</published>
+    <updated>2020-12-20T03:37:13.509Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/06/G69I5n.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;·-HubHats-の-一个帽子的大厅系统（皮）-·&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
+    
+    <category term="minecraft" scheme="https://blog.xiaolfeng.cn/categories/minecraft/"/>
+    
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/categories/minecraft/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
+    
+    <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写一个关于看板娘的API</title>
+    <link href="https://blog.xiaolfeng.cn/61.html"/>
+    <id>https://blog.xiaolfeng.cn/61.html</id>
+    <published>2020-04-01T02:09:33.000Z</published>
+    <updated>2020-08-14T15:13:38.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/10/GoXFtU.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;[infobox title=”继续”]&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一次用我的数位板不是用来上课（而是拿来P图，补图）</title>
+    <link href="https://blog.xiaolfeng.cn/42.html"/>
+    <id>https://blog.xiaolfeng.cn/42.html</id>
+    <published>2020-03-30T07:52:44.000Z</published>
+    <updated>2020-08-15T06:28:42.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;我太难了&quot;&gt;&lt;a href=&quot;#我太难了&quot; class=&quot;headerlink&quot; title=&quot;我太难了&quot;&gt;&lt;/a&gt;我太难了&lt;/h2&gt;&lt;p&gt;上面那张图，当时是我同学想找我两张图片拼在一起 &lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一款简约而又可爱的主页</title>
+    <link href="https://blog.xiaolfeng.cn/41.html"/>
+    <id>https://blog.xiaolfeng.cn/41.html</id>
+    <published>2020-03-27T09:00:45.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/03/27/5a2b82dcb1d0e32d28033cc6ec28add7.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Music</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="软件" scheme="https://blog.xiaolfeng.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Music] Late In Autumn 「Piano」翻弹曲目</title>
+    <link href="https://blog.xiaolfeng.cn/16.html"/>
+    <id>https://blog.xiaolfeng.cn/16.html</id>
+    <published>2020-03-26T23:00:15.000Z</published>
+    <updated>2020-08-14T13:18:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/03/21/b310ce00ee393aec0969de53ab73cd48.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="とある科学の超電磁炮" scheme="https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件下载站</title>
+    <link href="https://blog.xiaolfeng.cn/29.html"/>
+    <id>https://blog.xiaolfeng.cn/29.html</id>
+    <published>2020-03-22T03:56:55.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="软件" scheme="https://blog.xiaolfeng.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>又双叒叕的博客</title>
+    <link href="https://blog.xiaolfeng.cn/11.html"/>
+    <id>https://blog.xiaolfeng.cn/11.html</id>
+    <published>2020-03-21T09:11:10.000Z</published>
+    <updated>2020-08-12T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/03/20/b0eea4884885aaa7ae3fb56691c1bc97.md.png&quot;&gt;&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
