@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2020-12-31T14:34:03.157Z</updated>
+  <updated>2021-02-05T10:16:03.757Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最近干的一些事</title>
+    <link href="https://blog.xiaolfeng.cn/2021-002.html"/>
+    <id>https://blog.xiaolfeng.cn/2021-002.html</id>
+    <published>2021-02-05T04:00:00.000Z</published>
+    <updated>2021-02-05T10:16:03.757Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;这是一篇水文&lt;/strong&gt; 是一个满满当当的水文&lt;/p&gt;
+&lt;h2 id=&quot;随便说说&quot;&gt;&lt;a href=&quot;#随便说说&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="Docs" scheme="https://blog.xiaolfeng.cn/tags/Docs/"/>
+    
+    <category term="寒假" scheme="https://blog.xiaolfeng.cn/tags/%E5%AF%92%E5%81%87/"/>
+    
+  </entry>
   
   <entry>
     <title>2021年元旦快乐</title>
@@ -72,9 +102,9 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="年度总结" scheme="https://blog.xiaolfeng.cn/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
-    
     <category term="关于" scheme="https://blog.xiaolfeng.cn/tags/%E5%85%B3%E4%BA%8E/"/>
+    
+    <category term="年度总结" scheme="https://blog.xiaolfeng.cn/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -182,11 +212,11 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
@@ -301,39 +331,12 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日语学习手册</title>
-    <link href="https://blog.xiaolfeng.cn/nihongo-index.html"/>
-    <id>https://blog.xiaolfeng.cn/nihongo-index.html</id>
-    <published>2020-09-11T16:00:00.000Z</published>
-    <updated>2020-12-31T13:26:22.397Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;序章&quot;&gt;&lt;a href=&quot;#序章&quot; class=&quot;headerlink&quot; title=&quot;序章&quot;&gt;&lt;/a&gt;序章&lt;/h2&gt;&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="日语" scheme="https://blog.xiaolfeng.cn/categories/%E6%97%A5%E8%AF%AD/"/>
-    
-    
-    <category term="日语" scheme="https://blog.xiaolfeng.cn/tags/%E6%97%A5%E8%AF%AD/"/>
-    
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -353,6 +356,33 @@
 &lt;/div&gt;
 
 &lt;h2 id=&quot;写在前面&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="日语" scheme="https://blog.xiaolfeng.cn/categories/%E6%97%A5%E8%AF%AD/"/>
+    
+    
+    <category term="日语" scheme="https://blog.xiaolfeng.cn/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日语学习手册</title>
+    <link href="https://blog.xiaolfeng.cn/nihongo-index.html"/>
+    <id>https://blog.xiaolfeng.cn/nihongo-index.html</id>
+    <published>2020-09-11T16:00:00.000Z</published>
+    <updated>2020-12-31T13:26:22.397Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;序章&quot;&gt;&lt;a href=&quot;#序章&quot; class=&quot;headerlink&quot; title=&quot;序章&quot;&gt;&lt;/a&gt;序章&lt;/h2&gt;&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -416,9 +446,9 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
@@ -485,9 +515,9 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
@@ -553,9 +583,9 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
@@ -671,11 +701,11 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="Hexo" scheme="https://blog.xiaolfeng.cn/tags/Hexo/"/>
@@ -770,11 +800,11 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
@@ -807,20 +837,20 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
-    <category term="Centos" scheme="https://blog.xiaolfeng.cn/tags/Centos/"/>
-    
     <category term="Frp" scheme="https://blog.xiaolfeng.cn/tags/Frp/"/>
+    
+    <category term="Centos" scheme="https://blog.xiaolfeng.cn/tags/Centos/"/>
     
     <category term="Linux" scheme="https://blog.xiaolfeng.cn/tags/Linux/"/>
     
@@ -848,11 +878,11 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
@@ -1003,9 +1033,9 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
@@ -1117,20 +1147,20 @@
     
     
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
     
     
+    <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
     <category term="Centos" scheme="https://blog.xiaolfeng.cn/tags/Centos/"/>
     
     <category term="Linux" scheme="https://blog.xiaolfeng.cn/tags/Linux/"/>
-    
-    <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     <category term="我的世界" scheme="https://blog.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
     
@@ -1338,9 +1368,9 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="PhotoShop" scheme="https://blog.xiaolfeng.cn/categories/PhotoShop/"/>
     
@@ -1546,9 +1576,9 @@
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
-    
     <category term="技术" scheme="https://blog.xiaolfeng.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
     <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
