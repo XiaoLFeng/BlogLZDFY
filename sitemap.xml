@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/privacy/index.html</loc>
+    <loc>https://blog.xiaolfeng.cn/2021-003.html</loc>
     
-    <lastmod>2021-02-10</lastmod>
+    <lastmod>2021-02-11</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/myMusic/index.html</loc>
+    <loc>https://blog.xiaolfeng.cn/music/my.html</loc>
     
-    <lastmod>2021-02-10</lastmod>
+    <lastmod>2021-02-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/privacy/index.html</loc>
+    
+    <lastmod>2021-02-11</lastmod>
     
   </url>
   
@@ -114,13 +121,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/y-omoidasu.html</loc>
-    
-    <lastmod>2020-12-04</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/1011.html</loc>
     
     <lastmod>2020-10-18</lastmod>
@@ -128,23 +128,9 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/y-kanade.html</loc>
-    
-    <lastmod>2020-10-16</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/1009.html</loc>
     
     <lastmod>2020-10-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/horainingyo.html</loc>
-    
-    <lastmod>2020-10-07</lastmod>
     
   </url>
   
@@ -261,20 +247,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/b-dual-existence.html</loc>
-    
-    <lastmod>2020-08-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/y-late-in-autumn.html</loc>
-    
-    <lastmod>2020-08-16</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/189.html</loc>
     
     <lastmod>2020-08-15</lastmod>
@@ -359,13 +331,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/music/my.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/61.html</loc>
     
     <lastmod>2020-08-14</lastmod>
@@ -374,20 +339,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/music/index.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/16.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/only-my-railgun.html</loc>
     
     <lastmod>2020-08-14</lastmod>
     
@@ -499,14 +450,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/176.html</loc>
+    <loc>https://blog.xiaolfeng.cn/192.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/192.html</loc>
+    <loc>https://blog.xiaolfeng.cn/176.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -621,62 +572,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E4%B8%80%E9%80%B1%E9%96%93%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/kanade/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/late-in-autumn/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%83%B3%E3%81%84%E5%87%BA%E3%81%AF%E9%81%A0%E3%81%8F%E3%81%AE%E6%97%A5%E3%80%85/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -914,7 +809,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%96%B0%E5%B9%B4/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -922,6 +817,13 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2021-02-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1050,13 +952,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/categories/Docs-Live2D-%E5%AE%9E%E7%94%A8/</loc>
-    <lastmod>2021-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

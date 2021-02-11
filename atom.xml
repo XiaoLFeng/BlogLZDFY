@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2021-02-05T10:16:03.757Z</updated>
+  <updated>2021-02-11T06:25:56.581Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新年快乐喵~</title>
+    <link href="https://blog.xiaolfeng.cn/2021-003.html"/>
+    <id>https://blog.xiaolfeng.cn/2021-003.html</id>
+    <published>2021-02-10T16:00:00.000Z</published>
+    <updated>2021-02-11T06:25:56.581Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;废话&quot;&gt;&lt;a href=&quot;#废话&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="年度总结" scheme="https://blog.xiaolfeng.cn/categories/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="寒假" scheme="https://blog.xiaolfeng.cn/tags/%E5%AF%92%E5%81%87/"/>
+    
+    <category term="新年" scheme="https://blog.xiaolfeng.cn/tags/%E6%96%B0%E5%B9%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>最近干的一些事</title>
@@ -134,35 +165,6 @@
   </entry>
   
   <entry>
-    <title>[Music] 想い出は遠くの日々「青い」</title>
-    <link href="https://blog.xiaolfeng.cn/y-omoidasu.html"/>
-    <id>https://blog.xiaolfeng.cn/y-omoidasu.html</id>
-    <published>2020-12-04T12:57:00.000Z</published>
-    <updated>2020-12-04T12:58:55.433Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="想い出は遠くの日々" scheme="https://blog.xiaolfeng.cn/tags/%E6%83%B3%E3%81%84%E5%87%BA%E3%81%AF%E9%81%A0%E3%81%8F%E3%81%AE%E6%97%A5%E3%80%85/"/>
-    
-  </entry>
-  
-  <entry>
     <title>关于 “筱锋” 一名字由来</title>
     <link href="https://blog.xiaolfeng.cn/myname.html"/>
     <id>https://blog.xiaolfeng.cn/myname.html</id>
@@ -249,39 +251,6 @@
     <category term="自我介绍" scheme="https://blog.xiaolfeng.cn/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
     
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Music] 奏で 「かなで」</title>
-    <link href="https://blog.xiaolfeng.cn/y-kanade.html"/>
-    <id>https://blog.xiaolfeng.cn/y-kanade.html</id>
-    <published>2020-10-07T04:20:29.000Z</published>
-    <updated>2020-10-16T10:13:43.308Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/10/07/7411afab083af1d0cdd3ec81a45b0b46.png&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="一週間フレンズ" scheme="https://blog.xiaolfeng.cn/tags/%E4%B8%80%E9%80%B1%E9%96%93%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/"/>
-    
-    <category term="kanade" scheme="https://blog.xiaolfeng.cn/tags/kanade/"/>
     
   </entry>
   
@@ -622,64 +591,6 @@
     <category term="博客更新" scheme="https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
     
     <category term="域名" scheme="https://blog.xiaolfeng.cn/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Music] Late In Autumn 「Piano」重制版-母本</title>
-    <link href="https://blog.xiaolfeng.cn/y-late-in-autumn.html"/>
-    <id>https://blog.xiaolfeng.cn/y-late-in-autumn.html</id>
-    <published>2020-08-16T04:20:29.000Z</published>
-    <updated>2020-08-16T04:53:50.115Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;先上音乐&quot;&gt;&lt;a href=&quot;#先上音乐&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="とある科学の超電磁炮" scheme="https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/"/>
-    
-    <category term="late in autumn" scheme="https://blog.xiaolfeng.cn/tags/late-in-autumn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Music] dual-existence Fripside Full Version</title>
-    <link href="https://blog.xiaolfeng.cn/b-dual-existence.html"/>
-    <id>https://blog.xiaolfeng.cn/b-dual-existence.html</id>
-    <published>2020-08-14T13:17:21.000Z</published>
-    <updated>2020-08-16T11:00:48.410Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Dual-Existence-Full-Ver-全版本&quot;&gt;&lt;a href=&quot;#Dual-Existence-Full-Ver-全版本&quot; class=&quot;headerlink&quot; title=&quot;Dual Existence (Full Ver.)</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
@@ -1192,35 +1103,6 @@
   </entry>
   
   <entry>
-    <title>[Music] ほうらい「蓬莱伝說」</title>
-    <link href="https://blog.xiaolfeng.cn/horainingyo.html"/>
-    <id>https://blog.xiaolfeng.cn/horainingyo.html</id>
-    <published>2020-07-18T02:15:21.000Z</published>
-    <updated>2020-10-07T05:38:30.892Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="蓬莱伝說" scheme="https://blog.xiaolfeng.cn/tags/%E8%93%AC%E8%8E%B1%E4%BC%9D%E8%AA%AA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>私は夏休みになった</title>
     <link href="https://blog.xiaolfeng.cn/168.html"/>
     <id>https://blog.xiaolfeng.cn/168.html</id>
@@ -1488,37 +1370,6 @@
     <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
     <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Music] Only My Railgun 「电子 | 二次元」</title>
-    <link href="https://blog.xiaolfeng.cn/only-my-railgun.html"/>
-    <id>https://blog.xiaolfeng.cn/only-my-railgun.html</id>
-    <published>2020-04-21T14:32:12.000Z</published>
-    <updated>2020-08-14T13:17:56.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://s1.ax1x.com/2020/04/21/JJHzcV.png&quot;&gt; [infobox title=”前言”] 我就是实在没有什么心思来译其他歌曲=w=</summary>
-        
-      
-    
-    
-    
-    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="とある科学の超電磁炮" scheme="https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/"/>
     
   </entry>
   
@@ -1819,37 +1670,6 @@
     <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
     <category term="软件" scheme="https://blog.xiaolfeng.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Music] Late In Autumn 「Piano」翻弹曲目</title>
-    <link href="https://blog.xiaolfeng.cn/16.html"/>
-    <id>https://blog.xiaolfeng.cn/16.html</id>
-    <published>2020-03-26T23:00:15.000Z</published>
-    <updated>2020-08-14T13:18:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2020/03/21/b310ce00ee393aec0969de53ab73cd48.png&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="歌曲" scheme="https://blog.xiaolfeng.cn/tags/%E6%AD%8C%E6%9B%B2/"/>
-    
-    <category term="音乐" scheme="https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="とある科学の超電磁炮" scheme="https://blog.xiaolfeng.cn/tags/%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%82%AE/"/>
     
   </entry>
   
