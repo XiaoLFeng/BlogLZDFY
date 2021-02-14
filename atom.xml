@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2021-02-11T06:25:56.581Z</updated>
+  <updated>2021-02-14T13:11:06.304Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[公告]2021-02-14</title>
+    <link href="https://blog.xiaolfeng.cn/Notice-001.html"/>
+    <id>https://blog.xiaolfeng.cn/Notice-001.html</id>
+    <published>2021-02-14T13:08:14.000Z</published>
+    <updated>2021-02-14T13:11:06.304Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Emmm，由于我自己的问题（我想换成国际版的LeanCloud）&lt;br&gt;然后换是换了,但是我发现数据的json文件导入不进去&lt;/p&gt;
+&lt;p&gt;我裂开，所以我看看什么时候能把评论弄回来QAQ&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="公告" scheme="https://blog.xiaolfeng.cn/categories/%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="公告" scheme="https://blog.xiaolfeng.cn/tags/%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>新年快乐喵~</title>
