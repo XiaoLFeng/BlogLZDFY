@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/link/index.html</loc>
+    
+    <lastmod>2021-02-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/Notice-001.html</loc>
     
     <lastmod>2021-02-14</lastmod>
@@ -38,13 +45,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/myself.html</loc>
-    
-    <lastmod>2021-02-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/link/index.html</loc>
     
     <lastmod>2021-02-10</lastmod>
     
@@ -457,13 +457,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/176.html</loc>
-    
-    <lastmod>2020-08-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/192.html</loc>
     
     <lastmod>2020-08-12</lastmod>
@@ -485,6 +478,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/176.html</loc>
+    
+    <lastmod>2020-08-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/29.html</loc>
     
     <lastmod>2020-08-12</lastmod>
@@ -492,14 +492,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/199.html</loc>
+    <loc>https://blog.xiaolfeng.cn/163.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/163.html</loc>
+    <loc>https://blog.xiaolfeng.cn/199.html</loc>
     
     <lastmod>2020-08-12</lastmod>
     
@@ -830,20 +830,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
-    <lastmod>2021-02-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
-    <lastmod>2021-02-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%9A%91%E5%81%87/</loc>
     <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
@@ -900,6 +886,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
+    <lastmod>2021-02-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
@@ -922,6 +915,13 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E8%AE%BA%E5%9D%9B/</loc>
+    <lastmod>2021-02-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
