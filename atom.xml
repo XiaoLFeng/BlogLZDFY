@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2021-02-16T06:47:36.735Z</updated>
+  <updated>2021-02-16T15:11:24.827Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo哔哩哔哩追番</title>
+    <link href="https://blog.xiaolfeng.cn/2021-005.html"/>
+    <id>https://blog.xiaolfeng.cn/2021-005.html</id>
+    <published>2021-02-16T14:44:13.000Z</published>
+    <updated>2021-02-16T15:11:24.827Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;追番&quot;&gt;&lt;a href=&quot;#追番&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
+    
+    
+    <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="BiliBili" scheme="https://blog.xiaolfeng.cn/tags/BiliBili/"/>
+    
+    <category term="追番" scheme="https://blog.xiaolfeng.cn/tags/%E8%BF%BD%E7%95%AA/"/>
+    
+  </entry>
   
   <entry>
     <title>[公告]2021-02-14</title>
@@ -299,7 +332,7 @@
     <link href="https://blog.xiaolfeng.cn/myself.html"/>
     <id>https://blog.xiaolfeng.cn/myself.html</id>
     <published>2020-10-18T01:50:40.000Z</published>
-    <updated>2021-02-10T11:51:16.846Z</updated>
+    <updated>2021-02-16T14:50:28.119Z</updated>
     
     
     <summary type="html">凌中的锋雨 ———— 不为如何，只为在茫茫人海中有自己的一片天空~</summary>
@@ -824,9 +857,9 @@
     
     <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
-    <category term="Frp" scheme="https://blog.xiaolfeng.cn/tags/Frp/"/>
-    
     <category term="Centos" scheme="https://blog.xiaolfeng.cn/tags/Centos/"/>
+    
+    <category term="Frp" scheme="https://blog.xiaolfeng.cn/tags/Frp/"/>
     
     <category term="Linux" scheme="https://blog.xiaolfeng.cn/tags/Linux/"/>
     
@@ -934,14 +967,15 @@
     <link href="https://blog.xiaolfeng.cn/199.html"/>
     <id>https://blog.xiaolfeng.cn/199.html</id>
     <published>2020-07-30T14:28:31.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
+    <updated>2021-02-16T14:49:14.360Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;？？？真就想盗号？ 就算盗了有什么用呢，我基本每天备份一次。就算被盗了，有什么用博客主机是在我手上，数据在我这？？？ 似乎还是挂梯子来尝试的哈，马来西亚的IP 或者还是不知道会发邮件给我 &lt;img src= &quot;/img/loading.gif&quot;</summary>
+    <summary type="html">&lt;p&gt;？？？真就想盗号？ 就算盗了有什么用呢，我基本每天备份一次。就算被盗了，有什么用博客主机是在我手上，数据在我这？？？ 似乎还是挂梯子来尝试的哈，马来西亚的IP 或者还是不知道会发邮件给我 &lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</summary>
         
       
     
@@ -1147,7 +1181,7 @@
     <link href="https://blog.xiaolfeng.cn/176.html"/>
     <id>https://blog.xiaolfeng.cn/176.html</id>
     <published>2020-07-19T04:03:31.000Z</published>
-    <updated>2020-08-12T08:51:52.000Z</updated>
+    <updated>2021-02-16T14:48:45.912Z</updated>
     
     
       
