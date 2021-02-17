@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/link/index.html</loc>
+    
+    <lastmod>2021-02-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/Notice/QQ/qun-qq.html</loc>
     
     <lastmod>2021-02-17</lastmod>
@@ -80,13 +87,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/101.html</loc>
-    
-    <lastmod>2021-02-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/link/index.html</loc>
     
     <lastmod>2021-02-14</lastmod>
     
@@ -634,20 +634,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/Hexo/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/BiliBili/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
@@ -662,28 +648,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/Minecraft/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/Google/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/Hexo/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -698,6 +670,20 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/Google/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -726,6 +712,20 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/Minecraft/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -928,6 +928,34 @@
   </url>
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/Flarum/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E8%AE%BA%E5%9D%9B/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
@@ -957,34 +985,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/FL-Studio/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/Flarum/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E8%AE%BA%E5%9D%9B/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1049,7 +1049,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1063,7 +1063,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/</loc>
+    <loc>https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1077,13 +1077,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/minecraft/</loc>
-    <lastmod>2021-02-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/categories/PhotoShop/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
@@ -1091,7 +1084,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>https://blog.xiaolfeng.cn/categories/minecraft/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1099,6 +1092,13 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/categories/minecraft/%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2021-02-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/categories/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
