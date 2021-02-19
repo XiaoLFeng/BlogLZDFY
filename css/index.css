@@ -4597,6 +4597,12 @@ _:future,
 #vcomment textarea:focus {
   background-image: none;
 }
+#waline-wrap textarea {
+  background: url("/img/comment.png") 100% 100% no-repeat;
+}
+#waline-wrap textarea:focus {
+  background-image: none;
+}
 .fireworks {
   position: fixed;
   top: 0;
