@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
   function initWaline () {
     let initData = {
       el: '#waline-wrap',
-      serverURL: 'https://waline.xiaolfeng.cn/',
+      serverURL: 'https://env-7g828sst2721c011-1252747225.ap-shanghai.app.tcloudbase.com/waline',
       avatar: 'monsterid',
       path: location.pathname,
       emojiCDN: 'https://cdn.jsdelivr.net/gh/XiaoLFeng/emoji@master/emoji/',
@@ -312,7 +312,7 @@ if ('Waline' === 'Waline' || !false) {
     const loadWaline = () => {
       Waline.Widget.RecentComments({
         el: '#card-newest-comments .aside-list',
-        serverURL: 'https://waline.xiaolfeng.cn/',
+        serverURL: 'https://env-7g828sst2721c011-1252747225.ap-shanghai.app.tcloudbase.com/waline',
         count: 6
       }).then(comments => {
         const walineArray = comments.map(function (e) {
