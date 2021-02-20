@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2021-02-20T11:21:35.523Z</updated>
+  <updated>2021-02-20T14:20:33.861Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.xiaolfeng.cn/Notice-002.html"/>
     <id>https://blog.xiaolfeng.cn/Notice-002.html</id>
     <published>2021-02-20T08:00:00.000Z</published>
-    <updated>2021-02-20T11:21:35.523Z</updated>
+    <updated>2021-02-20T14:20:33.861Z</updated>
     
     
       
@@ -332,7 +332,7 @@
     <link href="https://blog.xiaolfeng.cn/myself.html"/>
     <id>https://blog.xiaolfeng.cn/myself.html</id>
     <published>2020-10-18T01:50:40.000Z</published>
-    <updated>2021-02-20T05:50:05.209Z</updated>
+    <updated>2021-02-20T13:31:19.079Z</updated>
     
     
     <summary type="html">凌中的锋雨 ———— 不为如何，只为在茫茫人海中有自己的一片天空~</summary>
@@ -752,9 +752,9 @@
     
     <category term="教程" scheme="https://blog.xiaolfeng.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Hexo" scheme="https://blog.xiaolfeng.cn/tags/Hexo/"/>
-    
     <category term="博客更新" scheme="https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    
+    <category term="Hexo" scheme="https://blog.xiaolfeng.cn/tags/Hexo/"/>
     
     <category term="Wordpress" scheme="https://blog.xiaolfeng.cn/tags/Wordpress/"/>
     
