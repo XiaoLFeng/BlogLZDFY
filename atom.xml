@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2021-02-27T13:28:56.868Z</updated>
+  <updated>2021-02-28T02:57:43.071Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>记一次家庭服务器硬盘问题修复</title>
+    <link href="https://blog.xiaolfeng.cn/2021-007.html"/>
+    <id>https://blog.xiaolfeng.cn/2021-007.html</id>
+    <published>2021-02-27T14:07:42.000Z</published>
+    <updated>2021-02-28T02:57:43.071Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot; data-lazy-src=&quot;https://fp1.fghrsh.net/2021/02/27/0b9111de6e95586cd20bda5096ae5b51.png!webp&quot;&gt;&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>内网转发搭建一个网盘</title>
     <link href="https://blog.xiaolfeng.cn/2021-006.html"/>
     <id>https://blog.xiaolfeng.cn/2021-006.html</id>
     <published>2021-02-26T12:55:40.000Z</published>
-    <updated>2021-02-27T13:28:56.868Z</updated>
+    <updated>2021-02-27T14:21:13.030Z</updated>
     
     
       
@@ -380,11 +402,11 @@
     <category term="关于" scheme="https://blog.xiaolfeng.cn/categories/%E5%85%B3%E4%BA%8E/"/>
     
     
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
     <category term="介绍" scheme="https://blog.xiaolfeng.cn/tags/%E4%BB%8B%E7%BB%8D/"/>
     
     <category term="自我介绍" scheme="https://blog.xiaolfeng.cn/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
-    
-    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
