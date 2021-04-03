@@ -585,20 +585,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2021-04-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2021-04-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/</loc>
     <lastmod>2021-04-03</lastmod>
     <changefreq>daily</changefreq>
@@ -607,6 +593,20 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/301%E8%B7%B3%E8%BD%AC/</loc>
+    <lastmod>2021-04-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2021-04-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%9F%9F%E5%90%8D/</loc>
     <lastmod>2021-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -725,6 +725,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
+    <lastmod>2021-04-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaolfeng.cn/tags/Centos/</loc>
     <lastmod>2021-04-03</lastmod>
     <changefreq>daily</changefreq>
@@ -747,13 +754,6 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-04-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E7%8C%AB%E5%92%96/</loc>
     <lastmod>2021-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -809,14 +809,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/Windows/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
     <lastmod>2021-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/Windows/</loc>
     <lastmod>2021-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
