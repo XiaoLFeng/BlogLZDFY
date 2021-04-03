@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2021-02-27T14:21:13.030Z</updated>
+  <updated>2021-04-02T13:38:59.315Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021-007</title>
+    <link href="https://blog.xiaolfeng.cn/2021-007.html"/>
+    <id>https://blog.xiaolfeng.cn/2021-007.html</id>
+    <published>2021-04-02T13:34:52.000Z</published>
+    <updated>2021-04-02T13:38:59.315Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>内网转发搭建一个网盘</title>
@@ -49,33 +62,6 @@
     <category term="网盘" scheme="https://blog.xiaolfeng.cn/tags/%E7%BD%91%E7%9B%98/"/>
     
     <category term="dzzOffice" scheme="https://blog.xiaolfeng.cn/tags/dzzOffice/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[公告]2021-02-20</title>
-    <link href="https://blog.xiaolfeng.cn/Notice-002.html"/>
-    <id>https://blog.xiaolfeng.cn/Notice-002.html</id>
-    <published>2021-02-20T08:00:00.000Z</published>
-    <updated>2021-02-20T14:20:33.861Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;评论&quot;&gt;&lt;a href=&quot;#评论&quot; class=&quot;headerlink&quot; title=&quot;评论&quot;&gt;&lt;/a&gt;评论&lt;/h2&gt;&lt;p&gt;在上一个公告中&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Emmm，由于我自己的问题（我想换成国际版的</summary>
-        
-      
-    
-    
-    
-    <category term="公告" scheme="https://blog.xiaolfeng.cn/categories/%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="公告" scheme="https://blog.xiaolfeng.cn/tags/%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
@@ -380,11 +366,11 @@
     <category term="关于" scheme="https://blog.xiaolfeng.cn/categories/%E5%85%B3%E4%BA%8E/"/>
     
     
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
     <category term="介绍" scheme="https://blog.xiaolfeng.cn/tags/%E4%BB%8B%E7%BB%8D/"/>
     
     <category term="自我介绍" scheme="https://blog.xiaolfeng.cn/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
-    
-    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
