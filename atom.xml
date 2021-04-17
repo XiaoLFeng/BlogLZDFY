@@ -561,15 +561,15 @@
     <category term="Docs - Live2D - 实用" scheme="https://blog.xiaolfeng.cn/categories/Docs-Live2D-%E5%AE%9E%E7%94%A8/"/>
     
     
-    <category term="Docs" scheme="https://blog.xiaolfeng.cn/tags/Docs/"/>
-    
-    <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
     
+    <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
+    
     <category term="API" scheme="https://blog.xiaolfeng.cn/tags/API/"/>
     
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="Docs" scheme="https://blog.xiaolfeng.cn/tags/Docs/"/>
     
   </entry>
   
@@ -596,15 +596,15 @@
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
-    <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
-    
-    <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
-    
-    <category term="API" scheme="https://blog.xiaolfeng.cn/tags/API/"/>
-    
     <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+    <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+    <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
+    
+    <category term="API" scheme="https://blog.xiaolfeng.cn/tags/API/"/>
     
   </entry>
   
