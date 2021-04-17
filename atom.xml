@@ -6,7 +6,7 @@
   <link href="https://blog.xiaolfeng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaolfeng.cn/"/>
-  <updated>2021-02-27T14:21:13.030Z</updated>
+  <updated>2021-04-17T14:43:46.193Z</updated>
   <id>https://blog.xiaolfeng.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最近干的一些毛线事情</title>
+    <link href="https://blog.xiaolfeng.cn/2021-007.html"/>
+    <id>https://blog.xiaolfeng.cn/2021-007.html</id>
+    <published>2021-04-17T09:33:25.000Z</published>
+    <updated>2021-04-17T14:43:46.193Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;新项目&quot;&gt;&lt;a href=&quot;#新项目&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="友链" scheme="https://blog.xiaolfeng.cn/tags/%E5%8F%8B%E9%93%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>内网转发搭建一个网盘</title>
@@ -561,15 +588,15 @@
     <category term="Docs - Live2D - 实用" scheme="https://blog.xiaolfeng.cn/categories/Docs-Live2D-%E5%AE%9E%E7%94%A8/"/>
     
     
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    <category term="Docs" scheme="https://blog.xiaolfeng.cn/tags/Docs/"/>
     
     <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
     
+    <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
     <category term="API" scheme="https://blog.xiaolfeng.cn/tags/API/"/>
     
-    <category term="Docs" scheme="https://blog.xiaolfeng.cn/tags/Docs/"/>
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -596,15 +623,15 @@
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
     
     <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
     
-    <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
-    
     <category term="API" scheme="https://blog.xiaolfeng.cn/tags/API/"/>
+    
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
   </entry>
   
