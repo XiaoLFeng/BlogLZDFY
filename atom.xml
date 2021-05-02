@@ -380,11 +380,11 @@
     <category term="关于" scheme="https://blog.xiaolfeng.cn/categories/%E5%85%B3%E4%BA%8E/"/>
     
     
+    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
+    
     <category term="介绍" scheme="https://blog.xiaolfeng.cn/tags/%E4%BB%8B%E7%BB%8D/"/>
     
     <category term="自我介绍" scheme="https://blog.xiaolfeng.cn/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
-    
-    <category term="闲聊" scheme="https://blog.xiaolfeng.cn/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
@@ -588,6 +588,8 @@
     <category term="Docs - Live2D - 实用" scheme="https://blog.xiaolfeng.cn/categories/Docs-Live2D-%E5%AE%9E%E7%94%A8/"/>
     
     
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
     <category term="Docs" scheme="https://blog.xiaolfeng.cn/tags/Docs/"/>
     
     <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
@@ -595,8 +597,6 @@
     <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
     
     <category term="API" scheme="https://blog.xiaolfeng.cn/tags/API/"/>
-    
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -623,15 +623,15 @@
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
     
+    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
     <category term="Live2D" scheme="https://blog.xiaolfeng.cn/tags/Live2D/"/>
     
     <category term="看板娘" scheme="https://blog.xiaolfeng.cn/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
     
     <category term="API" scheme="https://blog.xiaolfeng.cn/tags/API/"/>
-    
-    <category term="技术" scheme="https://blog.xiaolfeng.cn/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="实用" scheme="https://blog.xiaolfeng.cn/tags/%E5%AE%9E%E7%94%A8/"/>
     
   </entry>
   
@@ -1066,9 +1066,9 @@
     
     <category term="实用" scheme="https://blog.xiaolfeng.cn/categories/%E5%AE%9E%E7%94%A8/"/>
     
-    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
-    
     <category term="教程" scheme="https://blog.xiaolfeng.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/categories/Minecraft/"/>
     
     
     <category term="Centos" scheme="https://blog.xiaolfeng.cn/tags/Centos/"/>
@@ -1475,11 +1475,11 @@
     <category term="插件" scheme="https://blog.xiaolfeng.cn/categories/minecraft/%E6%8F%92%E4%BB%B6/"/>
     
     
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
+    
     <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
     
     <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
@@ -1509,11 +1509,11 @@
     <category term="插件" scheme="https://blog.xiaolfeng.cn/categories/minecraft/%E6%8F%92%E4%BB%B6/"/>
     
     
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
+    
     <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
     
     <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
@@ -1544,11 +1544,11 @@
     <category term="插件" scheme="https://blog.xiaolfeng.cn/categories/minecraft/%E6%8F%92%E4%BB%B6/"/>
     
     
+    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
+    
     <category term="Minecraft" scheme="https://blog.xiaolfeng.cn/tags/Minecraft/"/>
     
     <category term="服务器" scheme="https://blog.xiaolfeng.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-    <category term="插件" scheme="https://blog.xiaolfeng.cn/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
