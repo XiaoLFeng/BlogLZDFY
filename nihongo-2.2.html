@@ -129,11 +129,26 @@
       }
       const t = saveToLocal.get('theme')
     
-          const now = new Date()
-          const hour = now.getHours()
-          const isNight = hour <= 6 || hour >= 18
-          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
-          else if (t === 'light') activateLightMode()
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
@@ -154,11 +169,11 @@
 </div>
 
 <hr>
-<h2 id="元音"><a href="#元音" class="headerlink" title="元音"></a>元音</h2><h3 id="单元音"><a href="#单元音" class="headerlink" title="单元音"></a>单元音</h3><p>  a（あ）：汉语的 “a” 开口大，日语的 “あ” 上下开口比日语小，发音时舌头的位置靠后。<br>  <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/12/247efad36a30de693c535cce8f3baab8.png"></p>
-<p>  i（い）：口型上下程度与汉语基本相同，但是左右开得比较小。发音时候注意口型整体不要太紧张嗷~<br>  <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/12/30d8b03e78195d95b79244aeb048aa98.png"></p>
-<p>  u（う）：发音与汉语的 “u” 有很大不同。汉语的 “u” 嘴唇呈圆形向前突出,而发日语 “う” 时,嘴几乎是平的,不向前突出。请咬合住上下齿,稍张并嘴唇发 “u” 这就是最接近日语 “う” 的音。<br>  <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/13/bd3bcf49171aba060842cf64b599ffa8.png"></p>
-<p>  e（え）：与汉语 “ei” 的前半部分或 “ie” 的后半部分相似。日语的 “え” 比汉语 “ie” 的 “e” 开口大。比如汉语的 “铅笔 qiānbǐ”，日语说 “えんぴつ” ，发这个 “え” 时注意不要发成 “いえ” 。另外,还要注意它与汉语的 “e” (如:饿)的发音并不一样。还有不少人把日语的 “先生(せんせい)” 中的 “先(せん)” 发成 “僧sēng” ，这是不对的。请将口稍张大些,清楚地发出“せ”。<br>  <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/13/ab87abe1a607891b181485dd36b35d94.png"></p>
-<p>  o（お）：嘴上下张开，嘴唇略呈圆形。舌头位置比汉语 “o” 稍靠后些，口型略紧张。<br>  <img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/09/13/20c560b7df1441c614937bc673872f20.png"></p>
+<h2 id="元音"><a href="#元音" class="headerlink" title="元音"></a>元音</h2><h3 id="单元音"><a href="#单元音" class="headerlink" title="单元音"></a>单元音</h3><p>  a（あ）：汉语的 “a” 开口大，日语的 “あ” 上下开口比日语小，发音时舌头的位置靠后。<br>  <img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2020/09/12/247efad36a30de693c535cce8f3baab8.png"></p>
+<p>  i（い）：口型上下程度与汉语基本相同，但是左右开得比较小。发音时候注意口型整体不要太紧张嗷~<br>  <img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2020/09/12/30d8b03e78195d95b79244aeb048aa98.png"></p>
+<p>  u（う）：发音与汉语的 “u” 有很大不同。汉语的 “u” 嘴唇呈圆形向前突出,而发日语 “う” 时,嘴几乎是平的,不向前突出。请咬合住上下齿,稍张并嘴唇发 “u” 这就是最接近日语 “う” 的音。<br>  <img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2020/09/13/bd3bcf49171aba060842cf64b599ffa8.png"></p>
+<p>  e（え）：与汉语 “ei” 的前半部分或 “ie” 的后半部分相似。日语的 “え” 比汉语 “ie” 的 “e” 开口大。比如汉语的 “铅笔 qiānbǐ”，日语说 “えんぴつ” ，发这个 “え” 时注意不要发成 “いえ” 。另外,还要注意它与汉语的 “e” (如:饿)的发音并不一样。还有不少人把日语的 “先生(せんせい)” 中的 “先(せん)” 发成 “僧sēng” ，这是不对的。请将口稍张大些,清楚地发出“せ”。<br>  <img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2020/09/13/ab87abe1a607891b181485dd36b35d94.png"></p>
+<p>  o（お）：嘴上下张开，嘴唇略呈圆形。舌头位置比汉语 “o” 稍靠后些，口型略紧张。<br>  <img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2020/09/13/20c560b7df1441c614937bc673872f20.png"></p>
 <h3 id="元音的连续"><a href="#元音的连续" class="headerlink" title="元音的连续"></a>元音的连续</h3><p>  日语与汉语一样，有 “あい(爱)” “うえ(上面)” “あおい(蓝)” 这种连续发元音的现象。汉语在发　“爱ài”　“也yě” 这样的双元音时,往往以其中的个为主,另一个为辅,为辅的元音的发音轻短。而日语发 “あい(爱)” 时, “あ” 和 “い” 的长短、轻重基本相同。</p>
 <h3 id="元音的清化"><a href="#元音的清化" class="headerlink" title="元音的清化"></a>元音的清化</h3><p>  在日语的普通话中,有几个元音在一定条件下只保留元音的口形和舌位而不发声。这种现象叫做“元音的清化”。它有两个原则:</p>
 <ol>
@@ -308,97 +323,7 @@ if ('Waline' === 'Waline' || !false) {
   function loadOtherComment () {
     loadWaline()
   }
-}</script></div><script>window.addEventListener('load', () => {
-  const changeContent = (content) => {
-    if (content === '') return content
-
-    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
-    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
-    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
-    content = content.replace(/<[^>]+>/g,"") // remove html tag
-
-    if (content.length > 150) {
-      content = content.substring(0,150) + '...'
-    }
-    return content
-  }
-
-  const getIcon = (avatar,mail) => {
-    if (avatar) return avatar
-    let defaultIcon = '?d=identicon'
-    let iconUrl = `https://gravatar.loli.net/avatar/${mail + defaultIcon}`
-    return iconUrl
-  }
-
-  const generateHtml = array => {
-    let result = ''
-
-    if (array.length) {
-      for (let i = 0; i < array.length; i++) {
-        result += '<div class=\'aside-list-item\'>'
-
-        if (true) {
-          const name = 'data-lazy-src'
-          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
-        }
-
-        result += `<div class='content'>
-        <a class='comment' href='${array[i].url}'>${array[i].content}</a>
-        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
-        </div></div>`
-      }
-    } else {
-      result += '没有评论'
-    }
-
-    let $dom = document.querySelector('#card-newest-comments .aside-list')
-    $dom.innerHTML= result
-    window.lazyLoadInstance && window.lazyLoadInstance.update()
-    window.pjax && window.pjax.refresh($dom)
-  }
-
-  const getComment = () => {
-    const loadWaline = () => {
-      Waline.Widget.RecentComments({
-        el: '#card-newest-comments .aside-list',
-        serverURL: 'https://comment.xiaolfeng.cn/',
-        count: 6
-      }).then(comments => {
-        const walineArray = comments.map(function (e) {
-          return {
-            'content': changeContent(e.comment),
-            'avatar': getIcon(e.QQAvatar,e.mail),
-            'nick': e.nick,
-            'url': e.url + '#' + e.objectId,
-            'date': e.updatedAt,
-          }
-        })
-        saveToLocal.set('waline-newest-comments', JSON.stringify(walineArray), 10/(60*24))
-        generateHtml(walineArray)
-      }).catch(e => {
-        const $dom = document.querySelector('#card-newest-comments .aside-list')
-        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
-      }) 
-    }
-
-    if (typeof Waline === 'function') loadWaline() 
-    else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(loadWaline)
-  }
-
-  const newestCommentInit = () => {
-    if (document.querySelector('#card-newest-comments .aside-list')) {
-      const data = saveToLocal.get('waline-newest-comments')
-      if (data) {
-        generateHtml(JSON.parse(data))
-      } else {
-        getComment()
-      }
-    }
-  }
-
-  newestCommentInit()
-  document.addEventListener('pjax:complete', newestCommentInit)
-})</script><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+}</script></div><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = false;
 POWERMODE.mobile = true;
 document.body.addEventListener('input', POWERMODE);

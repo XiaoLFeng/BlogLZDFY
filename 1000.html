@@ -132,11 +132,26 @@
       }
       const t = saveToLocal.get('theme')
     
-          const now = new Date()
-          const hour = now.getHours()
-          const isNight = hour <= 6 || hour >= 18
-          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
-          else if (t === 'light') activateLightMode()
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
@@ -208,7 +223,7 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
 <li><p>Git For Windows 百度网盘下载(提取码 so2p) <a class="btn-beautify button--animated green" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1dFhOsfvkOJMVlzbmD5mRfQ" 
 title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击下载</span></a></p>
 <p>当你安装完毕以后，右击鼠标会出现一个Git Bash</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/55555.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/55555.png"></p>
 <p>如果没有，重启一次电脑喵，然后就安装好了<br>下面安装操作都需要这个git使用，因为原来的CMD可能有点难用。</p>
 </li>
 </ul>
@@ -216,12 +231,12 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
 <li><p>安装Node.js<br> 下载Node的长期支持版（LTS）版本即可 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://nodejs.org/zh-cn/download/">Node官方网站</a><br> 然后随意右击打开git bash查询</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 分别输入</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
-<p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/MHRAS.png"></p>
+<p> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/MHRAS.png"></p>
  <div class="note info flat"><p>由于npm在国内比较慢，所以我们安装淘宝的cnmp镜像提高速度</p>
 </div>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 安装指令</span><br><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br><span class="line"></span><br><span class="line"># 安装完毕后查询安装是否成功</span><br><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
 
-<p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/cnpm.png"></p>
+<p> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/cnpm.png"></p>
 <p> 然后我们就可以安装hexo了~</p>
  <div class="note info flat"><p>后面搭建过程中指令与Linux相同</p>
 </div>
@@ -242,7 +257,7 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
 <p> 这样在你的文件夹下基本博客系统已经安装成功了。<br> 启动博客</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<p> 然后看见下方出现 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://localhost:4000/">http://localhost:4000</a> 代表可以访问了<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/start.png"></p>
+<p> 然后看见下方出现 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://localhost:4000/">http://localhost:4000</a> 代表可以访问了<br> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/start.png"></p>
 <p> 然后试试访问你的博客吧~</p>
 </li>
 </ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="zhunbei-2"><blockquote>
@@ -287,7 +302,7 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
 <p> 这样在你的文件夹下基本博客系统已经安装成功了。<br> 启动博客</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<p> 然后看见下方出现 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://localhost:4000/">http://localhost:4000</a> 代表可以访问了<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/start.png"></p>
+<p> 然后看见下方出现 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://localhost:4000/">http://localhost:4000</a> 代表可以访问了<br> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/start.png"></p>
 <p> 然后试试访问你的博客吧~</p>
 </li>
 </ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
@@ -307,8 +322,8 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
 <li>将hexo的public目录下部署在Github</li>
 </ul>
 <ol>
-<li><p>新建仓库<br> 登录Github后，看到New，添加新的仓库<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/githubnew.png"></p>
-<p> 之后创建一个与你用户名相同的仓库，例如下图所示<br> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/githubnew2.png"></p>
+<li><p>新建仓库<br> 登录Github后，看到New，添加新的仓库<br> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/githubnew.png"></p>
+<p> 之后创建一个与你用户名相同的仓库，例如下图所示<br> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/githubnew2.png"></p>
 <p> 然后将 <strong><em>Initialize this repository with a README</em></strong> 打上勾，如果你不想先上传一个README.md<br> 最后创建即可</p>
 </li>
 <li><p>生成SSH添加到Github</p>
@@ -331,13 +346,13 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repo: https:&#x2F;&#x2F;github.com&#x2F;Name&#x2F;Name.github.io.git</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure>
 
 <p> 例如：下图所示</p>
-<p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/git.png"></p>
+<p> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/git.png"></p>
 <p> 然后需要配置<strong>deploy-git</strong>，不然没有办法部署到github或者gitee上面，以及个人仓库</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"># 然后更新</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
  注意deploy(hexo d)时可能要你输入username和password。
  就会同步到Github，然后打开你的Github就能看到对应的内容
 
-<p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/repo.png"></p>
+<p> <img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/repo.png"></p>
 <p> 然后稍微过一会，就可以在<strong><a target="_blank" rel="noopener external nofollow noreferrer" href="http://name.github.io/">http://name.github.io</a></strong>网站看到你的博客了~</p>
 </li>
 </ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="git-2"><p>要不你看Github搭建吧，反正是一样的。同样的东西我就不写两遍了哈</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="git-3"><p>搭建在本地仓库</p>
@@ -418,10 +433,10 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
 </div>
 
 <p>登录GitHub，进入之前创建的仓库，点击<strong>settings</strong>，设置<strong>Custom domain</strong>，输入你的域名 <strong>XXXXXX.XXX</strong></p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/domin.png"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/MEO0Q_TKSM%7B%7BLWK_6%7DP%7BN~W.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/domin.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/MEO0Q_TKSM%7B%7BLWK_6%7DP%7BN~W.png"></p>
 <p>然后在你的博客文件<strong>source</strong>中创建一个名为CNAME文件，<strong>不要后缀</strong>。写上你的域名（跟上图一样）。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/CNAME.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/CNAME.png"></p>
 <p>最后，在git bash中，输入</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
 
@@ -435,7 +450,7 @@ title="点击下载"><i class="far fa-hand-point-right fa-fw"></i><span>点击�
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Centos安装指令</span><br><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install_6.0.sh &amp;&amp; sh install.sh</span><br><span class="line"></span><br><span class="line"># Ubuntu安装指令</span><br><span class="line">wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh</span><br></pre></td></tr></table></figure>
 
 <p>后面等说是否继续安装按下 <strong>y</strong> 然后执行安装。<br>然后我们去泡一杯咖啡等待一下吧，如果是大型服务商（或者配置好的服务器主机）那么，应该会特别快，大概一分钟就好了</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/bt.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things@master/%E5%8D%9A%E6%96%87%E5%9B%BE%E7%89%87/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/bt.png"></p>
 <div class="note info flat"><p>部分服务商可能默认没有开放防火墙，注意看需要的端口开放哦</p>
 </div>
 
@@ -493,97 +508,7 @@ if ('Waline' === 'Waline' || !false) {
   function loadOtherComment () {
     loadWaline()
   }
-}</script></div><script>window.addEventListener('load', () => {
-  const changeContent = (content) => {
-    if (content === '') return content
-
-    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
-    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
-    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
-    content = content.replace(/<[^>]+>/g,"") // remove html tag
-
-    if (content.length > 150) {
-      content = content.substring(0,150) + '...'
-    }
-    return content
-  }
-
-  const getIcon = (avatar,mail) => {
-    if (avatar) return avatar
-    let defaultIcon = '?d=identicon'
-    let iconUrl = `https://gravatar.loli.net/avatar/${mail + defaultIcon}`
-    return iconUrl
-  }
-
-  const generateHtml = array => {
-    let result = ''
-
-    if (array.length) {
-      for (let i = 0; i < array.length; i++) {
-        result += '<div class=\'aside-list-item\'>'
-
-        if (true) {
-          const name = 'data-lazy-src'
-          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
-        }
-
-        result += `<div class='content'>
-        <a class='comment' href='${array[i].url}'>${array[i].content}</a>
-        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
-        </div></div>`
-      }
-    } else {
-      result += '没有评论'
-    }
-
-    let $dom = document.querySelector('#card-newest-comments .aside-list')
-    $dom.innerHTML= result
-    window.lazyLoadInstance && window.lazyLoadInstance.update()
-    window.pjax && window.pjax.refresh($dom)
-  }
-
-  const getComment = () => {
-    const loadWaline = () => {
-      Waline.Widget.RecentComments({
-        el: '#card-newest-comments .aside-list',
-        serverURL: 'https://comment.xiaolfeng.cn/',
-        count: 6
-      }).then(comments => {
-        const walineArray = comments.map(function (e) {
-          return {
-            'content': changeContent(e.comment),
-            'avatar': getIcon(e.QQAvatar,e.mail),
-            'nick': e.nick,
-            'url': e.url + '#' + e.objectId,
-            'date': e.updatedAt,
-          }
-        })
-        saveToLocal.set('waline-newest-comments', JSON.stringify(walineArray), 10/(60*24))
-        generateHtml(walineArray)
-      }).catch(e => {
-        const $dom = document.querySelector('#card-newest-comments .aside-list')
-        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
-      }) 
-    }
-
-    if (typeof Waline === 'function') loadWaline() 
-    else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(loadWaline)
-  }
-
-  const newestCommentInit = () => {
-    if (document.querySelector('#card-newest-comments .aside-list')) {
-      const data = saveToLocal.get('waline-newest-comments')
-      if (data) {
-        generateHtml(JSON.parse(data))
-      } else {
-        getComment()
-      }
-    }
-  }
-
-  newestCommentInit()
-  document.addEventListener('pjax:complete', newestCommentInit)
-})</script><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+}</script></div><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = false;
 POWERMODE.mobile = true;
 document.body.addEventListener('input', POWERMODE);

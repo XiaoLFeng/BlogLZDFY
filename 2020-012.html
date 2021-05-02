@@ -128,11 +128,26 @@
       }
       const t = saveToLocal.get('theme')
     
-          const now = new Date()
-          const hour = now.getHours()
-          const isNight = hour <= 6 || hour >= 18
-          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
-          else if (t === 'light') activateLightMode()
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
@@ -154,8 +169,8 @@
 <p>好吧抛开作业不说，作业这玩意太没趣了，还不如玩（假的）。</p>
 <hr>
 <h2 id="默默吐几句"><a href="#默默吐几句" class="headerlink" title="默默吐几句"></a>默默吐几句</h2><p>我真的服了，这个学期跟个<strong>憨批</strong>一样，学校也是也不知道怎么想的。首先吧，我住在深圳这没问题，期中考试不考也就算了，期末考试也不考（当然我很开心），但是不考我哪知道我自己哪个der样，而且不考的原因就一个<strong>憨批跳楼自杀</strong>？(当然我不是吐槽必须考试，我是想说这个人）</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/91516e23436e7011c9f1fd86da1b440c.png"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/9a657dcf259aa9277edec4a346bc84f0.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/91516e23436e7011c9f1fd86da1b440c.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2020/07/17/9a657dcf259aa9277edec4a346bc84f0.png"></p>
 <p>真别讲现在的学生怎么心里素质这么差？虽然现在学习压力很大，但是也不足以达到让你<strong>不要命</strong>的节奏。这样搞这孩子的父母情何以堪，而且搞得那么大动乱</p>
 <p>（真可以这么说，学校里面：十个泪目九个在笑还有一个在狂笑那种，全部因为不用考试笑开了花，不过我想在其中也应该有很多人会思考他为什么会跳楼，即使只是粗略想想）</p>
 <p>不过既然事情都已经发生了，已经没有办法挽回了，我只能替他们家的长辈们和晚辈们感到伤心，才初一呢前途无限好就GG了。不过我想父母应该也有一部分责任，毕竟初一强度达不到那么高，而且深圳这个地方强度不像内地，强度不高的，我们能做到轻松学习，而且不会特别难。只能说教育吧，这一次教训也该提醒一些家长要怎么做了。（当然我家长挺开明的）</p>
@@ -212,97 +227,7 @@ if ('Waline' === 'Waline' || !false) {
   function loadOtherComment () {
     loadWaline()
   }
-}</script></div><script>window.addEventListener('load', () => {
-  const changeContent = (content) => {
-    if (content === '') return content
-
-    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
-    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
-    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
-    content = content.replace(/<[^>]+>/g,"") // remove html tag
-
-    if (content.length > 150) {
-      content = content.substring(0,150) + '...'
-    }
-    return content
-  }
-
-  const getIcon = (avatar,mail) => {
-    if (avatar) return avatar
-    let defaultIcon = '?d=identicon'
-    let iconUrl = `https://gravatar.loli.net/avatar/${mail + defaultIcon}`
-    return iconUrl
-  }
-
-  const generateHtml = array => {
-    let result = ''
-
-    if (array.length) {
-      for (let i = 0; i < array.length; i++) {
-        result += '<div class=\'aside-list-item\'>'
-
-        if (true) {
-          const name = 'data-lazy-src'
-          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
-        }
-
-        result += `<div class='content'>
-        <a class='comment' href='${array[i].url}'>${array[i].content}</a>
-        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
-        </div></div>`
-      }
-    } else {
-      result += '没有评论'
-    }
-
-    let $dom = document.querySelector('#card-newest-comments .aside-list')
-    $dom.innerHTML= result
-    window.lazyLoadInstance && window.lazyLoadInstance.update()
-    window.pjax && window.pjax.refresh($dom)
-  }
-
-  const getComment = () => {
-    const loadWaline = () => {
-      Waline.Widget.RecentComments({
-        el: '#card-newest-comments .aside-list',
-        serverURL: 'https://comment.xiaolfeng.cn/',
-        count: 6
-      }).then(comments => {
-        const walineArray = comments.map(function (e) {
-          return {
-            'content': changeContent(e.comment),
-            'avatar': getIcon(e.QQAvatar,e.mail),
-            'nick': e.nick,
-            'url': e.url + '#' + e.objectId,
-            'date': e.updatedAt,
-          }
-        })
-        saveToLocal.set('waline-newest-comments', JSON.stringify(walineArray), 10/(60*24))
-        generateHtml(walineArray)
-      }).catch(e => {
-        const $dom = document.querySelector('#card-newest-comments .aside-list')
-        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
-      }) 
-    }
-
-    if (typeof Waline === 'function') loadWaline() 
-    else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(loadWaline)
-  }
-
-  const newestCommentInit = () => {
-    if (document.querySelector('#card-newest-comments .aside-list')) {
-      const data = saveToLocal.get('waline-newest-comments')
-      if (data) {
-        generateHtml(JSON.parse(data))
-      } else {
-        getComment()
-      }
-    }
-  }
-
-  newestCommentInit()
-  document.addEventListener('pjax:complete', newestCommentInit)
-})</script><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+}</script></div><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = false;
 POWERMODE.mobile = true;
 document.body.addEventListener('input', POWERMODE);

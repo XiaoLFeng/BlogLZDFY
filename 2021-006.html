@@ -131,11 +131,26 @@
       }
       const t = saveToLocal.get('theme')
     
-          const now = new Date()
-          const hour = now.getHours()
-          const isNight = hour <= 6 || hour >= 18
-          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
-          else if (t === 'light') activateLightMode()
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
@@ -202,12 +217,12 @@
 <td>frp-admin.x-lf.cn</td>
 </tr>
 </tbody></table>
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/e1cadc70c58c05e4730fbdb5e08b9c5e.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/e1cadc70c58c05e4730fbdb5e08b9c5e.png"></p>
 <h4 id="主机搭建"><a href="#主机搭建" class="headerlink" title="主机搭建"></a>主机搭建</h4><ol>
 <li><p>依旧，万物先更新</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum <span class="literal">-y</span> update</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/f37a93b32809b8e6e5b3feb4f0969665.png"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/f37a93b32809b8e6e5b3feb4f0969665.png"></p>
 </li>
 <li><p>下载 <code>v0.35.1</code> 版本（tar.gz压缩包）</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">wget</span> https://github.com/fatedier/frp/releases/download/v0.<span class="number">35.1</span>/frp_0.<span class="number">35.1</span>_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure>
@@ -232,7 +247,7 @@
 <li><p>启动项目</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./frps <span class="literal">-c</span> frps.ini</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/dc58fe56cfe6ee6b8dd2761997d2f869.png!webp"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/dc58fe56cfe6ee6b8dd2761997d2f869.png!webp"></p>
 <div class="note warning flat"><p>如果您程序挂在前台，那么关闭后台就会关闭服务，所以请使用<code>Screen</code>以处理关闭问题。<br>或者参考文章：<a href="/2020-023.html#%E9%85%8D%E7%BD%AE%E8%87%AA%E5%90%AF%E5%8A%A8">Centos 搭建 Frp 内网映射服务</a></p>
 </div>
 
@@ -249,7 +264,7 @@
 <li><p>配置完毕启动项目</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./frpc <span class="literal">-c</span> frpc.ini</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/8995cdc3870c9442bd71cf2669c5cfab.png!webp"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2021/02/26/8995cdc3870c9442bd71cf2669c5cfab.png!webp"></p>
 </li>
 </ol>
 <h2 id="内网服务器创建网站"><a href="#内网服务器创建网站" class="headerlink" title="内网服务器创建网站"></a>内网服务器创建网站</h2><p>这里，我采用的是 <code>Cloudreve</code> 的开源网盘</p>
@@ -275,15 +290,15 @@
 <h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><ol>
 <li><p>下载源码</p>
 <p>选择对应CPU架构和系统，就可以操作了</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2021/02/27/01c8f91e2a5b6fa43a19dc829f9eba61.png!webp"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2021/02/27/01c8f91e2a5b6fa43a19dc829f9eba61.png!webp"></p>
 </li>
 <li><p>构建</p>
 <p>启动构建</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./cloudreve</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2021/02/27/6f3886563b08343088b0ed05ee2d8bf4.png!webp"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2021/02/27/6f3886563b08343088b0ed05ee2d8bf4.png!webp"></p>
 <p>结束监听，打开对应目录</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://fp1.fghrsh.net/2021/02/27/30c1211241cc5b3b58a2ff3addadf093.png!webp"></p>
+<p><img src= "/img/loading.webp" data-lazy-src="https://fp1.fghrsh.net/2021/02/27/30c1211241cc5b3b58a2ff3addadf093.png!webp"></p>
 <p>修改<code>conf.ini</code></p>
 <blockquote>
 <p>按需修改，不需要可以不动</p>
@@ -351,97 +366,7 @@ if ('Waline' === 'Waline' || !false) {
   function loadOtherComment () {
     loadWaline()
   }
-}</script></div><script>window.addEventListener('load', () => {
-  const changeContent = (content) => {
-    if (content === '') return content
-
-    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
-    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
-    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
-    content = content.replace(/<[^>]+>/g,"") // remove html tag
-
-    if (content.length > 150) {
-      content = content.substring(0,150) + '...'
-    }
-    return content
-  }
-
-  const getIcon = (avatar,mail) => {
-    if (avatar) return avatar
-    let defaultIcon = '?d=identicon'
-    let iconUrl = `https://gravatar.loli.net/avatar/${mail + defaultIcon}`
-    return iconUrl
-  }
-
-  const generateHtml = array => {
-    let result = ''
-
-    if (array.length) {
-      for (let i = 0; i < array.length; i++) {
-        result += '<div class=\'aside-list-item\'>'
-
-        if (true) {
-          const name = 'data-lazy-src'
-          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
-        }
-
-        result += `<div class='content'>
-        <a class='comment' href='${array[i].url}'>${array[i].content}</a>
-        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
-        </div></div>`
-      }
-    } else {
-      result += '没有评论'
-    }
-
-    let $dom = document.querySelector('#card-newest-comments .aside-list')
-    $dom.innerHTML= result
-    window.lazyLoadInstance && window.lazyLoadInstance.update()
-    window.pjax && window.pjax.refresh($dom)
-  }
-
-  const getComment = () => {
-    const loadWaline = () => {
-      Waline.Widget.RecentComments({
-        el: '#card-newest-comments .aside-list',
-        serverURL: 'https://comment.xiaolfeng.cn/',
-        count: 6
-      }).then(comments => {
-        const walineArray = comments.map(function (e) {
-          return {
-            'content': changeContent(e.comment),
-            'avatar': getIcon(e.QQAvatar,e.mail),
-            'nick': e.nick,
-            'url': e.url + '#' + e.objectId,
-            'date': e.updatedAt,
-          }
-        })
-        saveToLocal.set('waline-newest-comments', JSON.stringify(walineArray), 10/(60*24))
-        generateHtml(walineArray)
-      }).catch(e => {
-        const $dom = document.querySelector('#card-newest-comments .aside-list')
-        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
-      }) 
-    }
-
-    if (typeof Waline === 'function') loadWaline() 
-    else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(loadWaline)
-  }
-
-  const newestCommentInit = () => {
-    if (document.querySelector('#card-newest-comments .aside-list')) {
-      const data = saveToLocal.get('waline-newest-comments')
-      if (data) {
-        generateHtml(JSON.parse(data))
-      } else {
-        getComment()
-      }
-    }
-  }
-
-  newestCommentInit()
-  document.addEventListener('pjax:complete', newestCommentInit)
-})</script><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+}</script></div><div class="aplayer no-destroy" data-id="4926828342" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div><script src="/js/autoload.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = false;
 POWERMODE.mobile = true;
 document.body.addEventListener('input', POWERMODE);
