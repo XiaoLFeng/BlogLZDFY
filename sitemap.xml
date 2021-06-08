@@ -732,14 +732,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E5%85%AC%E4%B8%BB%E7%84%8A%E6%8E%A5/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E6%9A%91%E5%81%87/</loc>
     <lastmod>2021-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E6%9A%91%E5%81%87/</loc>
+    <loc>https://blog.xiaolfeng.cn/tags/%E5%85%AC%E4%B8%BB%E7%84%8A%E6%8E%A5/</loc>
     <lastmod>2021-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -858,20 +858,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaolfeng.cn/tags/BiliBili/</loc>
-    <lastmod>2021-06-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaolfeng.cn/tags/%E8%BF%BD%E7%95%AA/</loc>
-    <lastmod>2021-06-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xiaolfeng.cn/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2021-06-08</lastmod>
     <changefreq>daily</changefreq>
@@ -901,6 +887,20 @@
   
   <url>
     <loc>https://blog.xiaolfeng.cn/tags/FL-Studio/</loc>
+    <lastmod>2021-06-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/BiliBili/</loc>
+    <lastmod>2021-06-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaolfeng.cn/tags/%E8%BF%BD%E7%95%AA/</loc>
     <lastmod>2021-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
