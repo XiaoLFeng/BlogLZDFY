@@ -3137,6 +3137,30 @@ blockquote footer cite:before {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+.page .card-recent-post {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -o-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
+}
+.page .card-tags {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -o-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+}
+.page .card-webinfo {
+  -webkit-box-ordinal-group: 99;
+  -moz-box-ordinal-group: 99;
+  -o-box-ordinal-group: 99;
+  -ms-flex-order: 99;
+  -webkit-order: 99;
+  order: 99;
+}
 @-moz-keyframes more-btn-move {
   0%, 100% {
     -webkit-transform: translateX(0);
